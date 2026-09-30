@@ -149,5 +149,9 @@
   "l2Classification": "L2 の分類",
   "viewImage": "画像を表示",
   "closeImage": "閉じる",
-  "receiptIndex": "レシートアーカイブ索引"
+  "receiptIndex": "レシートアーカイブ索引",
+  "githubRepository": "GitHub リポジトリ",
+  "loadingImage": "画像を読み込み中…",
+  "imageLoadFailed": "画像を読み込めませんでした。",
+  "retryImage": "再試行"
 }

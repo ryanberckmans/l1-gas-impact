@@ -82,10 +82,10 @@
   "csv_rows": 30993,
   "snapshot_id": "f983c100323ee081",
   "static_views": 1712,
-  "compressed_initial_assets_bytes": 429752,
+  "compressed_initial_assets_bytes": 431805,
   "performance_scope": "Payload measurement only; no field Web Vitals claim",
   "browser_qa": "Actual rendered and interaction review is recorded in the separate private audit; this report covers automated artifact checks.",
   "receipt_verification_mode": "checksum_bound_previous_full_recount",
-  "expanded_public_bytes": 65032342,
-  "estimated_expanded_archive_bytes": 67563520
+  "expanded_public_bytes": 66516050,
+  "estimated_expanded_archive_bytes": 69027840
 }

@@ -149,5 +149,9 @@
   "l2Classification": "L2 分类",
   "viewImage": "查看图片",
   "closeImage": "关闭",
-  "receiptIndex": "回执归档索引"
+  "receiptIndex": "回执归档索引",
+  "githubRepository": "GitHub 代码仓库",
+  "loadingImage": "正在加载图片…",
+  "imageLoadFailed": "无法加载图片。",
+  "retryImage": "重试"
 }

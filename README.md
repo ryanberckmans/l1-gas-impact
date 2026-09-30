@@ -2,6 +2,10 @@
 
 L1 Gas Impact shows how much gas different apps and chains use on Ethereum. Compare them side by side, see how their use changes over time, and check the data behind each number.
 
+## License
+
+Original project code is licensed under the [MIT License](LICENSE). Bundled React, React DOM and Scheduler retain their MIT notices in [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES). Provider records, cited materials, logos and artwork retain any applicable third-party rights; the software license does not relicense them.
+
 ## Technical overview
 
 Static, prerendered React research dashboard. Snapshot: March 28–September 27, 2026 UTC. Public output is restricted to `dist/`. Read `CONTRACTS` before changing measurements or release behavior.

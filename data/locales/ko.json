@@ -149,5 +149,9 @@
   "l2Classification": "L2 분류",
   "viewImage": "이미지 보기",
   "closeImage": "닫기",
-  "receiptIndex": "영수증 아카이브 색인"
+  "receiptIndex": "영수증 아카이브 색인",
+  "githubRepository": "GitHub 저장소",
+  "loadingImage": "이미지 불러오는 중…",
+  "imageLoadFailed": "이미지를 불러올 수 없습니다.",
+  "retryImage": "다시 시도"
 }

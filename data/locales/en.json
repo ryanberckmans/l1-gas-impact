@@ -149,5 +149,9 @@
   "l2Classification": "L2 classifications",
   "viewImage": "View image",
   "closeImage": "Close",
-  "receiptIndex": "Receipt archive index"
+  "receiptIndex": "Receipt archive index",
+  "githubRepository": "GitHub repository",
+  "loadingImage": "Loading image…",
+  "imageLoadFailed": "Could not load image.",
+  "retryImage": "Retry"
 }

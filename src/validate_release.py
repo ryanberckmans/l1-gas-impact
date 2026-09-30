@@ -88,11 +88,17 @@ def main(receipt_dir=None):
      href=('/' if locale=='en' else '/'+locale+'/')+product+'/'+str(days)+'/'
      assert href in catalogue.links and (OUT/href.lstrip('/')/'index.html').is_file(),'Missing native product navigation'
    catalogues[locale]=catalogue
+ # Allow only the canonical repository address through the privacy check.
+ repository_url=json.loads((ROOT/'src/repository.json').read_text())['url']
+ assert repository_url=='https://github.com/ryanberckmans/l1-gas-impact'
  forbidden=re.compile(r'@cc\s|/workspace/|source_repository_credential|token_expires_at|BEGIN (?:RSA |EC )?PRIVATE KEY|git\.chatgpt-team\.site|berckmans|safe\.ryanb|account-wide|user prompt|system prompt|sk-[A-Za-z0-9_-]{16,}|Bearer\s+[A-Za-z0-9_.-]{15,}',re.I)
  for p in OUT.rglob('*'):
   if p.is_file():
    assert p.stat().st_size<20*1024*1024,('Split oversized public asset',p)
-   if p.suffix in ['.html','.js','.json','.md','.txt','.css','.csv']:assert not forbidden.search(p.read_text()),('Private content in public output',p)
+   if p.suffix in ['.html','.js','.json','.md','.txt','.css','.csv'] or p.name in ['LICENSE','THIRD_PARTY_NOTICES']:
+    public_text=p.read_text().replace(repository_url,'')
+    if p==OUT/'LICENSE':public_text=public_text.replace('Copyright (c) 2026 Ryan Berckmans','')
+    assert not forbidden.search(public_text),('Private content in public output',p)
    if p.suffix=='.gz':
     with gzip.open(p,'rt') as f:assert not forbidden.search(f.read()),('Private content in compressed output',p)
  with zipfile.ZipFile(OUT/'data/l1-gas-evidence.zip') as z:

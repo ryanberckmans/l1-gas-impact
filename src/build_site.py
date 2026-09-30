@@ -47,10 +47,11 @@ def main():
    if group=='app':names[product]=t['l1AppName'].replace('{app}',d['product_names'][product].removesuffix(' on L1'))
   prefix='' if loc=='en' else loc+'/'
   rows=''.join('<tr><th scope="row">'+esc(names[product])+'</th>'+''.join(f'<td><a href="/{prefix}{product}/{days}/">{esc(label)}</a></td>' for days,label in [(7,t['days7']),(30,t['days30']),(len(d['dates']),t['months6'])])+'</tr>' for product in d['product_order'])
-  catalogue=head+'<header><a class="brand" href="'+url+'">L1 GAS IMPACT</a><div id="seal-root">'+bodies[f'{loc}/seal']+'</div></header><main><h1>'+esc(t['comparison'])+'</h1><p>'+desc+'</p><div class="table-scroll"><table><thead><tr><th>'+esc(t['product'])+'</th><th>'+esc(t['days7'])+'</th><th>'+esc(t['days30'])+'</th><th>'+esc(t['months6'])+'</th></tr></thead><tbody>'+rows+'</tbody></table></div></main><script src="/assets/labels-'+loc+'.js"></script><script src="/assets/app.js" defer></script></body></html>'
+  catalogue=head+'<header><a class="brand" href="'+url+'">L1 GAS IMPACT</a><div class="preferences">'+bodies[f'{loc}/repository']+'<div id="seal-root">'+bodies[f'{loc}/seal']+'</div></div></header><main><h1>'+esc(t['comparison'])+'</h1><p>'+desc+'</p><div class="table-scroll"><table><thead><tr><th>'+esc(t['product'])+'</th><th>'+esc(t['days7'])+'</th><th>'+esc(t['days30'])+'</th><th>'+esc(t['months6'])+'</th></tr></thead><tbody>'+rows+'</tbody></table></div></main><script src="/assets/labels-'+loc+'.js"></script><script src="/assets/app.js" defer></script></body></html>'
   (OUT/('' if loc=='en' else loc)/'catalogue.html').write_text(catalogue)
  (OUT/'assets/snapshot.js').write_text('window.GAS_IMPACT={data:'+js(d)+',labels:window.GAS_LABELS,locale:window.GAS_LOCALE,initialView:window.GAS_VIEW};')
  shutil.copy(ROOT/'src/style.css',OUT/'assets/style.css')
+ for notice in ['LICENSE','THIRD_PARTY_NOTICES']:shutil.copy(ROOT/notice,OUT/notice)
  for asset in (ROOT/'src/assets').glob('seal*.png'):shutil.copy(asset,OUT/'assets'/asset.name)
  shutil.copy(DATA/'summary.json',OUT/'data/summary.json')
  (OUT/'agents.md').write_text((ROOT/'src/data-guide.md').read_text().format(start=d['start'],end_exclusive=(datetime.fromisoformat(d['end'])+timedelta(days=1)).date().isoformat()))

@@ -149,5 +149,9 @@
   "l2Classification": "L2-Einstufungen",
   "viewImage": "Bild ansehen",
   "closeImage": "Schließen",
-  "receiptIndex": "Index des Belegarchivs"
+  "receiptIndex": "Index des Belegarchivs",
+  "githubRepository": "GitHub-Repository",
+  "loadingImage": "Bild wird geladen…",
+  "imageLoadFailed": "Das Bild konnte nicht geladen werden.",
+  "retryImage": "Erneut versuchen"
 }

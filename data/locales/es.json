@@ -149,5 +149,9 @@
   "l2Classification": "Clasificación de L2",
   "viewImage": "Ver imagen",
   "closeImage": "Cerrar",
-  "receiptIndex": "Índice del archivo de recibos"
+  "receiptIndex": "Índice del archivo de recibos",
+  "githubRepository": "Repositorio en GitHub",
+  "loadingImage": "Cargando imagen…",
+  "imageLoadFailed": "No se pudo cargar la imagen.",
+  "retryImage": "Reintentar"
 }

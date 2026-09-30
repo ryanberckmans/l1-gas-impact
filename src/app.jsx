@@ -3,7 +3,9 @@ import {locales,readView,viewUrl,summarize,comparisonRows,chainGroups} from './v
 
 import {History} from './history-chart.jsx';
 import {Seal} from './seal.jsx';
+import {RepositoryLink} from './repository-link.jsx';
 export {Seal} from './seal.jsx';
+export {RepositoryLink} from './repository-link.jsx';
 
 const buckets=['operations','bridge','approvals','governance','defi','transfers','other'];
 const color=b=>`var(--color-${b})`;
@@ -61,7 +63,7 @@ export function GasApp({data:D,labels:T,locale:L,initialView,initialComparisons}
   return <>
     <a className="skip" href="#comparison">{T.backToTop}</a>
     <header><a className="brand" href={L==='en'?'/':`/${L}/`}>L1 GAS IMPACT</a>
-      <div className="preferences"><div className="theme"><label htmlFor="theme">{T.theme}</label><select id="theme" disabled={!ready} value={theme} onChange={e=>{window.GAS_THEME.set(e.target.value);setTheme(e.target.value);}}>{['system','light','dark'].map(m=><option value={m} key={m}>{T['theme_'+m]}</option>)}</select></div>
+      <div className="preferences"><RepositoryLink labels={T}/><div className="theme"><label htmlFor="theme">{T.theme}</label><select id="theme" disabled={!ready} value={theme} onChange={e=>{window.GAS_THEME.set(e.target.value);setTheme(e.target.value);}}>{['system','light','dark'].map(m=><option value={m} key={m}>{T['theme_'+m]}</option>)}</select></div>
         <div className="language"><label htmlFor="language">{T.language}</label><select id="language" disabled={!ready} value={L} onChange={e=>{try{localStorage.setItem('l1-gas-language',e.target.value);}catch{}location.assign(viewUrl({...view,locale:e.target.value}));}}>{Object.entries(locales).map(([l,n])=><option value={l} key={l}>{n}</option>)}</select></div><Seal labels={T}/></div>
       <noscript><nav aria-label={T.language}>{Object.entries(locales).map(([l,n])=><a key={l} href={viewUrl({...view,locale:l})}>{n} </a>)}</nav></noscript>
     </header>

@@ -41,7 +41,7 @@ export async function verifyStaticBuild(base=root){
 async function seal(){
   const validation=JSON.parse(await readFile(resolve(root,'data/release-validation.json'),'utf8'));
   if(!validation.passed)throw new Error('Validate the generated release before sealing');
-  const inputs=['.openai/hosting.json','AGENTS.md','CONTRACTS','README.md','package.json','package-lock.json',...await files(resolve(root,'src'),root),...await files(resolve(root,'data'),root)].filter(p=>p!==manifestName&&!p.includes('__pycache__/')&&!p.endsWith('.pyc')).sort();
+  const inputs=['.openai/hosting.json','AGENTS.md','CONTRACTS','README.md','LICENSE','THIRD_PARTY_NOTICES','package.json','package-lock.json',...await files(resolve(root,'src'),root),...await files(resolve(root,'data'),root)].filter(p=>p!==manifestName&&!p.includes('__pycache__/')&&!p.endsWith('.pyc')).sort();
   const output=await files(resolve(root,'dist'),root);
   const manifest={snapshot_id:validation.snapshot_id,inputs:await hashes(root,inputs),output:await hashes(root,output)};
   await writeFile(resolve(root,manifestName),JSON.stringify(manifest,null,2)+'\n');
