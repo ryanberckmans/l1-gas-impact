@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-29",
+  "classification_as_of": "2026-09-27",
+  "snapshot_id": "f983c100323ee081",
+  "basis": "Fixed cohorts by end-of-snapshot data-availability design. A rollup publishes the data needed to reconstruct its state to Ethereum; a non-rollup uses external data availability. This is an architectural distinction, not a security-stage or decentralization rating.",
+  "history_policy": "Every selected-period observation stays with its chain’s end-of-snapshot cohort. The totals do not measure gas consumed only while that chain operated under its current architecture. In particular, Mantle and Nova migrated during the six-month observation window.",
+  "unknown_policy": "Unverified data availability is unknown, never silently treated as non-rollup. Unknown chains remain individual rows and are excluded from both L2 subtotals.",
+  "sources": [
+    "https://l2beat.com/faq",
+    "https://l2beat.com/layer2s/risk/data-availability"
+  ],
+  "products": {
+    "lighter": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/lighter"
+      ]
+    },
+    "base": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/base"
+      ]
+    },
+    "arbitrum": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/arbitrum"
+      ]
+    },
+    "robinhood": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/layer2s/projects/robinhood"
+      ]
+    },
+    "worldchain": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/layer2s/projects/world"
+      ]
+    },
+    "unichain": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/unichain"
+      ]
+    },
+    "op": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/optimism"
+      ]
+    },
+    "ink": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/ink"
+      ]
+    },
+    "aztecnetwork": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/aztec"
+      ]
+    },
+    "grvt": {
+      "category": "non_rollup",
+      "data_availability": "Private external data availability",
+      "sources": [
+        "https://l2beat.com/scaling/projects/grvt"
+      ]
+    },
+    "abstract": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/abstract"
+      ]
+    },
+    "megaeth": {
+      "category": "non_rollup",
+      "data_availability": "External data availability",
+      "sources": [
+        "https://l2beat.com/scaling/projects/megaeth"
+      ]
+    },
+    "adi": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/adi"
+      ]
+    },
+    "celo": {
+      "category": "non_rollup",
+      "data_availability": "EigenDA",
+      "sources": [
+        "https://l2beat.com/scaling/projects/celo"
+      ]
+    },
+    "nova": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/nova"
+      ],
+      "note": "Disabled DAC mode on 2026-08-31. Earlier observations remain in this fixed end-of-snapshot cohort."
+    },
+    "zksync2": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/zksync-era"
+      ]
+    },
+    "taiko": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/taiko"
+      ]
+    },
+    "starknet": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/starknet"
+      ]
+    },
+    "mantle": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/mantle"
+      ],
+      "note": "Switched to Ethereum-only data availability on 2026-04-16. Earlier observations remain in this fixed end-of-snapshot cohort."
+    },
+    "metis": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/metis"
+      ]
+    },
+    "soneium": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/soneium"
+      ]
+    },
+    "scroll": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/scroll"
+      ]
+    },
+    "linea": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/linea"
+      ]
+    },
+    "blast": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/blast"
+      ]
+    },
+    "morph": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/morph"
+      ]
+    },
+    "sophon": {
+      "category": "non_rollup",
+      "data_availability": "Avail",
+      "sources": [
+        "https://l2beat.com/scaling/projects/sophon"
+      ]
+    },
+    "katana": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/katana"
+      ]
+    },
+    "mode": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/mode"
+      ]
+    },
+    "bob": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/bob"
+      ]
+    },
+    "lens": {
+      "category": "non_rollup",
+      "data_availability": "Avail",
+      "sources": [
+        "https://l2beat.com/scaling/projects/lens"
+      ]
+    },
+    "zora": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/zora"
+      ]
+    },
+    "zkcandy": {
+      "category": "non_rollup",
+      "data_availability": "External data availability",
+      "sources": [
+        "https://l2beat.com/scaling/projects/zkcandy"
+      ]
+    },
+    "plume": {
+      "category": "non_rollup",
+      "data_availability": "Data availability committee",
+      "sources": [
+        "https://l2beat.com/scaling/projects/plumenetwork"
+      ]
+    },
+    "xlayer": {
+      "category": "rollup",
+      "data_availability": "Ethereum",
+      "sources": [
+        "https://l2beat.com/scaling/projects/xlayer"
+      ],
+      "note": "Current architecture publishes data to Ethereum; OP Succinct Lite activated 2026-06-30. This is a fixed cohort, not a reconstruction of historical architecture."
+    },
+    "codex": {
+      "category": "unknown",
+      "data_availability": "Unverified",
+      "sources": [
+        "https://github.com/l2beat/l2beat/blob/aa147da36dc2b8d307d8e09b17d18109b2286235/packages/config/src/projects/codex/codex.ts"
+      ],
+      "note": "The retained registry marks this OP Stack chain under review and leaves data availability undefined. Do not infer a rollup or non-rollup category from its stack. Excluded from both L2 subtotals; its individual observations remain visible."
+    }
+  }
+}

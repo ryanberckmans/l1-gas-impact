@@ -1,0 +1,1265 @@
+{
+  "snapshot_id": "f983c100323ee081",
+  "period": {
+    "start_inclusive": "2026-03-28T00:00:00Z",
+    "end_exclusive": "2026-09-28T00:00:00Z",
+    "complete_days": 184
+  },
+  "archive": {
+    "file": "l1-gas-impact-receipts.zip",
+    "bytes": 202632585,
+    "sha256": "6bbf9fb09af7f44afc34d932c641c1bcc1cf220ab4c3461e30bba325d65277bb",
+    "availability": "separate_archive",
+    "index": "/data/receipt-index.json",
+    "note": "Preserved separately. Receipt CSVs are absent from the site and source repository."
+  },
+  "products": {
+    "lighter": {
+      "files": [
+        {
+          "sha256": "13d3ab71802232d905a5b2c43fc96a45e1f868bbe03380ceb17d157ef2d0ebb4",
+          "bytes": 9210289,
+          "transactions": 200000,
+          "file": "receipts-lighter-1.csv.gz"
+        },
+        {
+          "sha256": "a21de0dd915b7cd272b7cfea0c6cb130e6a72d6eb3652a2f45812bb88b4e6f74",
+          "bytes": 2954515,
+          "transactions": 63933,
+          "file": "receipts-lighter-2.csv.gz"
+        }
+      ],
+      "transactions": 263933,
+      "gas_used": 59605425035,
+      "input_paths": [
+        "inputs/lighter.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "base": {
+      "files": [
+        {
+          "sha256": "2c7f3083892571d729a96287c77b278a4526f1641562c11fbefbba0de49940c6",
+          "bytes": 8833996,
+          "transactions": 200000,
+          "file": "receipts-base-1.csv.gz"
+        },
+        {
+          "sha256": "67df3ef398704a0c545219bbcb6134b60f74c644808a4bed85ed9765abd6732b",
+          "bytes": 8843610,
+          "transactions": 200000,
+          "file": "receipts-base-2.csv.gz"
+        },
+        {
+          "sha256": "4fae3d392143002c4e53808e485abd1ade9e25386ee94963fb4ea9f47149ca1f",
+          "bytes": 5922786,
+          "transactions": 129249,
+          "file": "receipts-base-3.csv.gz"
+        }
+      ],
+      "transactions": 529249,
+      "gas_used": 49899834006,
+      "input_paths": [
+        "inputs/rollups.json",
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "arbitrum": {
+      "files": [
+        {
+          "sha256": "4517a975f17d2c01e297bba3bd0460350e39f0f40ac0d03dfcae870c55fd3e7e",
+          "bytes": 8985456,
+          "transactions": 200000,
+          "file": "receipts-arbitrum-1.csv.gz"
+        },
+        {
+          "sha256": "6f82866a5c720a4d13e032cf5b57f137b60e062e675688b0062e11cad25b2461",
+          "bytes": 3686408,
+          "transactions": 79582,
+          "file": "receipts-arbitrum-2.csv.gz"
+        }
+      ],
+      "transactions": 279582,
+      "gas_used": 40888582641,
+      "input_paths": [
+        "inputs/rollups.json",
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "robinhood": {
+      "files": [
+        {
+          "sha256": "9a758a945d7ed65e0350ba427b9c29c034d98fe5ce86c6c05123139c943072e1",
+          "bytes": 8793522,
+          "transactions": 200000,
+          "file": "receipts-robinhood-1.csv.gz"
+        },
+        {
+          "sha256": "08638cd863e76732bf3d37cc6a2fed0d6006e387ceb961001778509022739224",
+          "bytes": 8796090,
+          "transactions": 200000,
+          "file": "receipts-robinhood-2.csv.gz"
+        },
+        {
+          "sha256": "fc6a9c108b6124fbab1a273e94ab23051f22daa76e03325d052060498fd129ff",
+          "bytes": 5768821,
+          "transactions": 130456,
+          "file": "receipts-robinhood-3.csv.gz"
+        }
+      ],
+      "transactions": 530456,
+      "gas_used": 59611729988,
+      "input_paths": [
+        "inputs/rollups.json",
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "worldchain": {
+      "files": [
+        {
+          "sha256": "2ac50d6f344738017cf763a02220139a6830e245ca647946892b98887f729996",
+          "bytes": 3899560,
+          "transactions": 87697,
+          "file": "receipts-worldchain.csv.gz"
+        }
+      ],
+      "transactions": 87697,
+      "gas_used": 4143645940,
+      "input_paths": [
+        "inputs/expanded.json",
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "unichain": {
+      "files": [
+        {
+          "sha256": "9835386a29e3feec139331cbd55d22ab1bcb0a033232adfa9e81ebab3b5820d4",
+          "bytes": 2484547,
+          "transactions": 55465,
+          "file": "receipts-unichain.csv.gz"
+        }
+      ],
+      "transactions": 55465,
+      "gas_used": 4076853732,
+      "input_paths": [
+        "inputs/expanded.json",
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "op": {
+      "files": [
+        {
+          "sha256": "61e1e8368bf74ed76c06e8aa28929cdcc781620566d96242b93b5d3d03e5f6ac",
+          "bytes": 4646718,
+          "transactions": 103713,
+          "file": "receipts-op.csv.gz"
+        }
+      ],
+      "transactions": 103713,
+      "gas_used": 9455057034,
+      "input_paths": [
+        "inputs/expanded.json",
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "ink": {
+      "files": [
+        {
+          "sha256": "155a602c23597096de142c319908836b50480b094947a3a276842c7d0d949ce0",
+          "bytes": 1088348,
+          "transactions": 24088,
+          "file": "receipts-ink.csv.gz"
+        }
+      ],
+      "transactions": 24088,
+      "gas_used": 1850577050,
+      "input_paths": [
+        "inputs/expanded.json",
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "aztecnetwork": {
+      "files": [
+        {
+          "sha256": "04e7e0a156ef6684b6452ee359798483fc467addc905447b0fc9702db550cb0a",
+          "bytes": 9112873,
+          "transactions": 200000,
+          "file": "receipts-aztecnetwork-1.csv.gz"
+        },
+        {
+          "sha256": "b04575c6084e73cc527d6aff75fedd5c7f2daf12425ea6c6b82788e4c6c86943",
+          "bytes": 1357252,
+          "transactions": 30287,
+          "file": "receipts-aztecnetwork-2.csv.gz"
+        }
+      ],
+      "transactions": 230287,
+      "gas_used": 583258954263,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "aave": {
+      "files": [
+        {
+          "sha256": "fe44535bbe6d9ee6f44d475820fd50c8de53e57eade1c4e7c9fb2761058a78af",
+          "bytes": 9429128,
+          "transactions": 200000,
+          "file": "receipts-aave-1.csv.gz"
+        },
+        {
+          "sha256": "df86dc481a89a46a9b6c7c2d5d12ef973066da25fa992fe8f191c9fcef2cb2e2",
+          "bytes": 9205162,
+          "transactions": 196073,
+          "file": "receipts-aave-2.csv.gz"
+        }
+      ],
+      "transactions": 396073,
+      "gas_used": 86410656333,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "polygon": {
+      "files": [
+        {
+          "sha256": "17f9d2d215c4f7787cbbedea892470bb02c8fbbde5f7087081f223fb4cbacfa4",
+          "bytes": 2883490,
+          "transactions": 61461,
+          "file": "receipts-polygon.csv.gz"
+        }
+      ],
+      "transactions": 61461,
+      "gas_used": 32996043639,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "grvt": {
+      "files": [
+        {
+          "sha256": "f6af040fe2eab3f36dd1b3050e9fa7167e509ec4ffdf56e7d09c911e78a6f591",
+          "bytes": 6327890,
+          "transactions": 141929,
+          "file": "receipts-grvt.csv.gz"
+        }
+      ],
+      "transactions": 141929,
+      "gas_used": 32285973334,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "solana": {
+      "files": [
+        {
+          "sha256": "9d10b6bae48f1384b9755909b6ee9201d94b2be64c9db1dfefa6fe0b204f2fef",
+          "bytes": 5287703,
+          "transactions": 113032,
+          "file": "receipts-solana.csv.gz"
+        }
+      ],
+      "transactions": 113032,
+      "gas_used": 24045599786,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "abstract": {
+      "files": [
+        {
+          "sha256": "4496fe6edac2f2bf8ebb04d3e2c03556eb0233585836a588fb21756e7484d5a6",
+          "bytes": 3617915,
+          "transactions": 80890,
+          "file": "receipts-abstract.csv.gz"
+        }
+      ],
+      "transactions": 80890,
+      "gas_used": 20683560567,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "sky": {
+      "files": [
+        {
+          "sha256": "35b45ad8a814732be6195abed3616752ca1b74175f7b4862c6f23dd9f6e9a9dd",
+          "bytes": 8890061,
+          "transactions": 200000,
+          "file": "receipts-sky-1.csv.gz"
+        },
+        {
+          "sha256": "76e3a1063784b959aeacb0b8e00da7ff17759b854354a9433da1798fcc7a1e61",
+          "bytes": 8791579,
+          "transactions": 200000,
+          "file": "receipts-sky-2.csv.gz"
+        },
+        {
+          "sha256": "5b429eac8d5ce076d6cda9263551ec82cab53eedecd8ed7518c4f32442e6632b",
+          "bytes": 438571,
+          "transactions": 9741,
+          "file": "receipts-sky-3.csv.gz"
+        }
+      ],
+      "transactions": 409741,
+      "gas_used": 16957319507,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "ethena": {
+      "files": [
+        {
+          "sha256": "57c6fe28d0c661715890e80df1a1a81492125835e4fac9d1dabada5229467037",
+          "bytes": 8867242,
+          "transactions": 200000,
+          "file": "receipts-ethena-1.csv.gz"
+        },
+        {
+          "sha256": "28468777ef427ebd73e1a3b9c60121de63acb9ffa6632764a221b83c89237f6d",
+          "bytes": 6556506,
+          "transactions": 146476,
+          "file": "receipts-ethena-2.csv.gz"
+        }
+      ],
+      "transactions": 346476,
+      "gas_used": 16326283043,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "lido": {
+      "files": [
+        {
+          "sha256": "837043fe0e44371e00e77d1904ff6a751df2a111625f19e67080abdfd92acdce",
+          "bytes": 4803264,
+          "transactions": 106293,
+          "file": "receipts-lido.csv.gz"
+        }
+      ],
+      "transactions": 106293,
+      "gas_used": 10683292570,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "megaeth": {
+      "files": [
+        {
+          "sha256": "bd934722881b8a773be2a952a0683a155d39522fd34a4f5682bfbc8e834cd02b",
+          "bytes": 3675387,
+          "transactions": 79337,
+          "file": "receipts-megaeth.csv.gz"
+        }
+      ],
+      "transactions": 79337,
+      "gas_used": 10075214842,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "adi": {
+      "files": [
+        {
+          "sha256": "f38ba83f4b9b085643388de6e426486587b8024ef221529885563dd9041a076b",
+          "bytes": 1811012,
+          "transactions": 40516,
+          "file": "receipts-adi.csv.gz"
+        }
+      ],
+      "transactions": 40516,
+      "gas_used": 9771071705,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "celo": {
+      "files": [
+        {
+          "sha256": "f4e62f18e2987d3fccca9af666d213b0251bf2c2800eb75a30d3a27572e5bb4a",
+          "bytes": 2668139,
+          "transactions": 57422,
+          "file": "receipts-celo.csv.gz"
+        }
+      ],
+      "transactions": 57422,
+      "gas_used": 8704994246,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "bsc": {
+      "files": [
+        {
+          "sha256": "fbc9ec00513594741789ff83375a0027515105c79b7634e53a352334c1f1e468",
+          "bytes": 2346144,
+          "transactions": 50132,
+          "file": "receipts-bsc.csv.gz"
+        }
+      ],
+      "transactions": 50132,
+      "gas_used": 7906227183,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "nova": {
+      "files": [
+        {
+          "sha256": "526cf6d0c8ed14b8df0521248a4750810a3c8be4d096b9a0cbccf0d0129f068d",
+          "bytes": 2192361,
+          "transactions": 48975,
+          "file": "receipts-nova.csv.gz"
+        }
+      ],
+      "transactions": 48975,
+      "gas_used": 7398100552,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "zksync2": {
+      "files": [
+        {
+          "sha256": "5226bd45b878531a20828094997d68ac35de6537641420794db44f21673842e8",
+          "bytes": 1302062,
+          "transactions": 28077,
+          "file": "receipts-zksync2.csv.gz"
+        }
+      ],
+      "transactions": 28077,
+      "gas_used": 7123172705,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "taiko": {
+      "files": [
+        {
+          "sha256": "d59821ec6e8c023d804cc14ceba27e559db5fd51627f91882d7891d8f73ceaa3",
+          "bytes": 2107555,
+          "transactions": 47240,
+          "file": "receipts-taiko.csv.gz"
+        }
+      ],
+      "transactions": 47240,
+      "gas_used": 7018540196,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "starknet": {
+      "files": [
+        {
+          "sha256": "b91550bddaaf632d4a45ee332d8d115736c163d83e63803cd09e01498e1c5e38",
+          "bytes": 690625,
+          "transactions": 14513,
+          "file": "receipts-starknet.csv.gz"
+        }
+      ],
+      "transactions": 14513,
+      "gas_used": 4021628254,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "mantle": {
+      "files": [
+        {
+          "sha256": "bf57677a32e4476d1c0fe6b19b82c9533a7c9a25eb55d6aaa0b2519a5096222f",
+          "bytes": 2072266,
+          "transactions": 46412,
+          "file": "receipts-mantle.csv.gz"
+        }
+      ],
+      "transactions": 46412,
+      "gas_used": 3867323027,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "morpho": {
+      "files": [
+        {
+          "sha256": "8dc0a7b9f62fddf53bac7d47886291c033faf5d86d1ce11c2745450fe854d25b",
+          "bytes": 1325118,
+          "transactions": 28181,
+          "file": "receipts-morpho.csv.gz"
+        }
+      ],
+      "transactions": 28181,
+      "gas_used": 3155192319,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "hyperliquid": {
+      "files": [
+        {
+          "sha256": "a571e9e611f0642492711faf9018115165b6ad0b567e22e4fc80a5f08ae559da",
+          "bytes": 898648,
+          "transactions": 19159,
+          "file": "receipts-hyperliquid.csv.gz"
+        }
+      ],
+      "transactions": 19159,
+      "gas_used": 2893163930,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "compound": {
+      "files": [
+        {
+          "sha256": "a5247cbaf54e15e59eb4a0aacfe5b606ebda3fd909db461726a4317dee7c1955",
+          "bytes": 1073878,
+          "transactions": 22772,
+          "file": "receipts-compound.csv.gz"
+        }
+      ],
+      "transactions": 22772,
+      "gas_used": 2822291831,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "edge": {
+      "files": [
+        {
+          "sha256": "24417da2c2365591e34e4f49c88bcfe80759e3f9ed3721c4e6bca90c880a1241",
+          "bytes": 727682,
+          "transactions": 16030,
+          "file": "receipts-edge.csv.gz"
+        }
+      ],
+      "transactions": 16030,
+      "gas_used": 2731253450,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "metis": {
+      "files": [
+        {
+          "sha256": "c21386c38382d6f94eae685483c921ce3ca461407200987745d784fdfb7dfee1",
+          "bytes": 698102,
+          "transactions": 14825,
+          "file": "receipts-metis.csv.gz"
+        }
+      ],
+      "transactions": 14825,
+      "gas_used": 2347693811,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "avalanche": {
+      "files": [
+        {
+          "sha256": "8183cc3c51c6238e9ab9708b6ef8d6ed5a222272e21675c5a45a9814c020e554",
+          "bytes": 622196,
+          "transactions": 13197,
+          "file": "receipts-avalanche.csv.gz"
+        }
+      ],
+      "transactions": 13197,
+      "gas_used": 2048020751,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "soneium": {
+      "files": [
+        {
+          "sha256": "f6e750353e3ec9f0bd6221cc691e79fdd9c2890f67b9e13537118d225211fe48",
+          "bytes": 1482723,
+          "transactions": 33294,
+          "file": "receipts-soneium.csv.gz"
+        }
+      ],
+      "transactions": 33294,
+      "gas_used": 2044089393,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "monad": {
+      "files": [
+        {
+          "sha256": "b689723d04f8460930b2d93096bf77bc00d72ce878809dca5a2c00217f2f919e",
+          "bytes": 624622,
+          "transactions": 13403,
+          "file": "receipts-monad.csv.gz"
+        }
+      ],
+      "transactions": 13403,
+      "gas_used": 1970154392,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "noble": {
+      "files": [
+        {
+          "sha256": "76648ec3e91647d05a945056261b5b66a8f8a6c99ad7d16675cedc9da1b51c6d",
+          "bytes": 529259,
+          "transactions": 11455,
+          "file": "receipts-noble.csv.gz"
+        }
+      ],
+      "transactions": 11455,
+      "gas_used": 1728450146,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "scroll": {
+      "files": [
+        {
+          "sha256": "d9b15d14e8b467e18ffbf46dd266a226bb88474b289f90dba1d8eb29ae084e6f",
+          "bytes": 292183,
+          "transactions": 6264,
+          "file": "receipts-scroll.csv.gz"
+        }
+      ],
+      "transactions": 6264,
+      "gas_used": 1608857644,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "linea": {
+      "files": [
+        {
+          "sha256": "44a4c4f8290c1fcfb7f653453a712294ed883f654559852477484ed92916a3a9",
+          "bytes": 319915,
+          "transactions": 6712,
+          "file": "receipts-linea.csv.gz"
+        }
+      ],
+      "transactions": 6712,
+      "gas_used": 1406616334,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "blast": {
+      "files": [
+        {
+          "sha256": "dac37c0937d126dac8a089ad201d7c9e387414f2fcdd90d48816e7a4484812c5",
+          "bytes": 659226,
+          "transactions": 14413,
+          "file": "receipts-blast.csv.gz"
+        }
+      ],
+      "transactions": 14413,
+      "gas_used": 1276475898,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "morph": {
+      "files": [
+        {
+          "sha256": "bc9581354459afe9ad5486359c07e84d08198e9a613d72d254d4fb176bb79677",
+          "bytes": 478076,
+          "transactions": 10489,
+          "file": "receipts-morph.csv.gz"
+        }
+      ],
+      "transactions": 10489,
+      "gas_used": 1136216638,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "etherfi": {
+      "files": [
+        {
+          "sha256": "4be66fa76eea496f6e63683cee21718e412c1ac41abeb125b64d722168574b3a",
+          "bytes": 476251,
+          "transactions": 10211,
+          "file": "receipts-etherfi.csv.gz"
+        }
+      ],
+      "transactions": 10211,
+      "gas_used": 1026874822,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "sophon": {
+      "files": [
+        {
+          "sha256": "8fb41c6e2abcbfcc94e923f6d18c077ad926fca5434c766bb2d122f064c55b3a",
+          "bytes": 206667,
+          "transactions": 4378,
+          "file": "receipts-sophon.csv.gz"
+        }
+      ],
+      "transactions": 4378,
+      "gas_used": 1013802374,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "arc": {
+      "files": [
+        {
+          "sha256": "3ac5d9eba02c10d711b83b6d94284a00ecd90b6c941d732ebe243905d0e069b3",
+          "bytes": 317624,
+          "transactions": 7075,
+          "file": "receipts-arc.csv.gz"
+        }
+      ],
+      "transactions": 7075,
+      "gas_used": 955807611,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "katana": {
+      "files": [
+        {
+          "sha256": "4cd3c54c862a3890999780d45079217aa24c104641972a6187652c44bf9fc15c",
+          "bytes": 1664685,
+          "transactions": 37688,
+          "file": "receipts-katana.csv.gz"
+        }
+      ],
+      "transactions": 37688,
+      "gas_used": 798834415,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "sonic": {
+      "files": [
+        {
+          "sha256": "ae9f75ff8563af8e2c82204f338cb234d2621523b0f1ffa61a36996dfd25e179",
+          "bytes": 243640,
+          "transactions": 5159,
+          "file": "receipts-sonic.csv.gz"
+        }
+      ],
+      "transactions": 5159,
+      "gas_used": 789202404,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "sui": {
+      "files": [
+        {
+          "sha256": "dd94a521412d72fa9aaa8be02d6d1fecd209930e1ad5fba9bc96022cbeb4b47d",
+          "bytes": 187326,
+          "transactions": 3936,
+          "file": "receipts-sui.csv.gz"
+        }
+      ],
+      "transactions": 3936,
+      "gas_used": 601243948,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "aptos": {
+      "files": [
+        {
+          "sha256": "a6afb8f3e3da9472de8e1f3d415a608c79909be9cd05feb3e12aa7ac5c2c9b76",
+          "bytes": 208469,
+          "transactions": 4519,
+          "file": "receipts-aptos.csv.gz"
+        }
+      ],
+      "transactions": 4519,
+      "gas_used": 575423075,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "pharos": {
+      "files": [
+        {
+          "sha256": "523ca41507042770d2587d89c717c86db5437e69c9284061a9e0d3565be76e3c",
+          "bytes": 165613,
+          "transactions": 3531,
+          "file": "receipts-pharos.csv.gz"
+        }
+      ],
+      "transactions": 3531,
+      "gas_used": 544507050,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "mode": {
+      "files": [
+        {
+          "sha256": "f2a94ca65216ddde9b0025cdd5aa1ddea868a2cd269280df8bf32a489e142bed",
+          "bytes": 51819,
+          "transactions": 1077,
+          "file": "receipts-mode.csv.gz"
+        }
+      ],
+      "transactions": 1077,
+      "gas_used": 475674731,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "bob": {
+      "files": [
+        {
+          "sha256": "44de6caec38dd112f619b82d50bd0780d727ffd933835a617ad6b02c1d92dadd",
+          "bytes": 259378,
+          "transactions": 5628,
+          "file": "receipts-bob.csv.gz"
+        }
+      ],
+      "transactions": 5628,
+      "gas_used": 461760267,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "lens": {
+      "files": [
+        {
+          "sha256": "1dc764760f24bd37d56a70edc5fb7d1db26e647875abfe5eb11dd22517f8d0f2",
+          "bytes": 84790,
+          "transactions": 1726,
+          "file": "receipts-lens.csv.gz"
+        }
+      ],
+      "transactions": 1726,
+      "gas_used": 420642864,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "curve": {
+      "files": [
+        {
+          "sha256": "cfc0bc48860a384d02390783a41311be9e2c1be02c53d4d9551191863eee767a",
+          "bytes": 136973,
+          "transactions": 2845,
+          "file": "receipts-curve.csv.gz"
+        }
+      ],
+      "transactions": 2845,
+      "gas_used": 418105887,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "zora": {
+      "files": [
+        {
+          "sha256": "bb4e967944d5e0f1769021c923303d837873db954e3d453bd1f1a47f4746dcee",
+          "bytes": 45071,
+          "transactions": 942,
+          "file": "receipts-zora.csv.gz"
+        }
+      ],
+      "transactions": 942,
+      "gas_used": 406936836,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "near": {
+      "files": [
+        {
+          "sha256": "bd882eb028b4d39d46e94afccb6c259f3cd06414066efd86b1000a9344abb0bf",
+          "bytes": 47714,
+          "transactions": 1013,
+          "file": "receipts-near.csv.gz"
+        }
+      ],
+      "transactions": 1013,
+      "gas_used": 247168949,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "injective": {
+      "files": [
+        {
+          "sha256": "a0a8876ec0974a75bcc07e7b7f7b865e2b40170f3f6bc109c5b050e67974cfbe",
+          "bytes": 65131,
+          "transactions": 1365,
+          "file": "receipts-injective.csv.gz"
+        }
+      ],
+      "transactions": 1365,
+      "gas_used": 194231494,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "zkcandy": {
+      "files": [
+        {
+          "sha256": "fcd500e9934f56c2d863d28c98265f484376b524fa2544f5469fd14e58ef781b",
+          "bytes": 27323,
+          "transactions": 560,
+          "file": "receipts-zkcandy.csv.gz"
+        }
+      ],
+      "transactions": 560,
+      "gas_used": 145740457,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "stellar": {
+      "files": [
+        {
+          "sha256": "090405e32a4d36edd1f3745d3eab73fd6c521f01f836d16c4c1ff152a6f0d7f1",
+          "bytes": 55061,
+          "transactions": 1170,
+          "file": "receipts-stellar.csv.gz"
+        }
+      ],
+      "transactions": 1170,
+      "gas_used": 140416656,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "moonbeam": {
+      "files": [
+        {
+          "sha256": "3a91709081b58d43f1c411c0ecce58b301893fd807eb9f9c4f62235aa710fcec",
+          "bytes": 33633,
+          "transactions": 683,
+          "file": "receipts-moonbeam.csv.gz"
+        }
+      ],
+      "transactions": 683,
+      "gas_used": 136610250,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "sei": {
+      "files": [
+        {
+          "sha256": "017dd7dcc18d87e925e58700c21d4ac4bf7dc58e6ad0d3f34b58de417e61fa9e",
+          "bytes": 41915,
+          "transactions": 862,
+          "file": "receipts-sei.csv.gz"
+        }
+      ],
+      "transactions": 862,
+      "gas_used": 135524779,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "cronos": {
+      "files": [
+        {
+          "sha256": "2e14dbd971e9e67b640bf24a25c48c02abea5e74520614f3e32891a2b082b05f",
+          "bytes": 35146,
+          "transactions": 730,
+          "file": "receipts-cronos.csv.gz"
+        }
+      ],
+      "transactions": 730,
+      "gas_used": 116557562,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "algorand": {
+      "files": [
+        {
+          "sha256": "ed4a72829979e8cdced3a4ba6e860bc8f62b0f898a6af8f053e1b26688dbcdb1",
+          "bytes": 17873,
+          "transactions": 364,
+          "file": "receipts-algorand.csv.gz"
+        }
+      ],
+      "transactions": 364,
+      "gas_used": 92284099,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "kaia": {
+      "files": [
+        {
+          "sha256": "14b942703b47abd097d201ce91469a0582153179494a4b6572557d145f45179c",
+          "bytes": 18051,
+          "transactions": 370,
+          "file": "receipts-kaia.csv.gz"
+        }
+      ],
+      "transactions": 370,
+      "gas_used": 70512090,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "plume": {
+      "files": [
+        {
+          "sha256": "8d29c40ad55da4360be167bbc0f033243f089b2fe19644cbd4fca6ea86f6fbab",
+          "bytes": 20011,
+          "transactions": 403,
+          "file": "receipts-plume.csv.gz"
+        }
+      ],
+      "transactions": 403,
+      "gas_used": 66080370,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "xlayer": {
+      "files": [
+        {
+          "sha256": "8045350f3a77b919e955ec757b6d04af97e4eecc74c124fbbce5598f61147845",
+          "bytes": 20558,
+          "transactions": 419,
+          "file": "receipts-xlayer.csv.gz"
+        }
+      ],
+      "transactions": 419,
+      "gas_used": 60798344,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "tempo": {
+      "files": [
+        {
+          "sha256": "503e5d1359b33f056f4969c2cac4587be041128fbe252772cd73e93cc0013eca",
+          "bytes": 28030,
+          "transactions": 594,
+          "file": "receipts-tempo.csv.gz"
+        }
+      ],
+      "transactions": 594,
+      "gas_used": 43904513,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "xdc": {
+      "files": [
+        {
+          "sha256": "aa24b8364313dc8bc87e01dd34b46531e961d60323d1956debf82dffd24f509d",
+          "bytes": 10606,
+          "transactions": 211,
+          "file": "receipts-xdc.csv.gz"
+        }
+      ],
+      "transactions": 211,
+      "gas_used": 30404307,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "tron": {
+      "files": [
+        {
+          "sha256": "3d0c8ba9e0231656f8dbfafcebce70df604c71f3e809cb05cd9d7c2ba30fe754",
+          "bytes": 14832,
+          "transactions": 306,
+          "file": "receipts-tron.csv.gz"
+        }
+      ],
+      "transactions": 306,
+      "gas_used": 22413496,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "plasma": {
+      "files": [
+        {
+          "sha256": "5f17caf2fa5e7228c6d9bb6fb7e5db867b75fce9d2556aa9377c402eb9824b53",
+          "bytes": 5972,
+          "transactions": 114,
+          "file": "receipts-plasma.csv.gz"
+        }
+      ],
+      "transactions": 114,
+      "gas_used": 9754386,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "berachain": {
+      "files": [
+        {
+          "sha256": "8b67a7e47de56aab102cb252c13388e27e352b3ecdc18519bbb9bc27c6b99aa1",
+          "bytes": 1630,
+          "transactions": 28,
+          "file": "receipts-berachain.csv.gz"
+        }
+      ],
+      "transactions": 28,
+      "gas_used": 6215720,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    },
+    "codex": {
+      "files": [
+        {
+          "sha256": "a479213daf8c6af8cdffe7b4d6df2a30f2ec39eeb3969e5a15e19c0e021d258b",
+          "bytes": 494,
+          "transactions": 6,
+          "file": "receipts-codex.csv.gz"
+        }
+      ],
+      "transactions": 6,
+      "gas_used": 956554,
+      "input_paths": [
+        "inputs/coverage.json"
+      ],
+      "scope": "All measured expanded receipt cohorts plus previously published core receipts, where applicable. Baseline supplemental approvals for Lighter, Base, Arbitrum One and Robinhood remain in the structured dataset, outside these receipt exports.",
+      "availability": "separate_archive"
+    }
+  },
+  "validation": "/data/receipt-validation.json"
+}

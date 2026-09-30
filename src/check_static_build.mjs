@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import {mkdtemp,mkdir,writeFile,readFile,rm,symlink} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {createHash} from 'node:crypto';
+import {verifyStaticBuild} from './static_build.mjs';
+
+const base=await mkdtemp(join(tmpdir(),'gas-static-build-'));
+const source='export const value=1;\n',html='<!doctype html><p>Verified snapshot</p>';
+const validation=JSON.stringify({passed:true,snapshot_id:'fixture'});
+const sha=s=>createHash('sha256').update(s).digest('hex');
+const path=name=>join(base,name);
+try{
+  for(const dir of ['src','data','dist'])await mkdir(path(dir));
+  await writeFile(path('src/app.js'),source);
+  await writeFile(path('dist/index.html'),html);
+  await writeFile(path('data/release-validation.json'),validation);
+  const manifest={snapshot_id:'fixture',inputs:{'src/app.js':sha(source),'data/release-validation.json':sha(validation)},output:{'dist/index.html':sha(html)}};
+  await writeFile(path('data/static-build-manifest.json'),JSON.stringify(manifest));
+  assert.equal((await verifyStaticBuild(base)).passed,true);
+  await writeFile(path('src/app.js'),source+'// changed');
+  await assert.rejects(verifyStaticBuild(base),/Stale static build/);
+  await writeFile(path('src/app.js'),source);
+  await writeFile(path('dist/index.html'),html+'stale');
+  await assert.rejects(verifyStaticBuild(base),/Stale static build/);
+  await writeFile(path('dist/index.html'),html);
+  await writeFile(path('dist/extra.txt'),'unexpected');
+  await assert.rejects(verifyStaticBuild(base),/file set changed/);
+  await rm(path('dist/extra.txt'));
+  await rm(path('dist/index.html'));
+  await assert.rejects(verifyStaticBuild(base),/file set changed/);
+  await symlink(path('src/app.js'),path('dist/index.html'));
+  await assert.rejects(verifyStaticBuild(base),/regular files/);
+  await rm(path('dist/index.html'));
+  await writeFile(path('dist/index.html'),html);
+  const failed=JSON.stringify({passed:false,snapshot_id:'fixture'});
+  await writeFile(path('data/release-validation.json'),failed);
+  manifest.inputs['data/release-validation.json']=sha(failed);
+  await writeFile(path('data/static-build-manifest.json'),JSON.stringify(manifest));
+  await assert.rejects(verifyStaticBuild(base),/has not passed validation/);
+  console.log(JSON.stringify({passed:true,scenarios:7}));
+}finally{await rm(base,{recursive:true,force:true});}

@@ -1,0 +1,14 @@
+{
+  "image": "og-selected-apps-chains-v5.png",
+  "sha256": "1a9551afc3b812f3a044217ec89b2a56363b6557652175b4cefe92a8bee81d9a",
+  "width": 1733,
+  "height": 907,
+  "reviewed_copy": {
+    "title": "L1 Gas Impact",
+    "headline": "How much Ethereum L1 gas do selected apps & chains use?",
+    "intro": "Actual gas units. Six months of L1 execution activity directly attributable to selected top L1 apps, L2s & other chains."
+  },
+  "visible_supporting_line": "Actual gas units. Six months of directly attributable activity.",
+  "review": "Inspected September 29, 2026: selected apps and chains, Ethereum L1 gas only; matches expanded page scope and metadata. No dated figures or exhaustive coverage claims.",
+  "reviewed_snapshot": "f983c100323ee081"
+}

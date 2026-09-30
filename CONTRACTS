@@ -1,0 +1,20 @@
+@cc [label:data] receipt-gas-only
+Published execution-gas measurements MUST derive from observed Ethereum L1 receipt gasUsed or a documented gas-unit aggregation. Fees, gas limits, blob gas and L2 gas MUST NOT be substituted.
+
+@cc [label:data] exclusive-attribution
+Whole-transaction gas MUST enter a product total only when that transaction is exclusively attributable to the product. Shared or unresolved activity MUST remain separate and MUST NOT be silently assigned. Transaction hashes MUST be deduplicated.
+
+@cc [label:product] evidence-coverage
+Missing observations MUST remain null or absent, never numeric zero. All displayed totals MUST identify their interval, coverage and source. Partial scopes MUST NOT be described as complete product footprints.
+
+@cc [label:privacy] public-data-only
+The public output MUST exclude private working notes, credentials, engineering contracts and app-source archives. Public datasets and factual methodology are allowed.
+
+@cc [label:product] theme-preference
+Interactive pages MUST default to the system theme and follow system changes while System is selected. Explicit Light/Dark choices MUST persist when storage is available and resolve before first paint. Themes MUST preserve the same measurement, attribution, labels and data across palettes.
+
+@cc [label:release] verified-static-build
+Production MUST verify the committed static file set and the hashes of its source, data and passed acceptance evidence before publication. Changed inputs or missing, extra or changed public output MUST fail the build until regenerated, reviewed and resealed. A Node-only production builder MUST NOT silently skip Python-dependent research validation.
+
+@cc [label:release] detached-receipt-evidence
+Bulk receipt files MAY be preserved outside the app repository and public site. Their file hashes, population coverage and full reconciliation certificate MUST remain available. Certificate reuse MUST bind exact accepted inputs, receipt metadata and verifier bytes; changes MUST require a fresh receipt reconciliation.

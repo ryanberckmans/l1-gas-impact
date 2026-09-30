@@ -1,0 +1,301 @@
+{
+  "aave": {
+    "name": "Aave on L1",
+    "group": "app",
+    "scope_label": "Aave V2 / V3"
+  },
+  "lido": {
+    "name": "Lido on L1",
+    "group": "app",
+    "scope_label": "stETH / wstETH"
+  },
+  "compound": {
+    "name": "Compound on L1",
+    "group": "app",
+    "scope_label": "Compound III \u00b7 USDC / WETH / USDT"
+  },
+  "morpho": {
+    "name": "Morpho on L1",
+    "group": "app",
+    "scope_label": "Morpho Blue"
+  },
+  "curve": {
+    "name": "Curve on L1",
+    "group": "app"
+  },
+  "etherfi": {
+    "name": "ether.fi on L1",
+    "group": "app",
+    "scope_label": "eETH / weETH"
+  },
+  "ethena": {
+    "name": "Ethena on L1",
+    "group": "app",
+    "scope_label": "USDe / sUSDe / ENA / sENA"
+  },
+  "sky": {
+    "name": "Sky / Maker on L1",
+    "group": "app",
+    "scope_label": "DAI / USDS / sDAI / sUSDS / SKY"
+  },
+  "lighter": {
+    "name": "Lighter (primary instance)",
+    "group": "l2"
+  },
+  "base": {
+    "name": "Base",
+    "group": "l2"
+  },
+  "arbitrum": {
+    "name": "Arbitrum One",
+    "group": "l2"
+  },
+  "robinhood": {
+    "name": "Robinhood",
+    "group": "l2"
+  },
+  "worldchain": {
+    "name": "World Chain",
+    "group": "l2"
+  },
+  "unichain": {
+    "name": "Unichain",
+    "group": "l2"
+  },
+  "op": {
+    "name": "OP Mainnet",
+    "group": "l2"
+  },
+  "ink": {
+    "name": "Ink",
+    "group": "l2"
+  },
+  "starknet": {
+    "name": "Starknet",
+    "group": "l2"
+  },
+  "zksync2": {
+    "name": "ZKsync Era",
+    "group": "l2"
+  },
+  "scroll": {
+    "name": "Scroll",
+    "group": "l2"
+  },
+  "linea": {
+    "name": "Linea",
+    "group": "l2"
+  },
+  "taiko": {
+    "name": "Taiko",
+    "group": "l2"
+  },
+  "blast": {
+    "name": "Blast",
+    "group": "l2"
+  },
+  "mantle": {
+    "name": "Mantle",
+    "group": "l2"
+  },
+  "metis": {
+    "name": "Metis",
+    "group": "l2"
+  },
+  "mode": {
+    "name": "Mode",
+    "group": "l2"
+  },
+  "zora": {
+    "name": "Zora",
+    "group": "l2"
+  },
+  "abstract": {
+    "name": "Abstract",
+    "group": "l2"
+  },
+  "katana": {
+    "name": "Katana",
+    "group": "l2"
+  },
+  "nova": {
+    "name": "Arbitrum Nova",
+    "group": "l2"
+  },
+  "bob": {
+    "name": "BOB",
+    "group": "l2"
+  },
+  "celo": {
+    "name": "Celo",
+    "group": "l2"
+  },
+  "codex": {
+    "name": "Codex",
+    "group": "l2"
+  },
+  "plume": {
+    "name": "Plume",
+    "group": "l2"
+  },
+  "morph": {
+    "name": "Morph",
+    "group": "l2"
+  },
+  "xlayer": {
+    "name": "X Layer",
+    "group": "l2"
+  },
+  "grvt": {
+    "name": "GRVT",
+    "group": "l2"
+  },
+  "lens": {
+    "name": "Lens",
+    "group": "l2"
+  },
+  "sophon": {
+    "name": "Sophon",
+    "group": "l2"
+  },
+  "zkcandy": {
+    "name": "zkCandy",
+    "group": "l2"
+  },
+  "aztecnetwork": {
+    "name": "Aztec Network",
+    "group": "l2"
+  },
+  "adi": {
+    "name": "ADI Chain",
+    "group": "l2"
+  },
+  "megaeth": {
+    "name": "MegaETH",
+    "group": "l2"
+  },
+  "soneium": {
+    "name": "Soneium",
+    "group": "l2"
+  },
+  "solana": {
+    "name": "Solana",
+    "group": "alt"
+  },
+  "hyperliquid": {
+    "name": "Hyperliquid",
+    "group": "alt"
+  },
+  "bsc": {
+    "name": "BNB Smart Chain (BSC)",
+    "group": "alt"
+  },
+  "polygon": {
+    "name": "Polygon PoS",
+    "group": "alt"
+  },
+  "avalanche": {
+    "name": "Avalanche",
+    "group": "alt"
+  },
+  "sui": {
+    "name": "Sui",
+    "group": "alt"
+  },
+  "aptos": {
+    "name": "Aptos",
+    "group": "alt"
+  },
+  "sonic": {
+    "name": "Sonic",
+    "group": "alt"
+  },
+  "monad": {
+    "name": "Monad",
+    "group": "alt"
+  },
+  "sei": {
+    "name": "Sei",
+    "group": "alt"
+  },
+  "noble": {
+    "name": "Noble",
+    "group": "alt"
+  },
+  "stellar": {
+    "name": "Stellar",
+    "group": "alt"
+  },
+  "xdc": {
+    "name": "XDC Network",
+    "group": "alt"
+  },
+  "injective": {
+    "name": "Injective",
+    "group": "alt"
+  },
+  "cronos": {
+    "name": "Cronos",
+    "group": "alt"
+  },
+  "plasma": {
+    "name": "Plasma",
+    "group": "alt"
+  },
+  "near": {
+    "name": "NEAR",
+    "group": "alt"
+  },
+  "ton": {
+    "name": "TON",
+    "group": "alt"
+  },
+  "bitcoin": {
+    "name": "Bitcoin",
+    "group": "alt"
+  },
+  "gnosis": {
+    "name": "Gnosis",
+    "group": "alt"
+  },
+  "fantom": {
+    "name": "Fantom",
+    "group": "alt"
+  },
+  "kaia": {
+    "name": "Kaia",
+    "group": "alt"
+  },
+  "moonbeam": {
+    "name": "Moonbeam",
+    "group": "alt"
+  },
+  "algorand": {
+    "name": "Algorand",
+    "group": "alt"
+  },
+  "arc": {
+    "name": "Arc",
+    "group": "alt"
+  },
+  "pharos": {
+    "name": "Pharos",
+    "group": "alt"
+  },
+  "tempo": {
+    "name": "Tempo",
+    "group": "alt"
+  },
+  "tron": {
+    "name": "TRON",
+    "group": "alt"
+  },
+  "berachain": {
+    "name": "Berachain",
+    "group": "alt"
+  },
+  "edge": {
+    "name": "EDGE Chain",
+    "group": "l3"
+  }
+}

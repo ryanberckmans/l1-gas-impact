@@ -1,0 +1,12 @@
+{
+  "original_snapshot": "0461c12ed4a4bb52",
+  "expanded_snapshot": "286d56e4ca745ea0",
+  "original_six_product_series_unchanged": true,
+  "expanded_transactions": 267750,
+  "queried_contract_addresses": 42,
+  "supplemental_populations": 64,
+  "canonical_receipt_repairs": 2,
+  "sampled_receipts": 15,
+  "abi_scope_reviewed": true,
+  "shared_superchain_and_arbitrary_withdrawal_payloads_excluded": true
+}

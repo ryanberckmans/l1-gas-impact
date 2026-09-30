@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "start_inclusive": "2026-03-28",
+  "end_exclusive": "2026-09-28",
+  "products": [
+    "eth",
+    "uniswap",
+    "lighter",
+    "base",
+    "arbitrum",
+    "robinhood",
+    "worldchain",
+    "unichain",
+    "op",
+    "ink"
+  ],
+  "baseline_revision": "8bf77555d837e9c7e92682ddfba0ce32341d3a70",
+  "overlap": "Validated historical observations retained from March 28 through September 14; no extrapolation.",
+  "current_aggregate_queries": 265,
+  "canonical_conflict_receipts": 140,
+  "daily_reconciliations": 128,
+  "raw_supplemental_populations": 125,
+  "verification_sha256": {
+    "aggregates-run": "8c25f6acd44f8339025096654025186fec0ac6f5a0886a9bad7e9101db4f4907",
+    "receipts-run": "4a23f556a837d439a591704adb936445ce8195e861ec3e9f36d044cabce0d602",
+    "canonical-verification": "01b055f39b9d1d3699f66148605cd2190ad3d35cb72cb5ec340da68ec8bb4077",
+    "supplement-verification": "5c69025a4a21535d7a5dce0567b55fdf5bcd210acbcd0593fef51c8e8a91983a",
+    "sample-verification": "62a97a77d0b29b58bcd5d5c8413261e35a09a59970e77e9bfb3c7843ba82fa7c",
+    "daily-reconciliation": "a72cd1d23d040fa2ab857dc73ca8c75bbd738f395be1d3362f8980391f7e7da9"
+  },
+  "input_sha256": {
+    "inputs/eth.json": "15dbf03d9b7ca03f3ab140c604fbaa0ffd1a00a3be8dab6611e2b502bdae2f95",
+    "inputs/uniswap.json": "1dbed7c187453cd91f9c010c9d36df4a8fe38e45ea815ed6d9248f158d01485f",
+    "inputs/lighter.json": "6f366fead4cac787620fcbb4e2756798415c2072a0427acaa77859df33334a7d",
+    "inputs/rollups.json": "7a7df4d03dee9ffd6212a15a4cf07dddfeb4ea12e35f8cc15e2401faff7927a0",
+    "inputs/additional.json": "4bd3cff7a7f573159a11d846f27690696bb4462abbd31dbe508d87284bfdd747",
+    "inputs/expanded.json": "b3d63e5adebc77104eeaf603806080c914e7d74a9772bd4863e51f1ba557fac4"
+  }
+}

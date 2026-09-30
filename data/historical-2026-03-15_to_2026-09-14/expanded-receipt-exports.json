@@ -1,0 +1,34 @@
+{
+  "worldchain": {
+    "url": "/data/receipts-worldchain.csv.gz",
+    "bytes": 4237069,
+    "sha256": "94db02d2c0f26164598e7e1c659e21a0e137875991ae0ab77b757971f68e723b",
+    "transactions": 92910,
+    "gas_used": 4276231696,
+    "scope": "All included contract, approval and Across/CCTP transactions in this product’s published lower bound; unresolved populations remain excluded."
+  },
+  "unichain": {
+    "url": "/data/receipts-unichain.csv.gz",
+    "bytes": 2573422,
+    "sha256": "41ead65f7df6f2e0f1cc7e3448cf01135a948a5a0b62ef0640b5b4f81bca8529",
+    "transactions": 54377,
+    "gas_used": 4049465475,
+    "scope": "All included contract, approval and Across/CCTP transactions in this product’s published lower bound; unresolved populations remain excluded."
+  },
+  "op": {
+    "url": "/data/receipts-op.csv.gz",
+    "bytes": 4810715,
+    "sha256": "fd4e095ed82239d9d88128ca8de6300d95ea04547cea89485ebdfc56c009765f",
+    "transactions": 97277,
+    "gas_used": 9002768267,
+    "scope": "All included contract, approval and Across/CCTP transactions in this product’s published lower bound; unresolved populations remain excluded."
+  },
+  "ink": {
+    "url": "/data/receipts-ink.csv.gz",
+    "bytes": 1131252,
+    "sha256": "319c5551c6b3797211c4f35f0f02b84406d0540cee256bca97302303c0141db3",
+    "transactions": 23186,
+    "gas_used": 1962874166,
+    "scope": "All included contract, approval and Across/CCTP transactions in this product’s published lower bound; unresolved populations remain excluded."
+  }
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.sites-runtime/
+node_modules/
+.env*
+.build/
+research/
+receipt-work/
+l1-gas-impact-receipts.zip

@@ -1,0 +1,121 @@
+{
+  "accepted_for_publication": true,
+  "start_inclusive": "2026-03-28",
+  "end_exclusive": "2026-09-28",
+  "baseline_revision": "aca14fde12cca3f2830d85c2b5d10293aed97ace",
+  "inputs": [
+    {
+      "path": "inputs/eth.json",
+      "sha256": "15dbf03d9b7ca03f3ab140c604fbaa0ffd1a00a3be8dab6611e2b502bdae2f95",
+      "source_id": "blockchair-plain-eth-transfer-benchmark"
+    },
+    {
+      "path": "inputs/uniswap.json",
+      "sha256": "1dbed7c187453cd91f9c010c9d36df4a8fe38e45ea815ed6d9248f158d01485f"
+    },
+    {
+      "path": "inputs/lighter.json",
+      "sha256": "6f366fead4cac787620fcbb4e2756798415c2072a0427acaa77859df33334a7d"
+    },
+    {
+      "path": "inputs/rollups.json",
+      "sha256": "7a7df4d03dee9ffd6212a15a4cf07dddfeb4ea12e35f8cc15e2401faff7927a0"
+    },
+    {
+      "path": "inputs/additional.json",
+      "sha256": "dc829b4fdcd91465384960eae772b406ce84f962240574cd8dc70998ee4d92fc"
+    },
+    {
+      "path": "inputs/expanded.json",
+      "sha256": "59880ab4b479c82072b59b286e23778a9fde302ab39d15aa27786fde7d8b7e6c"
+    },
+    {
+      "path": "inputs/coverage.json",
+      "sha256": "62d0d6ee1027b26ee92b62afd6e1678f125792f7848eda8cea811dbcb5a66938"
+    }
+  ],
+  "product_groups": {
+    "lighter": "l2",
+    "base": "l2",
+    "arbitrum": "l2",
+    "robinhood": "l2",
+    "worldchain": "l2",
+    "unichain": "l2",
+    "op": "l2",
+    "ink": "l2",
+    "aztecnetwork": "l2",
+    "aave": "app",
+    "polygon": "alt",
+    "grvt": "l2",
+    "solana": "alt",
+    "abstract": "l2",
+    "sky": "app",
+    "ethena": "app",
+    "lido": "app",
+    "megaeth": "l2",
+    "adi": "l2",
+    "celo": "l2",
+    "bsc": "alt",
+    "nova": "l2",
+    "zksync2": "l2",
+    "taiko": "l2",
+    "starknet": "l2",
+    "mantle": "l2",
+    "morpho": "app",
+    "hyperliquid": "alt",
+    "compound": "app",
+    "edge": "l3",
+    "metis": "l2",
+    "avalanche": "alt",
+    "soneium": "l2",
+    "monad": "alt",
+    "noble": "alt",
+    "scroll": "l2",
+    "linea": "l2",
+    "blast": "l2",
+    "morph": "l2",
+    "etherfi": "app",
+    "sophon": "l2",
+    "arc": "alt",
+    "katana": "l2",
+    "sonic": "alt",
+    "sui": "alt",
+    "aptos": "alt",
+    "pharos": "alt",
+    "mode": "l2",
+    "bob": "l2",
+    "lens": "l2",
+    "curve": "app",
+    "zora": "l2",
+    "near": "alt",
+    "injective": "alt",
+    "zkcandy": "l2",
+    "stellar": "alt",
+    "moonbeam": "alt",
+    "sei": "alt",
+    "cronos": "alt",
+    "algorand": "alt",
+    "kaia": "alt",
+    "plume": "l2",
+    "xlayer": "l2",
+    "tempo": "alt",
+    "xdc": "alt",
+    "tron": "alt",
+    "plasma": "alt",
+    "berachain": "alt",
+    "codex": "l2"
+  },
+  "scope_labels": {
+    "aave": "Aave V2 / V3",
+    "sky": "DAI / USDS / sDAI / sUSDS / SKY",
+    "ethena": "USDe / sUSDe / ENA / sENA",
+    "lido": "stETH / wstETH",
+    "morpho": "Morpho Blue",
+    "compound": "Compound III \u00b7 USDC / WETH / USDT",
+    "etherfi": "eETH / weETH"
+  },
+  "verification": {
+    "path": "coverage-verification.json",
+    "sha256": "bab45896e35d9c8656e4088313b361850f24cec7dd0fb355bbe8db8ff62cf645"
+  }
+}

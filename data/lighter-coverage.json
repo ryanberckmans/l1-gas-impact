@@ -1,0 +1,17 @@
+{
+  "start_inclusive": "2026-03-28",
+  "end_exclusive": "2026-09-28",
+  "unit": "Parent transaction coverage, not gas coverage",
+  "populations": {
+    "deposit": {
+      "observed_parent_transactions": 90480,
+      "included_parent_transactions": 11818,
+      "included_parent_percent": 13.061450044208664
+    },
+    "withdraw_claim": {
+      "observed_parent_transactions": 34382,
+      "included_parent_transactions": 33150,
+      "included_parent_percent": 96.41672968413705
+    }
+  }
+}

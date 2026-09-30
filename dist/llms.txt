@@ -1,0 +1,13 @@
+# L1 Gas Impact
+
+> Ethereum L1 execution gas directly attributable to selected L1 apps, L2s and other chains. Includes Ethereum-side activity for Solana, Hyperliquid, BSC and Polygon PoS; native execution on other chains is excluded. A fixed six-month snapshot with unequal lower-bound coverage. Table-only chain subtotals sum covered members and are absent from exported observations.
+
+## Read
+
+- [Comparison](https://l1-gas-impact.zqnm.chatgpt.site/): duration-aware gas-per-day ranking, activity breakdowns and interactive daily history.
+- [Data guide](https://l1-gas-impact.zqnm.chatgpt.site/agents.md): units, dates, scope and interpretation.
+- [Daily CSV](https://l1-gas-impact.zqnm.chatgpt.site/data/l1-gas-daily.csv): daily integer execution gas and transaction counts.
+- [Detailed JSON](https://l1-gas-impact.zqnm.chatgpt.site/data/dataset.json): source-level observations.
+- [Query manifest](https://l1-gas-impact.zqnm.chatgpt.site/data/query-manifest.json): roster, source identities, verification and receipt downloads.
+- [Methodology](https://l1-gas-impact.zqnm.chatgpt.site/data/methodology.md): attribution rules and per-product coverage limits.
+- [Evidence archive](https://l1-gas-impact.zqnm.chatgpt.site/data/l1-gas-evidence.zip): public data and verification records.
