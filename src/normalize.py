@@ -62,6 +62,13 @@ def main():
  for row in series['eth'].values():assert row['gas']==row['tx']*21000
  records.sort(key=lambda r:(r['date'],r['product'],r['activity'],r['source_id'],r.get('token','')))
  identity=hashlib.sha256(json.dumps(records,sort_keys=True,separators=(',',':')).encode()).hexdigest()[:16]
+ if '--bind-classification' in sys.argv:
+  classification_path=DATA/'l2-classification.json'
+  classification=json.loads(classification_path.read_text())
+  assert classification['classification_as_of']==dates[-1],'Review classification for the new cutoff first'
+  assert classification['reviewed_at']>=dates[-1]
+  classification['snapshot_id']=identity
+  classification_path.write_text(json.dumps(classification,ensure_ascii=False,indent=2)+'\n')
  summary={'snapshot_id':identity,'publication_ready':config['accepted_for_publication'],'unit':'Ethereum L1 receipt gasUsed','chain_id':1,'start':dates[0],'end':dates[-1],'dates':dates,'product_order':products,'product_names':product_names,'locales':['en','es','pt-BR','fr','de','zh-CN','ja','ko'],'detail_categories':DETAIL_CATEGORIES,'series':{p:list(series[p].values()) for p in products}}
  if 'product_groups' in config:summary['product_groups']=config['product_groups']
  from aggregate_classification import publish_classification

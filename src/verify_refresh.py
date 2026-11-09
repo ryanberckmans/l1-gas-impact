@@ -4,7 +4,7 @@ from urllib.parse import urlencode,urlparse,parse_qs
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from datetime import datetime,timezone
 from collections import defaultdict
-import json,gzip,sys,re
+import json,gzip,sys,re,hashlib
 from eth_abi import decode,encode
 from acquire_refresh import R,OLD,fetch,save,counters
 
@@ -15,16 +15,47 @@ def rpc(action,params,path):
  obj,_=fetch(API+urlencode({'module':'proxy','action':action,**params}),path)
  assert obj.get('result') is not None,(action,obj)
  return obj['result']
+def indexed_receipt(h,manifest):
+ # An explicitly reviewed exception still needs two independent observations
+ # of actual gasUsed plus the ordinary canonical transaction/block checks.
+ # Never substitute a gas limit for a reported execution-gas measurement.
+ def bound(name):
+  item=manifest[name];path=R/item['file']
+  assert not Path(item['file']).is_absolute() and '..' not in Path(item['file']).parts
+  raw=path.read_bytes();assert hashlib.sha256(raw).hexdigest()==item['sha256']
+  return json.loads(raw)
+ assert manifest['hash']==h and manifest['method']=='independent-indexed-receipts'
+ d=bound('routescan');rows=bound('blockchair')['data'];failure=bound('rpc_failure')
+ assert failure.get('status')=='0' and failure.get('message')=='An error occurred'
+ assert len(rows)==1
+ c=rows[0]
+ assert d['id']==c['hash']==h and d['chainId']=='1'
+ assert d['blockNumber']==c['block_id']
+ assert d['from'].lower()==c['sender'] and d['to'].lower()==c['recipient']
+ assert isinstance(d['status'],bool) and isinstance(c['failed'],bool) and d['status']!=c['failed']
+ assert int(d['gasUsed'])==c['gas_used']==21000,'Exception is limited to simple 21000-gas observations'
+ assert int(d['value'])==int(c['value'])==0 and c['input_hex']=='', 'Exception is limited to empty zero-value inbox calls'
+ return {'transactionHash':h,'blockNumber':hex(d['blockNumber']),'blockHash':d['blockHash'],
+         'gasUsed':hex(int(d['gasUsed'])),'status':hex(int(d['status'])),
+         'from':d['from'].lower(),'to':d['to'].lower()}
 def canonical(h):
- r=rpc('eth_getTransactionReceipt',{'txhash':h},R/'canonical'/(h+'-receipt.json'))
+ exception=R/'canonical-fallbacks'/(h+'.json')
+ method='canonical-rpc-receipt'
+ if exception.exists():
+  r=indexed_receipt(h,json.loads(exception.read_text()));method='independent-indexed-receipts-and-canonical-membership'
+ else:r=rpc('eth_getTransactionReceipt',{'txhash':h},R/'canonical'/(h+'-receipt.json'))
  assert r['transactionHash'].lower()==h
  b=rpc('eth_getBlockByNumber',{'tag':r['blockNumber'],'boolean':'false'},R/'canonical'/(h+'-block.json'))
  assert r['blockHash']==b['hash'] and h in b['transactions']
  t=rpc('eth_getTransactionByHash',{'txhash':h},R/'canonical'/(h+'-transaction.json'))
  assert t['hash'].lower()==h and t['blockHash']==r['blockHash']
+ if exception.exists():
+  assert t['input']=='0x' and int(t['value'],16)==0 and int(t['gas'],16)==21000
+  assert t['from'].lower()==r['from'] and t['to'].lower()==r['to']
  return {'hash':h,'gasUsed':str(int(r['gasUsed'],16)),'blockNumber':str(int(r['blockNumber'],16)),
   'blockHash':r['blockHash'],'timeStamp':str(int(b['timestamp'],16)),'isError':str(1-int(r['status'],16)),
-  'from':r['from'],'to':r['to'],'input':t['input'],'value':str(int(t['value'],16))}
+  'from':r['from'],'to':r['to'],'input':t['input'],'value':str(int(t['value'],16)),
+  'receipt_verification':method}
 def conflict_jobs():
  hashes=set()
  for p in (R/'receipt-manifests').glob('*.json'):
@@ -32,6 +63,14 @@ def conflict_jobs():
  return sorted(hashes)
 def supplement(s):
  sid=s['source_id'];rows={};pages=[]
+ if s['group']=='approvals':
+  # Legacy approval catalogues identify the spender and tokens without a
+  # redundant selector pattern. Validate configuration before row exclusions.
+  assert re.fullmatch(r'0x[0-9a-f]{40}',s['spender']) and s['tokens']
+  assert all(re.fullmatch(r'0x[0-9a-f]{40}',t) for t in s['tokens'])
+  pattern='095ea7b3'+'0'*24+s['spender'][2:]
+  assert s.get('pattern',pattern)==pattern,'Approval selector contradicts spender'
+ else:pattern=s['pattern']
  query=parse_qs(urlparse(s['url']).query)['q'][0]
  for offset in range(0,10000,100):
   if not s['tx_count']:break
@@ -78,7 +117,7 @@ def supplement(s):
  accepted=[];excluded=[]
  for r in rows.values():
   try:
-   assert re.match('^'+s['pattern'].replace('_','.'),r['input_hex'])
+   assert re.match('^'+pattern.replace('_','.'),r['input_hex'])
    raw=bytes.fromhex(r['input_hex'][8:])
    if s['group']=='approvals':
     assert r['recipient'] in s['tokens'];args=checked(['address','uint256'],raw);assert args[0]==s['spender']

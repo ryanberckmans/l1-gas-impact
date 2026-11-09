@@ -53,6 +53,7 @@ def main():
     (R/'classified').mkdir(exist_ok=True)
     for s in json.loads((R/'catalog.json').read_text()):
         address=s['address'];ledger=R/'ledgers'/(address+'.jsonl.gz');manifest=R/'receipt-manifests'/(address+'.json')
+        source_start=s.get('start_inclusive',START)
         if not ledger.exists() or not manifest.exists():missing.append(address);continue
         if only is not None and address not in only:
             prior=previous_sources[address];dest=R/'classified'/(address+'.jsonl.gz')
@@ -71,7 +72,7 @@ def main():
         expected={x['date']:[x['sum(gas_used)'],x['count()']] for x in obj['data']};actual=defaultdict(lambda:[0,0]);index_fixes=[]
         if 'ETH4' in obj['context']['servers']:
             for r in corrections:
-                if r['recipient']==address and START<=r['date']<END:
+                if r['recipient']==address and source_start<=r['date']<END:
                     expected[r['date']][0]-=r['gas_used'];expected[r['date']][1]-=1;index_fixes.append(r['hash'])
         expected={d:v for d,v in expected.items() if v!=[0,0]}
         excluded=Counter();excluded_gas=Counter();count=0;accepted=0;gas=0;method_inventory={};canonical_used=[]
@@ -80,7 +81,7 @@ def main():
             for r in repaired_rows(m,ledger,address):
                 if r['hash'] in repairs:r.update(repairs[r['hash']]);canonical_used.append(r['hash'])
                 date=day(r)
-                if not START<=date<END or (r.get('to') or '').lower()!=address:continue
+                if not source_start<=date<END or (r.get('to') or '').lower()!=address:continue
                 assert r['hash'] not in seen,('Overlapping account cohort',r['hash'])
                 seen.add(r['hash']);count+=1;g=int(r['gasUsed']);actual[date][0]+=g;actual[date][1]+=1
                 sel=r['input'][:10];inv=method_inventory.setdefault(sel,{'tx':0,'gas':0,'provider_label':r.get('functionName','')});inv['tx']+=1;inv['gas']+=g
@@ -98,7 +99,7 @@ def main():
                 output.write(json.dumps(rec,separators=(',',':'))+'\n')
                 v=daily[(date,p,activity,rec['source_id'])];v[0]+=g;v[1]+=1
         differences={d:{'receipts':actual.get(d,[0,0]),'aggregate':expected.get(d,[0,0])} for d in actual.keys()|expected.keys() if actual.get(d,[0,0])!=expected.get(d,[0,0])}
-        sources.append({'address':address,'roles':s['roles'],'transactions':count,'accepted':accepted,'accepted_gas':gas,'daily_count_and_gas_match':not differences,'differences':differences,'excluded':dict(excluded),'excluded_gas':dict(excluded_gas),'methods':method_inventory,'canonical_repairs':canonical_used,'documented_ETH4_duplicates_removed':index_fixes,'ledger_sha256':hashlib.sha256(ledger.read_bytes()).hexdigest(),'classified_sha256':hashlib.sha256(dest.read_bytes()).hexdigest()})
+        sources.append({'address':address,'roles':s['roles'],'start_inclusive':source_start,'end_exclusive':END,'transactions':count,'accepted':accepted,'accepted_gas':gas,'daily_count_and_gas_match':not differences,'differences':differences,'excluded':dict(excluded),'excluded_gas':dict(excluded_gas),'methods':method_inventory,'canonical_repairs':canonical_used,'documented_ETH4_duplicates_removed':index_fixes,'ledger_sha256':hashlib.sha256(ledger.read_bytes()).hexdigest(),'classified_sha256':hashlib.sha256(dest.read_bytes()).hexdigest()})
         print(json.dumps({'account':s['product']+'/'+s['name'],'accepted':accepted,'gas':gas,'mismatches':len(differences)}),flush=True)
     rows=[{'date':k[0],'product':k[1],'detail_bucket':k[2],'source_id':k[3],'gas_used':v[0],'tx_count':v[1]} for k,v in sorted(daily.items())]
     save(R/'daily.json',rows)

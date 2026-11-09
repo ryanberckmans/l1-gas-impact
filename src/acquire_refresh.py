@@ -4,10 +4,10 @@ Usage: acquire_refresh.py RESEARCH_DIR BASELINE_RESEARCH [aggregates|receipts]
 All times are UTC. Provider responses are immutable and content hashed.
 """
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date, timedelta
 from urllib.parse import urlencode, urlparse, parse_qs
 from urllib.request import urlopen, Request
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
 import json, gzip, hashlib, time, sys, shutil
@@ -16,9 +16,21 @@ ROOT=Path(__file__).resolve().parents[1]
 R=Path(sys.argv[1]); OLD=Path(sys.argv[2])
 START='2026-03-28'; DELTA='2026-09-15'; END='2026-09-28'
 LOW_BLOCK=25979137
+# A dated research directory binds its immutable cache to one acquisition window.
+# Historical directories without this file retain their original replay behavior.
+if (R/'window.json').exists():
+    window=json.loads((R/'window.json').read_text())
+    START=window['start_inclusive']; DELTA=window['delta_start']; END=window['end_exclusive']
+    assert date.fromisoformat(START)<=date.fromisoformat(DELTA)<date.fromisoformat(END)
+    LOW_BLOCK=window['start_block']
+    assert isinstance(LOW_BLOCK,int) and LOW_BLOCK>0
+LAST=(date.fromisoformat(END)-timedelta(days=1)).isoformat()
 HOSTS={'api.routescan.io','api.blockchair.com','raw.githubusercontent.com'}
 lock=Lock(); counters={}; next_at={}; begun=time.monotonic()
-LIMITS={'api.routescan.io':1200,'api.blockchair.com':1200,'raw.githubusercontent.com':60}
+# Local operation ceilings, below the keyless daily provider allowances.
+# Canonical conflict checks use three calls per disputed transaction.
+LIMITS={'api.routescan.io':5000,'api.blockchair.com':1200,'raw.githubusercontent.com':60}
+INTERVALS={'api.routescan.io':.5,'api.blockchair.com':2.2,'raw.githubusercontent.com':.5}
 class TerminalProviderError(RuntimeError):pass
 
 def save(path,obj):
@@ -36,7 +48,7 @@ def fetch(url,path,kind='json'):
                 assert time.monotonic()-begun<2700,'Acquisition wall-clock budget reached'
                 counters[host]=counters.get(host,0)+1
                 assert counters[host]<=LIMITS[host],'Provider request budget reached'
-                delay=max(0,next_at.get(host,0)-time.monotonic());next_at[host]=time.monotonic()+delay+.5
+                delay=max(0,next_at.get(host,0)-time.monotonic());next_at[host]=time.monotonic()+delay+INTERVALS[host]
             time.sleep(delay)
             try:
                 with urlopen(Request(url,headers={'User-Agent':'L1-Gas-Impact-Research/1.0'}),timeout=45) as response:
@@ -57,6 +69,13 @@ def fetch(url,path,kind='json'):
                 if exc.code not in [408,425,500,502,503,504]:raise
                 if attempt==2:raise
                 time.sleep(2**attempt)
+            except URLError as exc:
+                # Proxy policy refusals can arrive as tunnel errors instead of
+                # HTTPError. Retrying them cannot restore authorization.
+                if 'Tunnel connection failed: 4' in str(exc.reason):
+                    raise TerminalProviderError(str(exc)) from exc
+                if attempt==2:raise
+                time.sleep(2**attempt)
             except Exception:
                 if attempt==2:raise
                 time.sleep(2**attempt)
@@ -67,7 +86,7 @@ def fetch(url,path,kind='json'):
 def date_query(url,start=DELTA):
     q=parse_qs(urlparse(url).query)
     q={k:v[0] for k,v in q.items()}
-    q['q']=q['q'].replace('2026-03-15..2026-09-14',start+'..2026-09-27')
+    q['q']=q['q'].replace('2026-03-15..2026-09-14',start+'..'+LAST)
     return 'https://api.blockchair.com/ethereum/transactions?'+urlencode(q)
 
 def catalog():
@@ -110,7 +129,7 @@ def catalog():
     for s in c['cctp']['series']:
         if s['product']!='base':continue
         p=s['pattern'][:-16]+'0000000500000000' if s['direction']=='receive' else s['pattern'][:-64]+f'{5:064x}'
-        parts=[f'time({START}..2026-09-27)',f'recipient({s["recipient"]})',f'input_hex(^{p})']
+        parts=[f'time({START}..{LAST})',f'recipient({s["recipient"]})',f'input_hex(^{p})']
         if s['direction']=='receive':parts.append('failed(false)')
         url='https://api.blockchair.com/ethereum/transactions?'+urlencode({'q':','.join(parts),'a':'date,count(),sum(gas_used)','limit':10000})
         agg.append({**s,'source_id':s['source_id'].replace('base','solana'),'product':'solana','group':'cctp','domain':5,'pattern':p,'url':url})
@@ -118,7 +137,7 @@ def catalog():
     known={s.get('recipient',s.get('address')) for s in agg}
     for a,s in accounts.items():
         if a in known:continue
-        url='https://api.blockchair.com/ethereum/transactions?'+urlencode({'q':f'time({DELTA}..2026-09-27),recipient({a})','a':'date,count(),sum(gas_used)','limit':10000})
+        url='https://api.blockchair.com/ethereum/transactions?'+urlencode({'q':f'time({DELTA}..{LAST}),recipient({a})','a':'date,count(),sum(gas_used)','limit':10000})
         agg.append({**s,'source_id':'refresh-account-'+a,'group':'crosscheck','url':url})
     ids=[s['source_id'] for s in agg];assert len(ids)==len(set(ids)), 'Duplicate source catalog'
     save(R/'aggregate-catalog.json',agg);save(R/'account-catalog.json',list(accounts.values()))
@@ -139,6 +158,8 @@ def boundary():
 
 def receipts(s,high):
     address=s['address'];pages=[];conflicts=[];seen={}
+    low_block=s.get('start_block',LOW_BLOCK)
+    assert isinstance(low_block,int) and 0<low_block<=high
     page_size=s.get('page_size',10000)
     assert isinstance(page_size,int) and 100<=page_size<=10000
     path=R/'ledgers'/(address+'.jsonl.gz');path.parent.mkdir(exist_ok=True)
@@ -151,7 +172,7 @@ def receipts(s,high):
             for page in range(120):
                 if shutil.disk_usage(R).free<3*1024**3 or partial.stat().st_size>1536*1024**2:
                     raise TerminalProviderError('Pagination storage budget reached')
-                u='https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?'+urlencode({'module':'account','action':'txlist','address':address,'startblock':LOW_BLOCK,'endblock':high,'page':1,'offset':page_size,'sort':'desc'})
+                u='https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?'+urlencode({'module':'account','action':'txlist','address':address,'startblock':low_block,'endblock':high,'page':1,'offset':page_size,'sort':'desc'})
                 suffix='' if page_size==10000 else '-size-'+str(page_size)
                 obj,prov=fetch(u,R/'raw-receipts'/f'{address}-{high}{suffix}.json.gz');rs=obj['result'];assert isinstance(rs,list)
                 pages.append({**prov,'rows':len(rs)})

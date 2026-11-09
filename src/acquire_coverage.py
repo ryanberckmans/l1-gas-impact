@@ -25,7 +25,7 @@ def main():
     else:
         jobs=catalog
         def task(s):
-            query=f'time({A.START}..2026-09-27),recipient({s["address"]})'
+            query=f'time({A.START}..{A.LAST}),recipient({s["address"]})'
             url='https://api.blockchair.com/ethereum/transactions?'+urlencode({'q':query,'a':'date,count(),sum(gas_used)','limit':10000})
             A.aggregate({**s,'source_id':'coverage-'+s['address'],'url':url})
             if not (A.R/'receipt-manifests'/(s['address']+'.json')).exists():

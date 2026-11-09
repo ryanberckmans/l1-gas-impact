@@ -109,6 +109,16 @@ def main(receipt_dir=None):
   for entry in contents:
    b=z.read(entry['file'])
    assert len(b)==entry['bytes'] and hashlib.sha256(b).hexdigest()==entry['sha256'],('Evidence checksum',entry['file'])
+  if 'current/canonical-index.json' in z.namelist():
+   canonical_index=json.loads(z.read('current/canonical-index.json'))
+   packed=json.loads(z.read('current/canonical-responses.json'))
+   assert packed['encoding']=='UTF-8'
+   assert set(packed['responses'])=={e['sha256'] for e in canonical_index}
+   assert len(canonical_index)==len({e['original_file'] for e in canonical_index})
+   for entry in canonical_index:
+    assert entry['original_file'].startswith('current/canonical/') and '..' not in Path(entry['original_file']).parts
+    b=packed['responses'][entry['sha256']].encode('utf-8')
+    assert len(b)==entry['bytes'] and hashlib.sha256(b).hexdigest()==entry['sha256'],'Canonical evidence index mismatch'
   for n in z.namelist():
    assert not n.endswith(('.py','.js','.ts','.tsx')) and '..' not in Path(n).parts
    payload=z.read(n)

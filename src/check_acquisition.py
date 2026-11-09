@@ -2,7 +2,7 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import patch
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 import sys,io,json,gzip
 from types import SimpleNamespace
 from threading import Lock,Barrier
@@ -36,6 +36,12 @@ with TemporaryDirectory() as tmp:
     except HTTPError:pass
     assert transport.call_count==1 and not (Path(tmp)/(str(status)+'.json')).exists()
    scenarios.append(f'HTTP {status} stops after one attempt without a checkpoint')
+  reset()
+  with patch.object(a,'urlopen',side_effect=URLError(OSError('Tunnel connection failed: 403 Forbidden'))) as transport:
+   try:a.fetch(url,Path(tmp)/'proxy-refusal.json');raise AssertionError('Expected proxy refusal')
+   except a.TerminalProviderError:pass
+   assert transport.call_count==1 and not (Path(tmp)/'proxy-refusal.json').exists()
+  scenarios.append('Proxy authorization refusal stops after one request')
   reset()
   with patch.object(a,'urlopen',side_effect=HTTPError(url,502,'transient',{},None)) as transport:
    try:a.fetch(url,Path(tmp)/'transient.json');raise AssertionError('Expected finite failure')
@@ -85,21 +91,35 @@ with TemporaryDirectory() as tmp:
    a.main();a.main()
   assert state['peak']==3 and state['calls']==6,'A repeated complete operation must use checkpoints; first operation is capped at three concurrent transports'
   scenarios.append('Complete six-source operation caps concurrency at three; repeat emits zero requests')
+  reset();rpc_url='https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy'
+  rpc_barrier=Barrier(12);rpc_state={'active':0,'peak':0}
+  def rpc_transport(*args,**kwargs):
+   with guard:
+    rpc_state['active']+=1;rpc_state['peak']=max(rpc_state['peak'],rpc_state['active'])
+   rpc_barrier.wait(timeout=5)
+   with guard:rpc_state['active']-=1
+   return Response(b'{"result":{}}')
+  with patch.object(a,'urlopen',side_effect=rpc_transport),patch.object(a.time,'sleep') as delays:
+   with ThreadPoolExecutor(max_workers=12) as pool:
+    list(pool.map(lambda i:a.fetch(rpc_url,Path(tmp)/f'rpc-{i}.json'),range(12)))
+   assert sorted(call.args[0] for call in delays.call_args_list)==[i*.5 for i in range(12)]
+   assert rpc_state['peak']==12 and a.counters['api.routescan.io']==12
+  scenarios.append('Twelve concurrent canonical reads share the two-RPS transport schedule')
   address='0x'+'1'*40
   population=[{'hash':'0x'+format(i,'064x'),'blockNumber':str(200-i),'gasUsed':'21000','input':'0x','from':'0x'+'2'*40,'to':address,'timeStamp':'1','value':'0','isError':'0','blockHash':'0x'+'3'*64} for i in range(100)]
   duplicate={**population[-1],'gasUsed':'22000'}
   final={**population[-1],'hash':'0x'+format(100,'064x'),'blockNumber':'100'}
   replies=[({'result':population},{'url':'first','file':'first'}),({'result':[duplicate,final]},{'url':'last','file':'last'})]
   with patch.object(a,'fetch',side_effect=replies) as transport,redirect_stdout(io.StringIO()):
-   a.receipts({'address':address,'name':'bounded-test','product':'test','page_size':100},300)
+   a.receipts({'address':address,'name':'bounded-test','product':'test','page_size':100,'start_block':100},300)
   manifest=json.loads((Path(tmp)/'receipt-manifests'/(address+'.json')).read_text())
   with gzip.open(Path(tmp)/manifest['ledger'],'rt') as stream:restored=[json.loads(line) for line in stream]
   assert len(restored)==101 and manifest['transactions']==101 and len(manifest['unresolved_index_conflicts'])==1
-  assert restored[99]['gasUsed']=='21000' and all('offset=100&' in call.args[0] for call in transport.call_args_list)
+  assert restored[99]['gasUsed']=='21000' and all('offset=100&' in call.args[0] and 'startblock=100&' in call.args[0] for call in transport.call_args_list)
   assert not list((Path(tmp)/'receipt-work').rglob('*.sqlite')),'Scratch databases must be removed after each population'
   scenarios.append('Streaming pagination deduplicates overlaps, bounds fingerprint memory and preserves conflicts for canonical review')
   with patch.object(a,'fetch',side_effect=replies),redirect_stdout(io.StringIO()):
-   a.receipts({'address':address,'name':'compact-test','product':'test','page_size':100,'calldata_in_pages':True},300)
+   a.receipts({'address':address,'name':'compact-test','product':'test','page_size':100,'calldata_in_pages':True,'start_block':100},300)
   with gzip.open(Path(tmp)/manifest['ledger'],'rt') as stream:compact=[json.loads(line) for line in stream]
   assert len(compact)==101 and all('input' not in row and 'input_sha256' in row and 'input_page' in row for row in compact)
   scenarios.append('Bulky calldata remains referenced in original pages instead of duplicated in receipt checkpoints')

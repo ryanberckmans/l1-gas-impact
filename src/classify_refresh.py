@@ -63,9 +63,18 @@ def safe_leaves(r):
 def main():
  canonical=json.loads((R/'canonical-verification.json').read_text());assert not canonical['errors']
  repairs={r['hash']:r for r in canonical['results']}
+ extra=json.loads((R/'canonical-extra.json').read_text()) if (R/'canonical-extra.json').exists() else {}
+ assert not extra.get('errors')
+ repairs.update({r['hash']:r for r in extra.get('results',[])})
+ rejected={r['hash'] for r in extra.get('rejected_noncanonical',[])}
  ledgers={};reconciliations=[];mismatches=[]
+ core_accounts={s['address'] for s in json.loads((R/'core-account-catalog.json').read_text())} if (R/'core-account-catalog.json').exists() else None
  for f in (R/'receipt-manifests').glob('*.json'):
+  if core_accounts is not None and f.stem not in core_accounts:continue
   m=json.loads(f.read_text());rows=[json.loads(l) for l in gzip.open(R/m['ledger'],'rt')]
+  rows=[r for r in rows if r['hash'] not in rejected]
+  present={r['hash'] for r in rows}
+  rows.extend(r.copy() for r in extra.get('results',[]) if r['hash'] not in present and (r.get('to') or '').lower()==m['address'])
   for r in rows:
    if r['hash'] in repairs:r.update(repairs[r['hash']])
   assert len(rows)==len({r['hash'] for r in rows})
@@ -101,7 +110,11 @@ def main():
    if s.get('sender') and r['from'].lower()!=s['sender']:continue
    if s.get('selector') and not r['input'].startswith(s['selector']):continue
    add(r,p,s['bucket'],sid)
- for s in json.loads((OLD/'expanded/catalog.json').read_text()):
+ catalog_path=R/'core-catalog.json' if (R/'core-catalog.json').exists() else OLD/'expanded/catalog.json'
+ for s in json.loads(catalog_path.read_text()):
+  # Messenger/bridge context entries support withdrawal decoding but are not
+  # independently accepted source populations.
+  if 'source_id' not in s:continue
   for r in ledgers[s['recipient']]:
    if not DELTA<=day(r)<END:continue
    try:b=classify(s,r)
