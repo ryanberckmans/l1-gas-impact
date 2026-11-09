@@ -1,257 +1,257 @@
 {
   "eth": {
     "7": {
-      "gas": 72102177000,
-      "transactions": 3433437,
-      "average_gas_per_day": 10300311000.0
+      "gas": 84311409000,
+      "transactions": 4014829,
+      "average_gas_per_day": 12044487000.0
     },
     "30": {
-      "gas": 338592135000,
-      "transactions": 16123435,
-      "average_gas_per_day": 11286404500.0
+      "gas": 323233302000,
+      "transactions": 15392062,
+      "average_gas_per_day": 10774443400.0
     },
     "184": {
-      "gas": 3582977265000,
-      "transactions": 170617965,
-      "average_gas_per_day": 19472702527.173912
+      "gas": 3235115835000,
+      "transactions": 154053135,
+      "average_gas_per_day": 17582151277.173912
     }
   },
   "uniswap": {
     "7": {
-      "gas": 36017073812,
-      "transactions": 215429,
-      "average_gas_per_day": 5145296258.857142
+      "gas": 60865870045,
+      "transactions": 432935,
+      "average_gas_per_day": 8695124292.142857
     },
     "30": {
-      "gas": 222500326985,
-      "transactions": 1324799,
-      "average_gas_per_day": 7416677566.166667
+      "gas": 219184680052,
+      "transactions": 1412998,
+      "average_gas_per_day": 7306156001.733334
     },
     "184": {
-      "gas": 1501309500123,
-      "transactions": 8435838,
-      "average_gas_per_day": 8159290761.538043
+      "gas": 1427854555271,
+      "transactions": 8297885,
+      "average_gas_per_day": 7760079104.733696
     }
   },
   "lighter": {
     "7": {
-      "gas": 2642335717,
-      "transactions": 11543,
-      "average_gas_per_day": 377476531.0
+      "gas": 3931218679,
+      "transactions": 16216,
+      "average_gas_per_day": 561602668.4285715
     },
     "30": {
-      "gas": 9676583982,
-      "transactions": 44533,
-      "average_gas_per_day": 322552799.4
+      "gas": 13075565373,
+      "transactions": 54345,
+      "average_gas_per_day": 435852179.1
     },
     "184": {
-      "gas": 59874790501,
-      "transactions": 269266,
-      "average_gas_per_day": 325406470.11413044
+      "gas": 66008326132,
+      "transactions": 289749,
+      "average_gas_per_day": 358740902.8913044
     }
   },
   "base": {
     "7": {
-      "gas": 2261029001,
-      "transactions": 30640,
-      "average_gas_per_day": 323004143.0
+      "gas": 15420948738,
+      "transactions": 31142,
+      "average_gas_per_day": 2202992676.857143
     },
     "30": {
-      "gas": 9049615529,
-      "transactions": 105733,
-      "average_gas_per_day": 301653850.96666664
+      "gas": 24393376598,
+      "transactions": 132333,
+      "average_gas_per_day": 813112553.2666667
     },
     "184": {
-      "gas": 49915397074,
-      "transactions": 529596,
-      "average_gas_per_day": 271279331.92391306
+      "gas": 68981631649,
+      "transactions": 599769,
+      "average_gas_per_day": 374900172.0054348
     }
   },
   "arbitrum": {
     "7": {
-      "gas": 1738489001,
-      "transactions": 12008,
-      "average_gas_per_day": 248355571.57142857
+      "gas": 1446944323,
+      "transactions": 9860,
+      "average_gas_per_day": 206706331.85714287
     },
     "30": {
-      "gas": 6835604027,
-      "transactions": 47000,
-      "average_gas_per_day": 227853467.56666666
+      "gas": 6278569042,
+      "transactions": 42713,
+      "average_gas_per_day": 209285634.73333332
     },
     "184": {
-      "gas": 40935151002,
-      "transactions": 280721,
-      "average_gas_per_day": 222473646.75
+      "gas": 41502636243,
+      "transactions": 283805,
+      "average_gas_per_day": 225557805.66847825
     }
   },
   "robinhood": {
     "7": {
-      "gas": 3987560858,
-      "transactions": 34184,
-      "average_gas_per_day": 569651551.1428572
+      "gas": 2533335465,
+      "transactions": 19076,
+      "average_gas_per_day": 361905066.4285714
     },
     "30": {
-      "gas": 25916356968,
-      "transactions": 228094,
-      "average_gas_per_day": 863878565.6
+      "gas": 11396580735,
+      "transactions": 87126,
+      "average_gas_per_day": 379886024.5
     },
     "184": {
-      "gas": 59620836003,
-      "transactions": 530652,
-      "average_gas_per_day": 324026282.625
+      "gas": 76893721201,
+      "transactions": 666128,
+      "average_gas_per_day": 417900658.70108694
     }
   },
   "worldchain": {
     "7": {
-      "gas": 139207643,
-      "transactions": 2186,
-      "average_gas_per_day": 19886806.14285714
+      "gas": 124061639,
+      "transactions": 1631,
+      "average_gas_per_day": 17723091.285714287
     },
     "30": {
-      "gas": 587206455,
-      "transactions": 9548,
-      "average_gas_per_day": 19573548.5
+      "gas": 565894604,
+      "transactions": 8815,
+      "average_gas_per_day": 18863153.466666665
     },
     "184": {
-      "gas": 4143645940,
-      "transactions": 87697,
-      "average_gas_per_day": 22519814.891304348
+      "gas": 3979683145,
+      "transactions": 76332,
+      "average_gas_per_day": 21628712.74456522
     }
   },
   "unichain": {
     "7": {
-      "gas": 198514521,
-      "transactions": 2716,
-      "average_gas_per_day": 28359217.285714287
+      "gas": 145817217,
+      "transactions": 1504,
+      "average_gas_per_day": 20831031.0
     },
     "30": {
-      "gas": 701429538,
-      "transactions": 9508,
-      "average_gas_per_day": 23380984.6
+      "gas": 661942237,
+      "transactions": 7518,
+      "average_gas_per_day": 22064741.233333334
     },
     "184": {
-      "gas": 4076853732,
-      "transactions": 55465,
-      "average_gas_per_day": 22156813.760869566
+      "gas": 4076608526,
+      "transactions": 54987,
+      "average_gas_per_day": 22155481.11956522
     }
   },
   "op": {
     "7": {
-      "gas": 636208433,
-      "transactions": 5980,
-      "average_gas_per_day": 90886919.0
+      "gas": 723820527,
+      "transactions": 6766,
+      "average_gas_per_day": 103402932.42857143
     },
     "30": {
-      "gas": 2077965718,
-      "transactions": 29528,
-      "average_gas_per_day": 69265523.93333334
+      "gas": 3184415431,
+      "transactions": 28785,
+      "average_gas_per_day": 106147181.03333333
     },
     "184": {
-      "gas": 9455057034,
-      "transactions": 103713,
-      "average_gas_per_day": 51386179.532608695
+      "gas": 11803770015,
+      "transactions": 126646,
+      "average_gas_per_day": 64150923.99456522
     }
   },
   "ink": {
     "7": {
-      "gas": 57711449,
-      "transactions": 1303,
-      "average_gas_per_day": 8244492.714285715
+      "gas": 89365853,
+      "transactions": 2783,
+      "average_gas_per_day": 12766550.42857143
     },
     "30": {
-      "gas": 310705645,
-      "transactions": 6565,
-      "average_gas_per_day": 10356854.833333334
+      "gas": 348531874,
+      "transactions": 10920,
+      "average_gas_per_day": 11617729.133333333
     },
     "184": {
-      "gas": 1850577050,
-      "transactions": 24088,
-      "average_gas_per_day": 10057483.967391305
+      "gas": 1788714131,
+      "transactions": 31645,
+      "average_gas_per_day": 9721272.451086957
     }
   },
   "aztecnetwork": {
     "7": {
-      "gas": 10402109919,
-      "transactions": 6079,
-      "average_gas_per_day": 1486015702.7142856
+      "gas": 8773098746,
+      "transactions": 5987,
+      "average_gas_per_day": 1253299820.857143
     },
     "30": {
-      "gas": 66255400974,
-      "transactions": 38779,
-      "average_gas_per_day": 2208513365.8
+      "gas": 26526390485,
+      "transactions": 17302,
+      "average_gas_per_day": 884213016.1666666
     },
     "184": {
-      "gas": 583258954263,
-      "transactions": 230287,
-      "average_gas_per_day": 3169885620.994565
+      "gas": 420681562306,
+      "transactions": 193063,
+      "average_gas_per_day": 2286312838.619565
     }
   },
   "aave": {
     "7": {
-      "gas": 3624412851,
-      "transactions": 15352,
-      "average_gas_per_day": 517773264.4285714
+      "gas": 2976247710,
+      "transactions": 13339,
+      "average_gas_per_day": 425178244.28571427
     },
     "30": {
-      "gas": 14465045257,
-      "transactions": 63687,
-      "average_gas_per_day": 482168175.23333335
+      "gas": 12012507485,
+      "transactions": 53087,
+      "average_gas_per_day": 400416916.1666667
     },
     "184": {
-      "gas": 86410656333,
-      "transactions": 396073,
-      "average_gas_per_day": 469623132.2445652
+      "gas": 77519192192,
+      "transactions": 345929,
+      "average_gas_per_day": 421299957.5652174
     }
   },
   "polygon": {
     "7": {
-      "gas": 1577612463,
-      "transactions": 2338,
-      "average_gas_per_day": 225373209.0
+      "gas": 1515321000,
+      "transactions": 2500,
+      "average_gas_per_day": 216474428.57142857
     },
     "30": {
-      "gas": 6008828473,
-      "transactions": 10548,
-      "average_gas_per_day": 200294282.43333334
+      "gas": 6659727766,
+      "transactions": 9700,
+      "average_gas_per_day": 221990925.53333333
     },
     "184": {
-      "gas": 32996043639,
-      "transactions": 61461,
-      "average_gas_per_day": 179326324.125
+      "gas": 35012702598,
+      "transactions": 58959,
+      "average_gas_per_day": 190286427.16304347
     }
   },
   "grvt": {
     "7": {
-      "gas": 1294259265,
-      "transactions": 6585,
-      "average_gas_per_day": 184894180.7142857
+      "gas": 1883564081,
+      "transactions": 7210,
+      "average_gas_per_day": 269080583.0
     },
     "30": {
-      "gas": 5470782256,
-      "transactions": 27832,
-      "average_gas_per_day": 182359408.53333333
+      "gas": 7476691352,
+      "transactions": 29384,
+      "average_gas_per_day": 249223045.06666666
     },
     "184": {
-      "gas": 32285973334,
-      "transactions": 141929,
-      "average_gas_per_day": 175467246.38043478
+      "gas": 35848517053,
+      "transactions": 157383,
+      "average_gas_per_day": 194828897.0271739
     }
   },
   "solana": {
     "7": {
-      "gas": 1158361318,
-      "transactions": 5748,
-      "average_gas_per_day": 165480188.2857143
+      "gas": 934667043,
+      "transactions": 5057,
+      "average_gas_per_day": 133523863.28571428
     },
     "30": {
-      "gas": 3937785715,
-      "transactions": 20559,
-      "average_gas_per_day": 131259523.83333333
+      "gas": 3770039838,
+      "transactions": 20876,
+      "average_gas_per_day": 125667994.6
     },
     "184": {
-      "gas": 24045599786,
-      "transactions": 113032,
-      "average_gas_per_day": 130682607.5326087
+      "gas": 22776082252,
+      "transactions": 114559,
+      "average_gas_per_day": 123783055.7173913
     }
   },
   "abstract": {
@@ -266,492 +266,492 @@
       "average_gas_per_day": 0.0
     },
     "184": {
-      "gas": 20683560567,
-      "transactions": 80890,
-      "average_gas_per_day": 112410655.25543478
+      "gas": 13139225505,
+      "transactions": 50693,
+      "average_gas_per_day": 71408834.26630434
     }
   },
   "sky": {
     "7": {
-      "gas": 637214733,
-      "transactions": 15317,
-      "average_gas_per_day": 91030676.14285715
+      "gas": 609305575,
+      "transactions": 14617,
+      "average_gas_per_day": 87043653.57142857
     },
     "30": {
-      "gas": 2443605283,
-      "transactions": 58404,
-      "average_gas_per_day": 81453509.43333334
+      "gas": 2470371531,
+      "transactions": 58947,
+      "average_gas_per_day": 82345717.7
     },
     "184": {
-      "gas": 16957319507,
-      "transactions": 409741,
-      "average_gas_per_day": 92159345.14673913
+      "gas": 14383285409,
+      "transactions": 334250,
+      "average_gas_per_day": 78170029.39673913
     }
   },
   "ethena": {
     "7": {
-      "gas": 1042688716,
-      "transactions": 24982,
-      "average_gas_per_day": 148955530.85714287
+      "gas": 833456340,
+      "transactions": 17984,
+      "average_gas_per_day": 119065191.42857143
     },
     "30": {
-      "gas": 3615923830,
-      "transactions": 78925,
-      "average_gas_per_day": 120530794.33333333
+      "gas": 3215678447,
+      "transactions": 73448,
+      "average_gas_per_day": 107189281.56666666
     },
     "184": {
-      "gas": 16326283043,
-      "transactions": 346476,
-      "average_gas_per_day": 88729799.14673913
+      "gas": 17849011969,
+      "transactions": 388895,
+      "average_gas_per_day": 97005499.83152173
     }
   },
   "lido": {
     "7": {
-      "gas": 398456589,
-      "transactions": 3729,
-      "average_gas_per_day": 56922369.85714286
+      "gas": 445169511,
+      "transactions": 4595,
+      "average_gas_per_day": 63595644.428571425
     },
     "30": {
-      "gas": 1614548161,
-      "transactions": 15679,
-      "average_gas_per_day": 53818272.03333333
+      "gas": 1544329476,
+      "transactions": 15727,
+      "average_gas_per_day": 51477649.2
     },
     "184": {
-      "gas": 10683292570,
-      "transactions": 106293,
-      "average_gas_per_day": 58061372.66304348
+      "gas": 10144735446,
+      "transactions": 101438,
+      "average_gas_per_day": 55134431.77173913
     }
   },
   "megaeth": {
     "7": {
-      "gas": 148505081,
-      "transactions": 1582,
-      "average_gas_per_day": 21215011.57142857
+      "gas": 162696999,
+      "transactions": 1593,
+      "average_gas_per_day": 23242428.42857143
     },
     "30": {
-      "gas": 688549635,
-      "transactions": 6827,
-      "average_gas_per_day": 22951654.5
+      "gas": 672617253,
+      "transactions": 6814,
+      "average_gas_per_day": 22420575.1
     },
     "184": {
-      "gas": 10075214842,
-      "transactions": 79337,
-      "average_gas_per_day": 54756602.402173914
+      "gas": 7438118774,
+      "transactions": 78853,
+      "average_gas_per_day": 40424558.55434783
     }
   },
   "adi": {
     "7": {
-      "gas": 249439219,
-      "transactions": 1030,
-      "average_gas_per_day": 35634174.14285714
+      "gas": 151312924,
+      "transactions": 606,
+      "average_gas_per_day": 21616132.0
     },
     "30": {
-      "gas": 1428462560,
-      "transactions": 5925,
-      "average_gas_per_day": 47615418.666666664
+      "gas": 677228680,
+      "transactions": 2715,
+      "average_gas_per_day": 22574289.333333332
     },
     "184": {
-      "gas": 9771071705,
-      "transactions": 40516,
-      "average_gas_per_day": 53103650.57065217
+      "gas": 10353650028,
+      "transactions": 42861,
+      "average_gas_per_day": 56269837.10869565
     }
   },
   "celo": {
     "7": {
-      "gas": 337327534,
-      "transactions": 2540,
-      "average_gas_per_day": 48189647.71428572
+      "gas": 395398894,
+      "transactions": 2761,
+      "average_gas_per_day": 56485556.28571428
     },
     "30": {
-      "gas": 1568349916,
-      "transactions": 11431,
-      "average_gas_per_day": 52278330.53333333
+      "gas": 1412628468,
+      "transactions": 9134,
+      "average_gas_per_day": 47087615.6
     },
     "184": {
-      "gas": 8704994246,
-      "transactions": 57422,
-      "average_gas_per_day": 47309751.33695652
+      "gas": 9176584576,
+      "transactions": 63454,
+      "average_gas_per_day": 49872742.26086956
     }
   },
   "bsc": {
     "7": {
-      "gas": 227040857,
-      "transactions": 1566,
-      "average_gas_per_day": 32434408.14285714
+      "gas": 201707817,
+      "transactions": 1445,
+      "average_gas_per_day": 28815402.42857143
     },
     "30": {
-      "gas": 1030945810,
-      "transactions": 7167,
-      "average_gas_per_day": 34364860.333333336
+      "gas": 850013614,
+      "transactions": 5898,
+      "average_gas_per_day": 28333787.133333333
     },
     "184": {
-      "gas": 7906227183,
-      "transactions": 50132,
-      "average_gas_per_day": 42968625.99456522
+      "gas": 7115672754,
+      "transactions": 46378,
+      "average_gas_per_day": 38672134.532608695
     }
   },
   "nova": {
     "7": {
-      "gas": 77451004,
-      "transactions": 521,
-      "average_gas_per_day": 11064429.142857144
+      "gas": 63904851,
+      "transactions": 418,
+      "average_gas_per_day": 9129264.42857143
     },
     "30": {
-      "gas": 464529542,
-      "transactions": 3133,
-      "average_gas_per_day": 15484318.066666666
+      "gas": 304078992,
+      "transactions": 1994,
+      "average_gas_per_day": 10135966.4
     },
     "184": {
-      "gas": 7398100552,
-      "transactions": 48975,
-      "average_gas_per_day": 40207068.217391305
+      "gas": 5914296517,
+      "transactions": 39137,
+      "average_gas_per_day": 32142915.85326087
     }
   },
   "zksync2": {
     "7": {
-      "gas": 264637188,
-      "transactions": 1019,
-      "average_gas_per_day": 37805312.571428575
+      "gas": 287605021,
+      "transactions": 1023,
+      "average_gas_per_day": 41086431.571428575
     },
     "30": {
-      "gas": 1147877861,
-      "transactions": 4411,
-      "average_gas_per_day": 38262595.36666667
+      "gas": 1172572269,
+      "transactions": 4417,
+      "average_gas_per_day": 39085742.3
     },
     "184": {
-      "gas": 7123172705,
-      "transactions": 28077,
-      "average_gas_per_day": 38712895.13586956
+      "gas": 7285914682,
+      "transactions": 28013,
+      "average_gas_per_day": 39597362.402173914
     }
   },
   "taiko": {
     "7": {
-      "gas": 245518268,
-      "transactions": 1884,
-      "average_gas_per_day": 35074038.28571428
+      "gas": 267604697,
+      "transactions": 1893,
+      "average_gas_per_day": 38229242.428571425
     },
     "30": {
-      "gas": 1093538193,
-      "transactions": 8055,
-      "average_gas_per_day": 36451273.1
+      "gas": 1081656855,
+      "transactions": 8115,
+      "average_gas_per_day": 36055228.5
     },
     "184": {
-      "gas": 7018540196,
-      "transactions": 47240,
-      "average_gas_per_day": 38144240.19565217
+      "gas": 6850658918,
+      "transactions": 48307,
+      "average_gas_per_day": 37231841.94565217
     }
   },
   "starknet": {
     "7": {
-      "gas": 139359676,
-      "transactions": 581,
-      "average_gas_per_day": 19908525.14285714
+      "gas": 76224622,
+      "transactions": 428,
+      "average_gas_per_day": 10889231.714285715
     },
     "30": {
-      "gas": 602646563,
-      "transactions": 2221,
-      "average_gas_per_day": 20088218.766666666
+      "gas": 540306373,
+      "transactions": 2822,
+      "average_gas_per_day": 18010212.433333334
     },
     "184": {
-      "gas": 4021628254,
-      "transactions": 14513,
-      "average_gas_per_day": 21856675.29347826
+      "gas": 4430239878,
+      "transactions": 14562,
+      "average_gas_per_day": 24077390.641304348
     }
   },
   "mantle": {
     "7": {
-      "gas": 133720170,
-      "transactions": 1729,
-      "average_gas_per_day": 19102881.42857143
+      "gas": 161229379,
+      "transactions": 1795,
+      "average_gas_per_day": 23032768.42857143
     },
     "30": {
-      "gas": 566356299,
-      "transactions": 7471,
-      "average_gas_per_day": 18878543.3
+      "gas": 679985286,
+      "transactions": 7698,
+      "average_gas_per_day": 22666176.2
     },
     "184": {
-      "gas": 3867323027,
-      "transactions": 46412,
-      "average_gas_per_day": 21018059.929347824
+      "gas": 3827474762,
+      "transactions": 46416,
+      "average_gas_per_day": 20801493.27173913
     }
   },
   "morpho": {
     "7": {
-      "gas": 149901813,
-      "transactions": 1328,
-      "average_gas_per_day": 21414544.714285713
+      "gas": 226091397,
+      "transactions": 2122,
+      "average_gas_per_day": 32298771.0
     },
     "30": {
-      "gas": 715043188,
-      "transactions": 6453,
-      "average_gas_per_day": 23834772.933333334
+      "gas": 620830017,
+      "transactions": 6121,
+      "average_gas_per_day": 20694333.9
     },
     "184": {
-      "gas": 3155192319,
-      "transactions": 28181,
-      "average_gas_per_day": 17147784.342391305
+      "gas": 3513731428,
+      "transactions": 32107,
+      "average_gas_per_day": 19096366.45652174
     }
   },
   "hyperliquid": {
     "7": {
-      "gas": 234698953,
-      "transactions": 1439,
-      "average_gas_per_day": 33528421.85714286
+      "gas": 404795770,
+      "transactions": 2684,
+      "average_gas_per_day": 57827967.14285714
     },
     "30": {
-      "gas": 882449047,
-      "transactions": 5482,
-      "average_gas_per_day": 29414968.233333334
+      "gas": 2548580393,
+      "transactions": 17400,
+      "average_gas_per_day": 84952679.76666667
     },
     "184": {
-      "gas": 2893163930,
-      "transactions": 19159,
-      "average_gas_per_day": 15723717.010869564
+      "gas": 5480418718,
+      "transactions": 36801,
+      "average_gas_per_day": 29784884.336956523
     }
   },
   "compound": {
     "7": {
-      "gas": 128128034,
-      "transactions": 977,
-      "average_gas_per_day": 18304004.85714286
+      "gas": 86348797,
+      "transactions": 704,
+      "average_gas_per_day": 12335542.42857143
     },
     "30": {
-      "gas": 510951529,
-      "transactions": 4001,
-      "average_gas_per_day": 17031717.633333333
+      "gas": 387954801,
+      "transactions": 3142,
+      "average_gas_per_day": 12931826.7
     },
     "184": {
-      "gas": 2822291831,
-      "transactions": 22772,
-      "average_gas_per_day": 15338542.55978261
+      "gas": 2875539621,
+      "transactions": 22938,
+      "average_gas_per_day": 15627932.722826088
     }
   },
   "edge": {
     "7": {
-      "gas": 154266,
-      "transactions": 1,
-      "average_gas_per_day": 22038.0
+      "gas": 0,
+      "transactions": 0,
+      "average_gas_per_day": 0.0
     },
     "30": {
-      "gas": 668347,
-      "transactions": 4,
-      "average_gas_per_day": 22278.233333333334
+      "gas": 0,
+      "transactions": 0,
+      "average_gas_per_day": 0.0
     },
     "184": {
-      "gas": 2731253450,
-      "transactions": 16030,
-      "average_gas_per_day": 14843768.75
+      "gas": 566827259,
+      "transactions": 3435,
+      "average_gas_per_day": 3080582.929347826
     }
   },
   "metis": {
     "7": {
-      "gas": 96536269,
-      "transactions": 588,
-      "average_gas_per_day": 13790895.57142857
+      "gas": 92637033,
+      "transactions": 581,
+      "average_gas_per_day": 13233861.857142856
     },
     "30": {
-      "gas": 391402826,
-      "transactions": 2511,
-      "average_gas_per_day": 13046760.866666667
+      "gas": 393169325,
+      "transactions": 2507,
+      "average_gas_per_day": 13105644.166666666
     },
     "184": {
-      "gas": 2347693811,
-      "transactions": 14825,
-      "average_gas_per_day": 12759205.494565217
+      "gas": 2307590153,
+      "transactions": 14877,
+      "average_gas_per_day": 12541250.831521738
     }
   },
   "avalanche": {
     "7": {
-      "gas": 84193950,
-      "transactions": 516,
-      "average_gas_per_day": 12027707.142857144
+      "gas": 99819847,
+      "transactions": 653,
+      "average_gas_per_day": 14259978.142857144
     },
     "30": {
-      "gas": 302981974,
-      "transactions": 1956,
-      "average_gas_per_day": 10099399.133333333
+      "gas": 302286565,
+      "transactions": 1984,
+      "average_gas_per_day": 10076218.833333334
     },
     "184": {
-      "gas": 2048020751,
-      "transactions": 13197,
-      "average_gas_per_day": 11130547.55978261
+      "gas": 2000713702,
+      "transactions": 12938,
+      "average_gas_per_day": 10873444.032608695
     }
   },
   "soneium": {
     "7": {
-      "gas": 57282411,
-      "transactions": 785,
-      "average_gas_per_day": 8183201.571428572
+      "gas": 30616380,
+      "transactions": 163,
+      "average_gas_per_day": 4373768.571428572
     },
     "30": {
-      "gas": 271238985,
-      "transactions": 3678,
-      "average_gas_per_day": 9041299.5
+      "gas": 176625208,
+      "transactions": 1877,
+      "average_gas_per_day": 5887506.933333334
     },
     "184": {
-      "gas": 2044089393,
-      "transactions": 33294,
-      "average_gas_per_day": 11109181.483695652
+      "gas": 1841539317,
+      "transactions": 28739,
+      "average_gas_per_day": 10008365.85326087
     }
   },
   "monad": {
     "7": {
-      "gas": 150925025,
-      "transactions": 958,
-      "average_gas_per_day": 21560717.85714286
+      "gas": 126554802,
+      "transactions": 811,
+      "average_gas_per_day": 18079257.42857143
     },
     "30": {
-      "gas": 530914143,
-      "transactions": 3510,
-      "average_gas_per_day": 17697138.1
+      "gas": 574647424,
+      "transactions": 3708,
+      "average_gas_per_day": 19154914.133333333
     },
     "184": {
-      "gas": 1970154392,
-      "transactions": 13403,
-      "average_gas_per_day": 10707360.826086957
+      "gas": 2528733033,
+      "transactions": 16879,
+      "average_gas_per_day": 13743114.30978261
     }
   },
   "noble": {
     "7": {
-      "gas": 67938479,
-      "transactions": 449,
-      "average_gas_per_day": 9705497.0
+      "gas": 43169157,
+      "transactions": 286,
+      "average_gas_per_day": 6167022.428571428
     },
     "30": {
-      "gas": 259704460,
-      "transactions": 1725,
-      "average_gas_per_day": 8656815.333333334
+      "gas": 187531304,
+      "transactions": 1244,
+      "average_gas_per_day": 6251043.466666667
     },
     "184": {
-      "gas": 1728450146,
-      "transactions": 11455,
-      "average_gas_per_day": 9393750.793478262
+      "gas": 1555585690,
+      "transactions": 10303,
+      "average_gas_per_day": 8454270.054347826
     }
   },
   "scroll": {
     "7": {
-      "gas": 57222987,
-      "transactions": 222,
-      "average_gas_per_day": 8174712.428571428
+      "gas": 60010280,
+      "transactions": 234,
+      "average_gas_per_day": 8572897.142857144
     },
     "30": {
-      "gas": 247427241,
-      "transactions": 960,
-      "average_gas_per_day": 8247574.7
+      "gas": 241597202,
+      "transactions": 940,
+      "average_gas_per_day": 8053240.066666666
     },
     "184": {
-      "gas": 1608857644,
-      "transactions": 6264,
-      "average_gas_per_day": 8743791.543478262
+      "gas": 1498195125,
+      "transactions": 5815,
+      "average_gas_per_day": 8142364.809782608
     }
   },
   "linea": {
     "7": {
-      "gas": 49475137,
-      "transactions": 237,
-      "average_gas_per_day": 7067876.714285715
+      "gas": 60848480,
+      "transactions": 438,
+      "average_gas_per_day": 8692640.0
     },
     "30": {
-      "gas": 202995343,
-      "transactions": 1034,
-      "average_gas_per_day": 6766511.433333334
+      "gas": 208625689,
+      "transactions": 1165,
+      "average_gas_per_day": 6954189.633333334
     },
     "184": {
-      "gas": 1406616334,
-      "transactions": 6712,
-      "average_gas_per_day": 7644653.989130435
+      "gas": 1371114646,
+      "transactions": 6822,
+      "average_gas_per_day": 7451710.032608695
     }
   },
   "blast": {
     "7": {
-      "gas": 66195531,
-      "transactions": 747,
-      "average_gas_per_day": 9456504.42857143
+      "gas": 18934162,
+      "transactions": 230,
+      "average_gas_per_day": 2704880.285714286
     },
     "30": {
-      "gas": 214148796,
-      "transactions": 2071,
-      "average_gas_per_day": 7138293.2
+      "gas": 2351768436,
+      "transactions": 7802,
+      "average_gas_per_day": 78392281.2
     },
     "184": {
-      "gas": 1276475898,
-      "transactions": 14413,
-      "average_gas_per_day": 6937369.010869565
+      "gas": 4034790208,
+      "transactions": 22386,
+      "average_gas_per_day": 21928207.652173914
     }
   },
   "morph": {
     "7": {
-      "gas": 190412374,
-      "transactions": 1128,
-      "average_gas_per_day": 27201767.714285713
+      "gas": 360296683,
+      "transactions": 2027,
+      "average_gas_per_day": 51470954.71428572
     },
     "30": {
-      "gas": 394105524,
-      "transactions": 3097,
-      "average_gas_per_day": 13136850.8
+      "gas": 1235531833,
+      "transactions": 6899,
+      "average_gas_per_day": 41184394.43333333
     },
     "184": {
-      "gas": 1136216638,
-      "transactions": 10489,
-      "average_gas_per_day": 6175090.423913044
+      "gas": 2551110233,
+      "transactions": 17649,
+      "average_gas_per_day": 13864729.527173912
     }
   },
   "etherfi": {
     "7": {
-      "gas": 52959309,
-      "transactions": 546,
-      "average_gas_per_day": 7565615.571428572
+      "gas": 47470967,
+      "transactions": 510,
+      "average_gas_per_day": 6781566.714285715
     },
     "30": {
-      "gas": 191681175,
-      "transactions": 1966,
-      "average_gas_per_day": 6389372.5
+      "gas": 160480231,
+      "transactions": 1506,
+      "average_gas_per_day": 5349341.033333333
     },
     "184": {
-      "gas": 1026874822,
-      "transactions": 10211,
-      "average_gas_per_day": 5580841.423913044
+      "gas": 1002237563,
+      "transactions": 9841,
+      "average_gas_per_day": 5446943.277173913
     }
   },
   "sophon": {
     "7": {
-      "gas": 38243662,
-      "transactions": 165,
-      "average_gas_per_day": 5463380.285714285
+      "gas": 38930258,
+      "transactions": 163,
+      "average_gas_per_day": 5561465.428571428
     },
     "30": {
-      "gas": 161921363,
-      "transactions": 695,
-      "average_gas_per_day": 5397378.766666667
+      "gas": 162310372,
+      "transactions": 694,
+      "average_gas_per_day": 5410345.733333333
     },
     "184": {
-      "gas": 1013802374,
-      "transactions": 4378,
-      "average_gas_per_day": 5509795.510869565
+      "gas": 1008317098,
+      "transactions": 4340,
+      "average_gas_per_day": 5479984.228260869
     }
   },
   "arc": {
     "7": {
-      "gas": 160151562,
-      "transactions": 1204,
-      "average_gas_per_day": 22878794.57142857
+      "gas": 116795242,
+      "transactions": 839,
+      "average_gas_per_day": 16685034.57142857
     },
     "30": {
-      "gas": 565768577,
-      "transactions": 4394,
-      "average_gas_per_day": 18858952.566666666
+      "gas": 567676252,
+      "transactions": 3807,
+      "average_gas_per_day": 18922541.733333334
     },
     "184": {
-      "gas": 955807611,
-      "transactions": 7075,
-      "average_gas_per_day": 5194606.581521739
+      "gas": 1772355127,
+      "transactions": 12781,
+      "average_gas_per_day": 9632364.820652174
     }
   },
   "katana": {
     "7": {
-      "gas": 29988000,
-      "transactions": 1428,
-      "average_gas_per_day": 4284000.0
+      "gas": 30240000,
+      "transactions": 1440,
+      "average_gas_per_day": 4320000.0
     },
     "30": {
       "gas": 129192000,
@@ -759,196 +759,196 @@
       "average_gas_per_day": 4306400.0
     },
     "184": {
-      "gas": 798834415,
-      "transactions": 37688,
-      "average_gas_per_day": 4341491.385869565
+      "gas": 798939415,
+      "transactions": 37693,
+      "average_gas_per_day": 4342062.0380434785
     }
   },
   "sonic": {
     "7": {
-      "gas": 42506091,
-      "transactions": 280,
-      "average_gas_per_day": 6072298.714285715
+      "gas": 25087264,
+      "transactions": 164,
+      "average_gas_per_day": 3583894.8571428573
     },
     "30": {
-      "gas": 163509304,
-      "transactions": 1066,
-      "average_gas_per_day": 5450310.133333334
+      "gas": 124893739,
+      "transactions": 810,
+      "average_gas_per_day": 4163124.6333333333
     },
     "184": {
-      "gas": 789202404,
-      "transactions": 5159,
-      "average_gas_per_day": 4289143.5
+      "gas": 813421399,
+      "transactions": 5302,
+      "average_gas_per_day": 4420768.472826087
     }
   },
   "sui": {
     "7": {
-      "gas": 30593692,
-      "transactions": 196,
-      "average_gas_per_day": 4370527.428571428
+      "gas": 30831872,
+      "transactions": 205,
+      "average_gas_per_day": 4404553.142857143
     },
     "30": {
-      "gas": 121913142,
-      "transactions": 766,
-      "average_gas_per_day": 4063771.4
+      "gas": 119467574,
+      "transactions": 796,
+      "average_gas_per_day": 3982252.466666667
     },
     "184": {
-      "gas": 601243948,
-      "transactions": 3936,
-      "average_gas_per_day": 3267630.152173913
+      "gas": 616733049,
+      "transactions": 4045,
+      "average_gas_per_day": 3351810.0489130435
     }
   },
   "aptos": {
     "7": {
-      "gas": 15948288,
-      "transactions": 132,
-      "average_gas_per_day": 2278326.8571428573
+      "gas": 19767630,
+      "transactions": 160,
+      "average_gas_per_day": 2823947.1428571427
     },
     "30": {
-      "gas": 111393133,
-      "transactions": 970,
-      "average_gas_per_day": 3713104.433333333
+      "gas": 103066115,
+      "transactions": 804,
+      "average_gas_per_day": 3435537.1666666665
     },
     "184": {
-      "gas": 575423075,
-      "transactions": 4519,
-      "average_gas_per_day": 3127299.320652174
+      "gas": 583540380,
+      "transactions": 4628,
+      "average_gas_per_day": 3171415.1086956523
     }
   },
   "pharos": {
     "7": {
-      "gas": 23704688,
-      "transactions": 146,
-      "average_gas_per_day": 3386384.0
+      "gas": 34225884,
+      "transactions": 207,
+      "average_gas_per_day": 4889412.0
     },
     "30": {
-      "gas": 59694848,
-      "transactions": 374,
-      "average_gas_per_day": 1989828.2666666666
+      "gas": 226893569,
+      "transactions": 1378,
+      "average_gas_per_day": 7563118.966666667
     },
     "184": {
-      "gas": 544507050,
-      "transactions": 3531,
-      "average_gas_per_day": 2959277.445652174
+      "gas": 702929601,
+      "transactions": 4450,
+      "average_gas_per_day": 3820269.570652174
     }
   },
   "mode": {
     "7": {
-      "gas": 13449394,
-      "transactions": 29,
-      "average_gas_per_day": 1921342.0
+      "gas": 36710858,
+      "transactions": 89,
+      "average_gas_per_day": 5244408.285714285
     },
     "30": {
-      "gas": 77086634,
-      "transactions": 174,
-      "average_gas_per_day": 2569554.466666667
+      "gas": 292084774,
+      "transactions": 729,
+      "average_gas_per_day": 9736159.133333333
     },
     "184": {
-      "gas": 475674731,
-      "transactions": 1077,
-      "average_gas_per_day": 2585188.7554347827
+      "gas": 738787859,
+      "transactions": 1760,
+      "average_gas_per_day": 4015151.407608696
     }
   },
   "bob": {
     "7": {
-      "gas": 43612983,
-      "transactions": 276,
-      "average_gas_per_day": 6230426.142857143
+      "gas": 59100515,
+      "transactions": 313,
+      "average_gas_per_day": 8442930.714285715
     },
     "30": {
-      "gas": 110695871,
-      "transactions": 995,
-      "average_gas_per_day": 3689862.3666666667
+      "gas": 259728918,
+      "transactions": 1348,
+      "average_gas_per_day": 8657630.6
     },
     "184": {
-      "gas": 461760267,
-      "transactions": 5628,
-      "average_gas_per_day": 2509566.6684782607
+      "gas": 711218970,
+      "transactions": 6177,
+      "average_gas_per_day": 3865320.4891304346
     }
   },
   "lens": {
     "7": {
-      "gas": 14557753,
+      "gas": 14645770,
       "transactions": 62,
-      "average_gas_per_day": 2079679.0
+      "average_gas_per_day": 2092252.857142857
     },
     "30": {
-      "gas": 63245022,
-      "transactions": 268,
-      "average_gas_per_day": 2108167.4
+      "gas": 73603444,
+      "transactions": 310,
+      "average_gas_per_day": 2453448.1333333333
     },
     "184": {
-      "gas": 420642864,
-      "transactions": 1726,
-      "average_gas_per_day": 2286102.5217391304
+      "gas": 427772687,
+      "transactions": 1766,
+      "average_gas_per_day": 2324851.559782609
     }
   },
   "curve": {
     "7": {
-      "gas": 30561829,
-      "transactions": 220,
-      "average_gas_per_day": 4365975.571428572
+      "gas": 15169002,
+      "transactions": 105,
+      "average_gas_per_day": 2167000.285714286
     },
     "30": {
-      "gas": 79758116,
-      "transactions": 567,
-      "average_gas_per_day": 2658603.8666666667
+      "gas": 77233133,
+      "transactions": 530,
+      "average_gas_per_day": 2574437.7666666666
     },
     "184": {
-      "gas": 418105887,
-      "transactions": 2845,
-      "average_gas_per_day": 2272314.6032608696
+      "gas": 456159868,
+      "transactions": 3106,
+      "average_gas_per_day": 2479129.717391304
     }
   },
   "zora": {
     "7": {
-      "gas": 20744629,
-      "transactions": 49,
-      "average_gas_per_day": 2963518.4285714286
+      "gas": 29424578,
+      "transactions": 70,
+      "average_gas_per_day": 4203511.142857143
     },
     "30": {
-      "gas": 74609808,
-      "transactions": 171,
-      "average_gas_per_day": 2486993.6
+      "gas": 332117465,
+      "transactions": 833,
+      "average_gas_per_day": 11070582.166666666
     },
     "184": {
-      "gas": 406936836,
-      "transactions": 942,
-      "average_gas_per_day": 2211613.2391304346
+      "gas": 871846671,
+      "transactions": 2137,
+      "average_gas_per_day": 4738297.125
     }
   },
   "near": {
     "7": {
-      "gas": 3891757,
-      "transactions": 17,
-      "average_gas_per_day": 555965.2857142857
+      "gas": 30701033,
+      "transactions": 111,
+      "average_gas_per_day": 4385861.857142857
     },
     "30": {
-      "gas": 22671136,
-      "transactions": 118,
-      "average_gas_per_day": 755704.5333333333
+      "gas": 107498674,
+      "transactions": 404,
+      "average_gas_per_day": 3583289.1333333333
     },
     "184": {
-      "gas": 247168949,
-      "transactions": 1013,
-      "average_gas_per_day": 1343309.5054347827
+      "gas": 419272097,
+      "transactions": 1677,
+      "average_gas_per_day": 2278652.7010869565
     }
   },
   "injective": {
     "7": {
-      "gas": 9286430,
-      "transactions": 65,
-      "average_gas_per_day": 1326632.857142857
+      "gas": 14462384,
+      "transactions": 95,
+      "average_gas_per_day": 2066054.857142857
     },
     "30": {
-      "gas": 85333758,
-      "transactions": 557,
-      "average_gas_per_day": 2844458.6
+      "gas": 43173049,
+      "transactions": 289,
+      "average_gas_per_day": 1439101.6333333333
     },
     "184": {
-      "gas": 194231494,
-      "transactions": 1365,
-      "average_gas_per_day": 1055605.9456521738
+      "gas": 282471405,
+      "transactions": 1958,
+      "average_gas_per_day": 1535170.6793478262
     }
   },
   "zkcandy": {
@@ -958,31 +958,31 @@
       "average_gas_per_day": 0.0
     },
     "30": {
-      "gas": 1141619,
-      "transactions": 5,
-      "average_gas_per_day": 38053.96666666667
+      "gas": 0,
+      "transactions": 0,
+      "average_gas_per_day": 0.0
     },
     "184": {
-      "gas": 145740457,
-      "transactions": 560,
-      "average_gas_per_day": 792067.7010869565
+      "gas": 94213931,
+      "transactions": 362,
+      "average_gas_per_day": 512032.23369565216
     }
   },
   "stellar": {
     "7": {
-      "gas": 20027705,
-      "transactions": 169,
-      "average_gas_per_day": 2861100.714285714
+      "gas": 23597411,
+      "transactions": 200,
+      "average_gas_per_day": 3371058.714285714
     },
     "30": {
-      "gas": 77196868,
-      "transactions": 658,
-      "average_gas_per_day": 2573228.933333333
+      "gas": 98968740,
+      "transactions": 838,
+      "average_gas_per_day": 3298958.0
     },
     "184": {
-      "gas": 140416656,
-      "transactions": 1170,
-      "average_gas_per_day": 763134.0
+      "gas": 274683214,
+      "transactions": 2304,
+      "average_gas_per_day": 1492843.5543478262
     }
   },
   "moonbeam": {
@@ -997,179 +997,179 @@
       "average_gas_per_day": 0.0
     },
     "184": {
-      "gas": 136610250,
-      "transactions": 683,
-      "average_gas_per_day": 742447.0108695652
+      "gas": 90521115,
+      "transactions": 438,
+      "average_gas_per_day": 491962.58152173914
     }
   },
   "sei": {
     "7": {
-      "gas": 3515742,
-      "transactions": 23,
-      "average_gas_per_day": 502248.85714285716
+      "gas": 2932661,
+      "transactions": 19,
+      "average_gas_per_day": 418951.5714285714
     },
     "30": {
-      "gas": 21272856,
-      "transactions": 134,
-      "average_gas_per_day": 709095.2
+      "gas": 14386756,
+      "transactions": 93,
+      "average_gas_per_day": 479558.5333333333
     },
     "184": {
-      "gas": 135524779,
-      "transactions": 862,
-      "average_gas_per_day": 736547.7119565217
+      "gas": 111805246,
+      "transactions": 717,
+      "average_gas_per_day": 607637.2065217391
     }
   },
   "cronos": {
     "7": {
-      "gas": 14922328,
-      "transactions": 95,
-      "average_gas_per_day": 2131761.1428571427
+      "gas": 5501405,
+      "transactions": 34,
+      "average_gas_per_day": 785915.0
     },
     "30": {
-      "gas": 57785694,
-      "transactions": 367,
-      "average_gas_per_day": 1926189.8
+      "gas": 31316362,
+      "transactions": 194,
+      "average_gas_per_day": 1043878.7333333333
     },
     "184": {
-      "gas": 116557562,
-      "transactions": 730,
-      "average_gas_per_day": 633465.0108695652
+      "gas": 164814887,
+      "transactions": 1030,
+      "average_gas_per_day": 895733.0815217391
     }
   },
   "algorand": {
     "7": {
-      "gas": 1353630,
-      "transactions": 5,
-      "average_gas_per_day": 193375.7142857143
+      "gas": 1080366,
+      "transactions": 6,
+      "average_gas_per_day": 154338.0
     },
     "30": {
-      "gas": 4076728,
-      "transactions": 19,
-      "average_gas_per_day": 135890.93333333332
+      "gas": 2628642,
+      "transactions": 13,
+      "average_gas_per_day": 87621.4
     },
     "184": {
-      "gas": 92284099,
-      "transactions": 364,
-      "average_gas_per_day": 501544.01630434784
+      "gas": 85212020,
+      "transactions": 333,
+      "average_gas_per_day": 463108.8043478261
     }
   },
   "kaia": {
     "7": {
-      "gas": 5426764,
-      "transactions": 35,
-      "average_gas_per_day": 775252.0
+      "gas": 1741729,
+      "transactions": 10,
+      "average_gas_per_day": 248818.42857142858
     },
     "30": {
-      "gas": 14227309,
-      "transactions": 80,
-      "average_gas_per_day": 474243.63333333336
+      "gas": 7751337,
+      "transactions": 57,
+      "average_gas_per_day": 258377.9
     },
     "184": {
-      "gas": 70512090,
-      "transactions": 370,
-      "average_gas_per_day": 383217.8804347826
+      "gas": 49957846,
+      "transactions": 290,
+      "average_gas_per_day": 271510.0326086957
     }
   },
   "plume": {
     "7": {
-      "gas": 2979300,
+      "gas": 2884869,
       "transactions": 18,
-      "average_gas_per_day": 425614.28571428574
+      "average_gas_per_day": 412124.14285714284
     },
     "30": {
-      "gas": 9136207,
-      "transactions": 57,
-      "average_gas_per_day": 304540.23333333334
+      "gas": 9145927,
+      "transactions": 58,
+      "average_gas_per_day": 304864.23333333334
     },
     "184": {
-      "gas": 66080370,
-      "transactions": 403,
-      "average_gas_per_day": 359132.4456521739
+      "gas": 54168224,
+      "transactions": 336,
+      "average_gas_per_day": 294392.52173913043
     }
   },
   "xlayer": {
     "7": {
-      "gas": 8409921,
-      "transactions": 63,
-      "average_gas_per_day": 1201417.2857142857
+      "gas": 15945501,
+      "transactions": 124,
+      "average_gas_per_day": 2277928.714285714
     },
     "30": {
-      "gas": 38444209,
-      "transactions": 255,
-      "average_gas_per_day": 1281473.6333333333
+      "gas": 56048366,
+      "transactions": 422,
+      "average_gas_per_day": 1868278.8666666667
     },
     "184": {
-      "gas": 60798344,
-      "transactions": 419,
-      "average_gas_per_day": 330425.7826086957
+      "gas": 146085742,
+      "transactions": 1080,
+      "average_gas_per_day": 793944.25
     }
   },
   "tempo": {
     "7": {
-      "gas": 155963,
-      "transactions": 2,
-      "average_gas_per_day": 22280.428571428572
+      "gas": 384182,
+      "transactions": 5,
+      "average_gas_per_day": 54883.142857142855
     },
     "30": {
-      "gas": 883955,
-      "transactions": 11,
-      "average_gas_per_day": 29465.166666666668
+      "gas": 548611,
+      "transactions": 7,
+      "average_gas_per_day": 18287.033333333333
     },
     "184": {
-      "gas": 43904513,
-      "transactions": 594,
-      "average_gas_per_day": 238611.48369565216
+      "gas": 15339296,
+      "transactions": 205,
+      "average_gas_per_day": 83365.73913043478
     }
   },
   "xdc": {
     "7": {
-      "gas": 651174,
-      "transactions": 4,
-      "average_gas_per_day": 93024.85714285714
+      "gas": 0,
+      "transactions": 0,
+      "average_gas_per_day": 0.0
     },
     "30": {
-      "gas": 5262748,
-      "transactions": 33,
-      "average_gas_per_day": 175424.93333333332
+      "gas": 1501044,
+      "transactions": 9,
+      "average_gas_per_day": 50034.8
     },
     "184": {
-      "gas": 30404307,
-      "transactions": 211,
-      "average_gas_per_day": 165240.7989130435
+      "gas": 19037770,
+      "transactions": 123,
+      "average_gas_per_day": 103466.14130434782
     }
   },
   "tron": {
     "7": {
-      "gas": 1088300,
-      "transactions": 15,
-      "average_gas_per_day": 155471.42857142858
+      "gas": 330516,
+      "transactions": 5,
+      "average_gas_per_day": 47216.57142857143
     },
     "30": {
-      "gas": 5423314,
-      "transactions": 74,
-      "average_gas_per_day": 180777.13333333333
+      "gas": 775302,
+      "transactions": 11,
+      "average_gas_per_day": 25843.4
     },
     "184": {
-      "gas": 22413496,
-      "transactions": 306,
-      "average_gas_per_day": 121812.47826086957
+      "gas": 24812768,
+      "transactions": 339,
+      "average_gas_per_day": 134852.0
     }
   },
   "plasma": {
     "7": {
-      "gas": 659631,
-      "transactions": 7,
-      "average_gas_per_day": 94233.0
+      "gas": 1717400,
+      "transactions": 12,
+      "average_gas_per_day": 245342.85714285713
     },
     "30": {
-      "gas": 3129518,
-      "transactions": 34,
-      "average_gas_per_day": 104317.26666666666
+      "gas": 6422521,
+      "transactions": 44,
+      "average_gas_per_day": 214084.03333333333
     },
     "184": {
-      "gas": 9754386,
-      "transactions": 114,
-      "average_gas_per_day": 53012.967391304344
+      "gas": 17840866,
+      "transactions": 167,
+      "average_gas_per_day": 96961.22826086957
     }
   },
   "berachain": {
@@ -1184,26 +1184,26 @@
       "average_gas_per_day": 0.0
     },
     "184": {
-      "gas": 6215720,
-      "transactions": 28,
-      "average_gas_per_day": 33781.086956521736
+      "gas": 4233786,
+      "transactions": 21,
+      "average_gas_per_day": 23009.706521739132
     }
   },
   "codex": {
     "7": {
-      "gas": 0,
-      "transactions": 0,
-      "average_gas_per_day": 0.0
+      "gas": 18540607,
+      "transactions": 726,
+      "average_gas_per_day": 2648658.1428571427
     },
     "30": {
-      "gas": 0,
-      "transactions": 0,
-      "average_gas_per_day": 0.0
+      "gas": 78976024,
+      "transactions": 3110,
+      "average_gas_per_day": 2632534.1333333333
     },
     "184": {
-      "gas": 956554,
-      "transactions": 6,
-      "average_gas_per_day": 5198.663043478261
+      "gas": 477765626,
+      "transactions": 19064,
+      "average_gas_per_day": 2596552.315217391
     }
   }
 }

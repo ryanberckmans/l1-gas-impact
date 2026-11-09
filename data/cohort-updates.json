@@ -1,0 +1,238 @@
+{
+  "reviewed_at": "2026-11-09",
+  "classification_as_of": "2026-11-08",
+  "repository": "https://github.com/l2beat/l2beat",
+  "revision": "7cb251cd1f04b7d26fae967a5ce673ab4d1dd085",
+  "note": "New recipient cohorts are backfilled over the full snapshot; old recipient cohorts are retained. Codex prior-inbox observations stay in its end-of-snapshot architectural cohort.",
+  "accounts": [
+    {
+      "address": "0xe37a2663cc9c119ba41572c40fab0bbb23a5402f",
+      "product": "aztecnetwork",
+      "name": "Rollup",
+      "roles": [
+        {
+          "product": "aztecnetwork",
+          "name": "Rollup",
+          "kind": "operations",
+          "discovery": "aztecnetworkv6-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x603b06cecc1d537aad83f1d46651e32014c5b6ad",
+      "product": "aztecnetwork",
+      "name": "Inbox",
+      "roles": [
+        {
+          "product": "aztecnetwork",
+          "name": "Inbox",
+          "kind": "bridge",
+          "discovery": "aztecnetworkv6-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0xa2ff1bf784d6b1d7ba1bfd67c3538b85f9f85295",
+      "product": "aztecnetwork",
+      "name": "SlashingProposer",
+      "roles": [
+        {
+          "product": "aztecnetwork",
+          "name": "SlashingProposer",
+          "kind": "operations",
+          "discovery": "aztecnetworkv6-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x534361be805ca30bdb6404ec5e6cdaffb3e9f3b3",
+      "product": "aztecnetwork",
+      "name": "FeeJuicePortal",
+      "roles": [
+        {
+          "product": "aztecnetwork",
+          "name": "FeeJuicePortal",
+          "kind": "bridge",
+          "discovery": "aztecnetworkv6-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x52759c07a759c81baab28ae1be5a19e6450959bd",
+      "product": "codex",
+      "name": "OptimismPortal2",
+      "roles": [
+        {
+          "product": "codex",
+          "name": "OptimismPortal2",
+          "kind": "portal",
+          "discovery": "codex-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0xa6b1a05a592719b0c8a70c69eac114c48410ade4",
+      "product": "codex",
+      "name": "L1StandardBridge",
+      "roles": [
+        {
+          "product": "codex",
+          "name": "L1StandardBridge",
+          "kind": "bridge",
+          "discovery": "codex-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x2506277d5ebcda7d9a53728fb3272c007646294c",
+      "product": "codex",
+      "name": "L1CrossDomainMessenger",
+      "roles": [
+        {
+          "product": "codex",
+          "name": "L1CrossDomainMessenger",
+          "kind": "messenger",
+          "discovery": "codex-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x6a3855dc26e2bea8ac73f82cda79f3808b6c6f6c",
+      "product": "codex",
+      "name": "DisputeGameFactory",
+      "roles": [
+        {
+          "product": "codex",
+          "name": "DisputeGameFactory",
+          "kind": "operations",
+          "discovery": "codex-current-discovered.json"
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x8c12f051c161c2cda736f3b3fa1c4bdd35b7922c",
+      "product": "codex",
+      "name": "PriorBatchInbox",
+      "roles": [
+        {
+          "product": "codex",
+          "name": "PriorBatchInbox",
+          "kind": "batch",
+          "discovery": "codex-current-discovered.json",
+          "senders": [
+            "0xb5bd290ef8ef3840cb866c7a8b7cc9e45fde3ab9"
+          ],
+          "registry_tracking_cutover_block": 26305598,
+          "note": "The registry changed DA tracking at block 26305598, but the same exclusive sender continued zero-value submissions to this dedicated inbox through the snapshot cutoff. Retain that observed execution gas; a tracking cutover is not an attribution end."
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x001ede0d7b2b41827b35eef7b97b8523035df8a9",
+      "product": "codex",
+      "name": "BatchInbox",
+      "roles": [
+        {
+          "product": "codex",
+          "name": "BatchInbox",
+          "kind": "batch",
+          "discovery": "codex-current-discovered.json",
+          "senders": [
+            "0xb5bd290ef8ef3840cb866c7a8b7cc9e45fde3ab9"
+          ],
+          "since_block": 26305598
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0xc08b8ffaf04abb1d7013b74a0e57eccbd7fa5a70",
+      "product": "base",
+      "name": "AggregateVerifier",
+      "roles": [
+        {
+          "product": "base",
+          "name": "AggregateVerifier",
+          "kind": "operations",
+          "discovery": "base-current-discovered.json"
+        }
+      ]
+    },
+    {
+      "address": "0x008e0e9215d6bdb44a351ce5b8b8037a274f055b",
+      "product": "bob",
+      "name": "CurrentBatchInbox",
+      "roles": [
+        {
+          "product": "bob",
+          "name": "CurrentBatchInbox",
+          "kind": "batch",
+          "discovery": "bob-current-discovered.json",
+          "senders": [
+            "0x08f9f14ff43e112b18c96f0986f28cb1878f1d11"
+          ]
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    },
+    {
+      "address": "0x00005761dee20a44baaf17dcbe34055177c421f6",
+      "product": "worldchain",
+      "name": "CurrentBatchInbox",
+      "roles": [
+        {
+          "product": "worldchain",
+          "name": "CurrentBatchInbox",
+          "kind": "batch",
+          "discovery": "worldchain-current-discovered.json",
+          "senders": [
+            "0xdbbe3d8c2d2b22a2611c5a94a9a12c2fcd49eb29"
+          ]
+        }
+      ],
+      "page_size": 1000,
+      "calldata_in_pages": true
+    }
+  ],
+  "sender_updates": [
+    {
+      "product": "unichain",
+      "recipient": "0xff00000000000000000000000000000000000130",
+      "senders": [
+        "0x2f60a5184c63ca94f82a27100643dbabe4f3f7fd",
+        "0x9ef649e8746cc47a17708a5e86b2d66c7f6c00d1"
+      ],
+      "sender_intervals": [
+        {
+          "sender": "0x2f60a5184c63ca94f82a27100643dbabe4f3f7fd",
+          "until_block": 26299498
+        },
+        {
+          "sender": "0x9ef649e8746cc47a17708a5e86b2d66c7f6c00d1",
+          "since_block": 26299498
+        }
+      ],
+      "source": "https://github.com/l2beat/l2beat/blob/7cb251cd1f04b7d26fae967a5ce673ab4d1dd085/packages/config/src/projects/unichain/unichain.ts"
+    }
+  ]
+}

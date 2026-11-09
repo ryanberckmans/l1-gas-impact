@@ -136,6 +136,7 @@ def select(r,s,decls,all_decl):
     selector=r['input'][:10];raw=bytes.fromhex(r['input'][10:]);role=s['roles'][0];kind=role['kind'];p=role['product']
     if kind=='batch':
         assert r['from'].lower() in role['senders'],'Not the exclusive batch sender'
+        assert role.get('since_block',0)<=int(r['blockNumber'])<role.get('until_block',2**64),'Outside reviewed inbox interval'
         return p,'batch_submission','dedicated inbox and sender'
     if r['input']=='0x':
         assert int(r['value'])>0 and ((kind in ['portal','bridge'] and role['name'] in ['OptimismPortal','OptimismPortal2','L1StandardBridge','L1BlastBridge']) or (p=='lido' and role['name']=='stETH') or (p=='etherfi' and role['name']=='LiquidityPool')),'Unreviewed receive function'

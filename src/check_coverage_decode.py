@@ -56,11 +56,27 @@ assert ident[325]=='grvt' and all(v in {'zksync2','abstract','adi','grvt','lens'
 checks.append('ZK identities bind reviewed mainnet addresses and IDs; no Gateway allocation')
 # Inbox activity requires both destination cohort and its verified sender.
 s={'address':'0x'+'a'*40,'roles':[{'product':'base','kind':'batch','name':'BatchInbox','senders':['0x'+'2'*40]}]}
-r={'input':'0x','value':'0','from':'0x'+'2'*40,'isError':'0'}
+r={'input':'0x','value':'0','from':'0x'+'2'*40,'isError':'0','blockNumber':'10'}
 assert C.select(r,s,decls,all_decl)[0]=='base'
 reject(lambda:C.select({**r,'from':'0x'+'3'*40},s,decls,all_decl))
 checks.append('Dedicated inbox sender constraint excludes unrelated transfers')
+s['roles'][0].update(since_block=10,until_block=20)
+assert C.select(r,s,decls,all_decl)[0]=='base'
+reject(lambda:C.select({**r,'blockNumber':'9'},s,decls,all_decl))
+reject(lambda:C.select({**r,'blockNumber':'20'},s,decls,all_decl))
+checks.append('Inbox identity intervals include their first block and exclude the retired boundary')
 if len(sys.argv)<3:sys.argv.append(str(R))
+from classify_expansion import classify
+updates=json.loads((ROOT/'data/cohort-updates.json').read_text())
+for change in updates['sender_updates']:
+ rule={**change,'kind':'batch'}
+ old,new=change['sender_intervals'];boundary=new['since_block']
+ assert old['until_block']==boundary
+ assert classify(rule,{'input':'0x','from':old['sender'],'blockNumber':str(boundary-1)})=='batch_submission'
+ assert classify(rule,{'input':'0x','from':new['sender'],'blockNumber':str(boundary)})=='batch_submission'
+ reject(lambda:classify(rule,{'input':'0x','from':old['sender'],'blockNumber':str(boundary)}))
+ reject(lambda:classify(rule,{'input':'0x','from':new['sender'],'blockNumber':str(boundary-1)}))
+checks.append('Batch-sender rotation accepts the right sender on each side of the activation block')
 import classify_coverage as classifier
 with TemporaryDirectory() as directory:
  previous=classifier.R;classifier.R=Path(directory)

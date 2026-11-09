@@ -1,6 +1,6 @@
 # L1 Gas Impact: data guide
 
-This public research snapshot compares Ethereum L1 execution gas directly attributable to selected L1 applications, Ethereum scaling systems, and other chains. It includes Uniswap on L1, Lighter's primary instance, major DeFi protocols, and Ethereum-side activity for chains including Solana, Hyperliquid, BNB Smart Chain and Polygon PoS. The complete roster is in [the query manifest](/data/query-manifest.json). Plain ETH transfers provide a contextual benchmark. The interval is 2026-03-28 00:00:00 UTC through, but not including, 2026-09-28 00:00:00 UTC.
+This public research snapshot compares Ethereum L1 execution gas directly attributable to selected L1 applications, Ethereum scaling systems, and other chains. It includes Uniswap on L1, Lighter's primary instance, major DeFi protocols, and Ethereum-side activity for chains including Solana, Hyperliquid, BNB Smart Chain and Polygon PoS. The complete roster is in [the query manifest](/data/query-manifest.json). Plain ETH transfers provide a contextual benchmark. The interval is 2026-05-09 00:00:00 UTC through, but not including, 2026-11-09 00:00:00 UTC.
 
 ## Measurement and scope
 

@@ -1,16 +1,16 @@
 # L1 Gas Impact: measurement and coverage
 
-Snapshot **2026-03-28–2026-09-27 UTC**, 184 complete days. Ethereum mainnet, chain 1. Snapshot `f983c100323ee081`. This is a fixed snapshot, not a live index.
+Snapshot **2026-05-09–2026-11-08 UTC**, 184 complete days. Ethereum mainnet, chain 1. Snapshot `2945bd63e0ee6d53`. This is a fixed research snapshot.
 
-## What the numbers mean
+## Measurement
 
-Actual transaction receipt `gasUsed`, including intrinsic gas and the L1 execution portion of blob transactions. Blob gas, gas limits, prices, fees and native execution on any other chain are excluded. Failed product transactions are included only where attribution is established. The plain ETH benchmark requires success, positive ETH value, empty input and exactly 21,000 gas.
+Receipt and log data from [Routescan](https://routescan.io), canonical RPC evidence from Routescan and [PublicNode](https://ethereum.publicnode.com/), and independent aggregate data from [Blockchair](https://blockchair.com).
 
-All 70 product figures are lower bounds for selected populations. They are not complete footprints, a ranking of all Ethereum activity, or estimates of omitted gas. Ethereum-side activity for Solana, Hyperliquid, BSC and other chains is measured in the same Ethereum gas unit as every other row.
+Actual Ethereum transaction receipt `gasUsed`, including intrinsic gas and the execution portion of blob transactions. Blob gas, gas limits, prices, fees and native execution on other chains are excluded. Failed product transactions count only when exclusive attribution is established. The ETH benchmark requires a successful positive-value transfer with empty input and exactly 21,000 gas.
 
-Count a full parent receipt only when its operation is exclusively attributable to the selected product. Do not allocate shared proofs, shared bridge settlements, unknown callbacks or mixed routes by association. Each included receipt hash occurs in only one product population. Native token costs on different chains are not comparable to this metric and are not added.
+These are lower bounds for selected directly attributable populations, not complete product footprints. A shared router or operator alone does not establish attribution. Unknown methods, mixed routes and unresolved callbacks remain excluded. Receipt hashes are deduplicated across the exported populations. A completed query with no activity can yield zero; missing or failed collection cannot.
 
-## Coverage by product
+## Coverage
 
 **Uniswap on L1.** Selected Ethereum routers, liquidity entrypoints and approvals; not Uniswap on other chains. Unknown, bridge and utility-only commands in the latest Universal Router are excluded.
 
@@ -32,7 +32,7 @@ Count a full parent receipt only when its operation is exclusively attributable 
 
 **Sky / Maker on L1.** Selected Maker/Sky DAI/USDS/SKY, savings and migration contracts. Wider vault, auction and governance deployments excluded.
 
-**Aztec Network.** Current v5 and previous v4 rollup contracts and selected operator, governance and deposit methods. Earlier Ignition deployments, legacy zk.money, arbitrary execution and unresolved routes excluded.
+**Aztec Network.** Reviewed Aztec v4, v5 and v6 rollup contracts and selected operator, governance and deposit methods. Legacy zk.money, arbitrary execution and unresolved routes remain excluded.
 
 **Starknet.** Direct state updates and selected bridges; shared SHARP proof transactions excluded without proportional allocation.
 
@@ -48,30 +48,32 @@ Count a full parent receipt only when its operation is exclusively attributable 
 
 **Shared Bridges.** CCTP, Across, Wormhole and DLN: require a known source/destination chain and reviewed method. Incoming authenticated token-only routes included; mixed settlements, shared fills and arbitrary L1 callbacks excluded.
 
-Lighter's included core receipts cover **11,818 of 90,480** observed deposit parent transactions and **33,150 of 34,382** withdrawal-claim parents. These are transaction coverage counts, not gas coverage; unresolved deposit wrappers remain a material gap.
+**Codex.** Reviewed prior and current Ethereum batch inboxes, canonical bridge deposits, withdrawal proofs, dispute-game creation and decoded shared bridge routes. Batch senders and applicable inbox activation intervals are checked. Continuing submissions to the prior dedicated inbox are retained even after the registry changed its DA tracking. Arbitrary L1 finalizations and unreviewed methods remain excluded.
 
-## Verification and lineage
+Lighter's included core receipts cover **16,547 of 106,212** observed deposit parent transactions and **33,958 of 34,739** withdrawal-claim parents. These are transaction counts, not gas-coverage percentages. The event populations were recollected across the complete current window.
 
-The prior release's validated observations for this same interval are preserved, except that its CCTP/Across cohorts are replaced by complete, decoded account histories. Replacement populations are compared against the removed totals and deduplicated; they are never added twice. Some prior Base and Arbitrum bridge figures decrease slightly because full decoding excludes deprecated or unreviewed methods and incoming messages addressed to unreviewed L1 contracts. Each decrease is reconciled to identified receipts; no omitted gas is estimated.
+## Acquisition, reconciliation and retained history
 
-The expansion acquires **224 account populations**, covering **4,071,054 source transactions**, and reconciles each population's daily gas and count between Routescan histories and Blockchair aggregates. Overlapping pagination is deduplicated by hash. Conflicting index entries are checked against canonical Ethereum receipts and block membership. Documented April 16 duplicate-index repairs apply only to affected ETH4 responses; clean ETH3 responses remain unchanged. Incorrectly attributed contract creations, noncanonical entries and missing receipts are resolved using canonical receipts, transaction data and block membership. The exact corrections, accepted methods and exclusions are recorded in the evidence. Attribution-bearing ABI fields are decoded; opaque proof arrays in successful, reviewed settlement calls are not interpreted when the dedicated recipient or decoded chain identifier establishes exclusive attribution.
+Verified historical observations from 2026-05-09 through the day before 2026-09-28 are retained from the preceding release. New observations cover 2026-09-28 through 2026-11-08. Newly identified recipient cohorts are additionally backfilled to 2026-05-09; their independent queries identify that full interval. No interpolation, extrapolation or native-chain gas is used. The cutoff is bound to Ethereum block 26,373,602.
 
-Original baseline aggregate-only populations retain their sampled verification, while original core and supplemental cohorts retain their full reconciliation records. The evidence distinguishes these scopes. This is not a full independent recount of Ethereum. A missing query or failed reconciliation blocks acceptance; completed queries with no matching activity can legitimately yield zero. Excluded or undiscovered activity is not represented as a measured zero.
+New account populations are collected from Routescan and reconciled by daily gas and count against Blockchair. Pagination overlaps are deduplicated. Conflicts are checked against canonical receipt, transaction and block membership evidence. 1 simple 21,000-gas inbox transaction required an explicitly documented receipt-source exception: the receipt RPC returned an error, so actual gas-used and status records from both Routescan and Blockchair were matched, followed by the same canonical transaction and block-membership checks. Gas limits were not substituted for gas used. The exact source records and exception manifest are included in the evidence archive. Reviewed ABI methods and attribution-bearing fields determine inclusion. Successful closed settlement methods may retain opaque proof bytes without decoding their mathematical contents. Original aggregate-only cohorts retain their documented scope and receive new canonical receipt samples. Supplemental token approvals are fully enumerated and decoded. This is not a full independent recount of Ethereum.
+
+The current acceptance certificate binds all input hashes, 365 acquired account populations, 430 aggregate queries and the separate classification and reconciliation results. The merged receipt archive is recounted against the complete current daily totals before release. Dated historical evidence describes its own earlier interval; it is not substituted for new observations.
 
 ## Interface and exports
 
-The primary table is sorted by selected-period **million Ethereum gas per day**, descending, for every duration. “All L2 rollups”, “All L2 non-rollups” and “All alt L1s” sum only their classified, covered members and exist in this table's view layer, never as data records. The dated classification is detailed below. Polygon PoS is grouped with the non-L2 chains. EDGE is an L3 and belongs to none of the three subtotals. Group totals overlap their members; the ETH benchmark may overlap incidental product-related ETH transfers. Do not sum all rows.
+The comparison is sorted by selected-period million Ethereum gas per day. The 7-day and 30-day views end at the snapshot cutoff; the six-month view contains 184 daily observations. Group subtotals overlap their members and are not added to exported observations. The ETH-transfer benchmark is contextual and may overlap incidental product-related movements. Do not sum all comparison rows. Ratios of lower bounds are not themselves lower bounds.
 
-Daily history bars show observed gas. The line is a trailing seven-day arithmetic mean with seven complete observations, including history before a zoomed window. Date controls, drag zoom, hover/touch inspection and keyboard controls operate on the daily chart. A custom chart window does not change the separately labeled main comparison interval. Product, duration, date and chart window are addressable in the URL. The change metric always compares the latest 30 days with the preceding 30. ETH-transfer equivalents divide gas by 21,000; they do not compare usefulness.
+Daily chart bars show observed gas. The line is a trailing seven-day arithmetic mean, including available history before a zoomed window. Chart zoom does not change the separately labelled main comparison interval. The change metric compares the latest 30 days with the previous 30. ETH-transfer equivalents divide gas by 21,000 without comparing transaction usefulness.
 
 CSV, JSON, all eight language views and social metadata derive from this accepted snapshot and its current scope. The bulk transaction receipt CSVs are preserved in a separate archive and are not hosted with the app or included in its source repository. receipt-index.json retains every file checksum, transaction count and exact population coverage; receipt-validation.json records the full reconciliation, bound to the accepted inputs and verifier. To repeat the receipt recount, obtain the separate archive and run the documented validation command. These ledgers include every newly included receipt and previously published core receipts. Original supplemental approvals outside those core exports remain documented in the structured dataset. No synthetic aggregate receipt is created.
 
-The public evidence ZIP includes dated prior-release provenance and current aggregate responses and checks. Historical files describe their own snapshots; they are not current totals. Full raw page corpora are preserved separately. Application source, private notes and conversation text are not part of the public deliverable.
+The public evidence ZIP contains factual query responses, verification results and dated prior evidence. Identical canonical RPC responses are stored once by SHA-256 in current/canonical-responses.json, as exact UTF-8 response strings. current/canonical-index.json maps every original response filename to its checksum and byte length; UTF-8 encoding the corresponding string reconstructs the original bytes. Full provider response pages are preserved separately. Application source and private review records are not part of the data downloads.
 
 ## L2 aggregate classification
 
-“All L2 rollups” and “All L2 non-rollups” are fixed cohorts by data-availability design at the end of this snapshot (2026-09-27). Rollups publish the data needed to reconstruct state to Ethereum. Non-rollups use external data availability. This distinction is not a security-stage or decentralization rating. [The classification file](/data/l2-classification.json) lists every covered L2, sources and migration notes.
+“All L2 rollups” and “All L2 non-rollups” are fixed cohorts by data-availability design at the end of this snapshot (2026-11-08). Rollups publish the data needed to reconstruct state to Ethereum. Non-rollups use external data availability. This distinction is not a security-stage or decentralization rating. [The classification file](/data/l2-classification.json) lists every covered L2, sources and migration notes.
 
-Historical gas stays with the end-of-snapshot cohort, even before a migration. Mantle changed to Ethereum-only data availability on April 16 and Arbitrum Nova disabled DAC mode on August 31. These totals therefore compare the tracked footprints of fixed cohorts, not gas consumed exclusively under each historical architecture. Codex has unverified data availability and is excluded from both L2 sums; its individual observations remain available. It has no included gas in the latest 7- or 30-day window.
+Historical gas stays with the end-of-snapshot cohort, even before a migration. Every selected-period observation stays with its chain’s end-of-snapshot cohort. The totals do not measure gas consumed only while that chain operated under its current architecture. Nova and X Layer changed architecture during this window. Codex includes its earlier Ethereum batch-inbox history in its current rollup cohort. These totals therefore compare the tracked footprints of fixed cohorts, not gas consumed exclusively under each historical architecture. Chains with unverified data availability remain individual rows outside both L2 sums.
 
 “All alt L1s” retains covered non-L2 chains, including Polygon PoS. EDGE is an L3 and is excluded from all three subtotals. Subtotals overlap their members and never become observations or receipts. The original evidence archive remains dated acquisition evidence; this classification annex is the current presentation taxonomy. Ratios of observed lower bounds are not themselves lower bounds. Execution-gas comparisons exclude blob gas and do not directly measure network effects or establish causation.

@@ -1,7 +1,7 @@
 {
-  "file": "l1-gas-impact-receipts.zip",
-  "bytes": 202632585,
-  "sha256": "6bbf9fb09af7f44afc34d932c641c1bcc1cf220ab4c3461e30bba325d65277bb",
+  "file": "l1-gas-impact-receipts-2026-11-08.zip",
+  "bytes": 209326244,
+  "sha256": "4a0105ffdd892a5be0d4f5147a2d0f3cf0099965d2b16e050ac2878346716745",
   "availability": "separate_archive",
   "index": "/data/receipt-index.json",
   "note": "Preserved separately. Receipt CSVs are absent from the site and source repository."

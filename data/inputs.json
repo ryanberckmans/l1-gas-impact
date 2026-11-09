@@ -1,37 +1,37 @@
 {
   "accepted_for_publication": true,
-  "start_inclusive": "2026-03-28",
-  "end_exclusive": "2026-09-28",
+  "start_inclusive": "2026-05-09",
+  "end_exclusive": "2026-11-09",
   "baseline_revision": "aca14fde12cca3f2830d85c2b5d10293aed97ace",
   "inputs": [
     {
       "path": "inputs/eth.json",
-      "sha256": "15dbf03d9b7ca03f3ab140c604fbaa0ffd1a00a3be8dab6611e2b502bdae2f95",
+      "sha256": "fe2e756c6453f85d333071e606cac0cc2b766121caa267862fa07786f79b87c2",
       "source_id": "blockchair-plain-eth-transfer-benchmark"
     },
     {
       "path": "inputs/uniswap.json",
-      "sha256": "1dbed7c187453cd91f9c010c9d36df4a8fe38e45ea815ed6d9248f158d01485f"
+      "sha256": "547d0ab816eaa90c5ef5927f8f01f005a6465a1e339c0e87a0610514ca402c00"
     },
     {
       "path": "inputs/lighter.json",
-      "sha256": "6f366fead4cac787620fcbb4e2756798415c2072a0427acaa77859df33334a7d"
+      "sha256": "017873f5c2ffc77610867f0a13dbbb3080ddc229d5942652a8fcc590aad0fa1a"
     },
     {
       "path": "inputs/rollups.json",
-      "sha256": "7a7df4d03dee9ffd6212a15a4cf07dddfeb4ea12e35f8cc15e2401faff7927a0"
+      "sha256": "54d28b08ec77157d972aceeb9c4873ac413d6e65d950806584160c597ccee238"
     },
     {
       "path": "inputs/additional.json",
-      "sha256": "dc829b4fdcd91465384960eae772b406ce84f962240574cd8dc70998ee4d92fc"
+      "sha256": "d863b52e691dd25545a507ce040efc6411baacd3bfbab2f96ecd3b3e46d530b2"
     },
     {
       "path": "inputs/expanded.json",
-      "sha256": "59880ab4b479c82072b59b286e23778a9fde302ab39d15aa27786fde7d8b7e6c"
+      "sha256": "11496b44336fa8a0495e0cf559bcc89b02a38741c56c78b3fb29f4f7bacac742"
     },
     {
       "path": "inputs/coverage.json",
-      "sha256": "62d0d6ee1027b26ee92b62afd6e1678f125792f7848eda8cea811dbcb5a66938"
+      "sha256": "7577b57a469205ca19d3d1c771bec60027fb09d3dae505ec1e71d29a18d12b55"
     }
   ],
   "product_groups": {
@@ -111,11 +111,11 @@
     "ethena": "USDe / sUSDe / ENA / sENA",
     "lido": "stETH / wstETH",
     "morpho": "Morpho Blue",
-    "compound": "Compound III \u00b7 USDC / WETH / USDT",
+    "compound": "Compound III · USDC / WETH / USDT",
     "etherfi": "eETH / weETH"
   },
   "verification": {
-    "path": "coverage-verification.json",
-    "sha256": "bab45896e35d9c8656e4088313b361850f24cec7dd0fb355bbe8db8ff62cf645"
+    "path": "snapshot-verification.json",
+    "sha256": "5d7d649f628ea89e5af7e23a8e8f0d6724019dba67498939790d5e64abf17cbe"
   }
 }

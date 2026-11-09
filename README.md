@@ -8,7 +8,7 @@ Original project code is licensed under the [MIT License](LICENSE). Bundled Reac
 
 ## Technical overview
 
-Static, prerendered React research dashboard. Snapshot: March 28–September 27, 2026 UTC. Public output is restricted to `dist/`. Read `CONTRACTS` before changing measurements or release behavior.
+Static, prerendered React research dashboard. Snapshot: May 9–November 8, 2026 UTC. Public output is restricted to `dist/`. Read `CONTRACTS` before changing measurements or release behavior.
 
 ## Reproduce current public artifacts
 
@@ -22,11 +22,13 @@ Prerendered views include the leading comparison rows, all three chain summaries
 
 ## Evidence storage
 
-The 80 compressed transaction receipt CSVs (202.6 MB) are preserved in the separate `l1-gas-impact-receipts.zip` archive. They accounted for 90.2% of public data bytes and are excluded from this repository and the hosted app. The repository retains every accepted input, daily CSV and JSON export, compact provenance ZIP, receipt index, file checksum and full reconciliation certificate. Displayed measurements are unchanged.
+The 79 compressed transaction receipt CSVs, containing 4,634,765 receipts, are preserved in the separate `l1-gas-impact-receipts-2026-11-08.zip` archive (209.3 MB). They are excluded from this repository and the hosted app. The repository retains every accepted input, daily CSV and JSON export, compact provenance ZIP, receipt index, file checksum and full reconciliation certificate. Full original provider response archives are preserved separately.
 
-`python3 src/validate_release.py` checks the compact release and the prior full receipt reconciliation against exact accepted-input, receipt-metadata and verifier hashes. This is certificate verification, not a fresh receipt recount. To repeat all 4,481,096 receipt checks, extract the separate archive and run `python3 src/validate_release.py --receipt-dir /path/to/extracted/archive`. Changed inputs, receipt metadata or verifier invalidate the certificate. A research refresh must preserve and fully reconcile a new separate archive with `python3 src/compact_evidence.py --receipt-dir /path/to/receipt-work --archive-path /path/outside/repo/l1-gas-impact-receipts.zip` before release.
+`python3 src/validate_release.py` checks the compact release and its full receipt reconciliation against exact accepted-input, receipt-metadata and verifier hashes. This is certificate verification, not a fresh receipt recount. To repeat all 4,634,765 receipt checks, extract the separate archive and run `python3 src/validate_release.py --receipt-dir /path/to/extracted/archive`. Changed inputs, receipt metadata or verifier invalidate the certificate. A research refresh must preserve and fully reconcile a new separate archive with `python3 src/compact_evidence.py --receipt-dir /path/to/receipt-work --archive-path /path/outside/repo/l1-gas-impact-receipts.zip` before release.
 
-The repository ZIP contains the current source and sealed static output without Git history. For the initial GitHub push, extract it into a fresh directory and initialize a new Git repository there. Reusing the historical checkout would retain old receipt blobs in Git history even after their working files are removed. Keep bulk archives outside the repository.
+The public evidence ZIP deduplicates identical canonical RPC responses by SHA-256. `current/canonical-index.json` maps original response filenames to checksums and byte lengths; `current/canonical-responses.json` contains the exact UTF-8 response strings. Encoding each string as UTF-8 reconstructs the original bytes. The release validator checks every mapping and digest.
+
+Clone the existing repository for development and preserve its Git history when publishing updates. Accepted inputs and sealed static output are versioned together. Keep bulk receipt and raw-provider archives outside the repository.
 
 ## Research refresh
 
@@ -34,9 +36,31 @@ Use a new research directory for each fixed UTC snapshot and preserve raw respon
 
 The historical `stage_research.py` and `build_evidence.py` scripts accept `--research-dir /path/to/research`; their default is the repository's `research/` directory. The original acquisition archives are preserved separately. The accepted inputs and compact generated exports needed to reproduce the app are included in this repository; a fresh receipt recount additionally requires the separate receipt archive.
 
-For this snapshot, `acquire_refresh.py` collects the September 15–27 delta against the restored historical research. `verify_refresh.py` independently resolves conflicting receipts and decodes supplemental populations. `sample_refresh.py` checks aggregate-only populations against canonical receipts. `classify_refresh.py` reconciles and classifies core contract receipts. `stage_refresh.py` retains the validated historical overlap, stages accepted records and rebuilds receipt exports and Lighter event coverage. Run `normalize.py`, `build_refresh_evidence.py`, and `build_site.py` in that order to synchronize data, provenance and UI.
+The current pipeline is `refresh_window.py`. It uses a new dated research directory, the preceding accepted snapshot, and its preserved core/coverage catalogues. `prepare` pins a 184-day UTC window, block boundaries and baseline hashes. `extend` incorporates the separately reviewed `data/cohort-updates.json`, retaining retired contracts and backfilling newly tracked recipients over the whole window. `collect` resumes immutable aggregate and receipt caches with bounded concurrency. `events` enumerates Lighter event parents over the full window. `supplements` enumerates token approvals, partitioning larger populations by date within provider pagination limits. `classify` reconciles independent daily gas/count totals, resolves conflicting indexed receipts against canonical block membership, and applies the reviewed ABI rules.
+
+An optional `python3 src/prefetch_canonical_rpc.py "$REFRESH_DIR" "$BASELINE_RESEARCH"` phase fills canonical evidence caches from PublicNode before classification. It uses one bounded batch at a time, spaces batches for an average budget of five logical calls per second, and caps the dated research run at 5,000 calls. Missing receipts remain unresolved for the normal verifier; only complete receipt, transaction and block triples can pass canonical checks. Raw batch responses and per-cache provenance are preserved. This phase may accompany the Routescan verifier because it uses a separate provider; never run two prefetch processes together. `python3 src/check_rpc_batches.py` checks response-ID integrity and failure handling.
+
+For a documented, query-specific receipt-RPC failure, an explicit per-hash manifest may bind independent Routescan and Blockchair records of actual gas used. This narrow path accepts only matching 21,000-gas, zero-value, empty-input inbox calls and still requires canonical transaction and block-membership checks. It does not derive gas used from gas limits. The current evidence archive identifies the source exception and all original records. `python3 src/check_canonical_fallback.py` exercises conflicting and tampered evidence.
+
+```sh
+python3 src/refresh_window.py prepare --research-dir "$REFRESH_DIR" --prior-refresh "$PRIOR_CORE" --prior-coverage "$PRIOR_COVERAGE" --baseline-research "$BASELINE_RESEARCH" --through 2026-11-08
+# Repeat the command with modes: extend, collect, events, supplements, classify, in that order.
+python3 src/stage_window.py "$REFRESH_DIR" --prior-receipts "$PRIOR_RECEIPTS_ZIP"
+python3 src/normalize.py --bind-classification
+python3 src/build_window_evidence.py "$REFRESH_DIR"
+python3 src/compact_evidence.py --receipt-dir "$REFRESH_DIR/receipt-work" --archive-path "$NEW_RECEIPTS_ZIP"
+python3 src/build_site.py
+python3 src/validate_release.py --receipt-dir "$REFRESH_DIR/receipt-work"
+node src/check_view_state.mjs
+node src/static_build.mjs --seal
+npm run build
+```
+
+`stage_window.py` retains only the verified historical overlap, merges the new observations, and reconstructs the detached receipt ledgers. The new receipt set must reconcile to the entire current snapshot. `--bind-classification` explicitly binds a classification reviewed for the new cutoff to the freshly calculated snapshot ID; ordinary normalization refuses stale classification. Keep all raw research and receipt archives outside the repository. The provider response cache belongs to one pinned window and must not be reused for another. The commands above run sequentially. The optional `supplements` phase can overlap receipt collection after all aggregate queries finish: it uses Blockchair and a separate usage checkpoint while receipts use Routescan. Wait for both phases before classification. Subsequent phases merge the cumulative provider budgets; never run two phases against the same provider concurrently. This is a manual, fixed-snapshot workflow; no daily automation or live browser API collection is configured.
 
 The September 29 expansion uses `acquire_coverage.py`, `coverage_decode.py`, `classify_coverage.py`, `stage_coverage.py` and `build_coverage_evidence.py`. Its curated catalogue and original responses are preserved in dated research archives. Full account histories are reconciled against independent daily aggregates; disputed blocks are resolved using canonical receipt, transaction and block membership evidence. `resolve_coverage_disputes.py` and `repair_coverage.py` retain those corrections. The latter reclassifies only changed records and rebuilds every accepted total and hash-uniqueness check. Partial reclassification requires an explicit account list covering every affected decoder branch and checksummed reuse of unchanged cohorts.
+
+If a refresh reports daily differences, run `assess_coverage_disputes.py "$REFRESH_DIR" "$BASELINE_RESEARCH"` followed by `resolve_coverage_disputes.py` with the same arguments, then repeat classification. The assessment covers both expanded and original core accounts. Canonical corrections can add omitted transactions or reject proven noncanonical index entries; they do not alter original response pages. Staging requires all daily counts and gas totals to reconcile and binds the correction evidence into the new snapshot certificate.
 
 The accepted snapshot has 71 measured entries. Solana and other non-L2 chains measure Ethereum-side activity in Ethereum receipt gas units, never native-chain gas. Earlier standalone Solana scripts remain historical reproduction material. The expanded receipt pipeline replaces overlapping CCTP/Across populations, with exact explanations for stricter attribution exclusions. Oversized proof calldata is retained once in immutable response pages and referenced by compact ledgers; acquisition maintains a 3 GiB free-space reserve and bounded request, time, retry and pagination costs.
 

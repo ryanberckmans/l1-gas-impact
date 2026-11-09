@@ -1,299 +1,5 @@
 [
   {
-    "date": "2026-03-28",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1434860,
-    "execution_gas": 30132060000
-  },
-  {
-    "date": "2026-03-29",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 821009,
-    "execution_gas": 17241189000
-  },
-  {
-    "date": "2026-03-30",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1064772,
-    "execution_gas": 22360212000
-  },
-  {
-    "date": "2026-03-31",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1295274,
-    "execution_gas": 27200754000
-  },
-  {
-    "date": "2026-04-01",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1067588,
-    "execution_gas": 22419348000
-  },
-  {
-    "date": "2026-04-02",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1240977,
-    "execution_gas": 26060517000
-  },
-  {
-    "date": "2026-04-03",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1249626,
-    "execution_gas": 26242146000
-  },
-  {
-    "date": "2026-04-04",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1132478,
-    "execution_gas": 23782038000
-  },
-  {
-    "date": "2026-04-05",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1114311,
-    "execution_gas": 23400531000
-  },
-  {
-    "date": "2026-04-06",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1217818,
-    "execution_gas": 25574178000
-  },
-  {
-    "date": "2026-04-07",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1372036,
-    "execution_gas": 28812756000
-  },
-  {
-    "date": "2026-04-08",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1071770,
-    "execution_gas": 22507170000
-  },
-  {
-    "date": "2026-04-09",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1211849,
-    "execution_gas": 25448829000
-  },
-  {
-    "date": "2026-04-10",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1245594,
-    "execution_gas": 26157474000
-  },
-  {
-    "date": "2026-04-11",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1874811,
-    "execution_gas": 39371031000
-  },
-  {
-    "date": "2026-04-12",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 2732312,
-    "execution_gas": 57378552000
-  },
-  {
-    "date": "2026-04-13",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1398625,
-    "execution_gas": 29371125000
-  },
-  {
-    "date": "2026-04-14",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1637458,
-    "execution_gas": 34386618000
-  },
-  {
-    "date": "2026-04-15",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 1321594,
-    "execution_gas": 27753474000
-  },
-  {
-    "date": "2026-04-16",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 701254,
-    "execution_gas": 14726334000
-  },
-  {
-    "date": "2026-04-17",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 593546,
-    "execution_gas": 12464466000
-  },
-  {
-    "date": "2026-04-18",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 996327,
-    "execution_gas": 20922867000
-  },
-  {
-    "date": "2026-04-19",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 411315,
-    "execution_gas": 8637615000
-  },
-  {
-    "date": "2026-04-20",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 492770,
-    "execution_gas": 10348170000
-  },
-  {
-    "date": "2026-04-21",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 546751,
-    "execution_gas": 11481771000
-  },
-  {
-    "date": "2026-04-22",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 502985,
-    "execution_gas": 10562685000
-  },
-  {
-    "date": "2026-04-23",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 533433,
-    "execution_gas": 11202093000
-  },
-  {
-    "date": "2026-04-24",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 600260,
-    "execution_gas": 12605460000
-  },
-  {
-    "date": "2026-04-25",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 739404,
-    "execution_gas": 15527484000
-  },
-  {
-    "date": "2026-04-26",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 577107,
-    "execution_gas": 12119247000
-  },
-  {
-    "date": "2026-04-27",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 481212,
-    "execution_gas": 10105452000
-  },
-  {
-    "date": "2026-04-28",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 441525,
-    "execution_gas": 9272025000
-  },
-  {
-    "date": "2026-04-29",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 446833,
-    "execution_gas": 9383493000
-  },
-  {
-    "date": "2026-04-30",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 481885,
-    "execution_gas": 10119585000
-  },
-  {
-    "date": "2026-05-01",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 490178,
-    "execution_gas": 10293738000
-  },
-  {
-    "date": "2026-05-02",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 366591,
-    "execution_gas": 7698411000
-  },
-  {
-    "date": "2026-05-03",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 382876,
-    "execution_gas": 8040396000
-  },
-  {
-    "date": "2026-05-04",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 472034,
-    "execution_gas": 9912714000
-  },
-  {
-    "date": "2026-05-05",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 600233,
-    "execution_gas": 12604893000
-  },
-  {
-    "date": "2026-05-06",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 639803,
-    "execution_gas": 13435863000
-  },
-  {
-    "date": "2026-05-07",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 579132,
-    "execution_gas": 12161772000
-  },
-  {
-    "date": "2026-05-08",
-    "project": "eth-transfers",
-    "bucket": "plain-eth-transfers",
-    "tx_count": 479614,
-    "execution_gas": 10071894000
-  },
-  {
     "date": "2026-05-09",
     "project": "eth-transfers",
     "bucket": "plain-eth-transfers",
@@ -1286,5 +992,299 @@
     "bucket": "plain-eth-transfers",
     "tx_count": 396696,
     "execution_gas": 8330616000
+  },
+  {
+    "date": "2026-09-28",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 568636,
+    "execution_gas": 11941356000
+  },
+  {
+    "date": "2026-09-29",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 572846,
+    "execution_gas": 12029766000
+  },
+  {
+    "date": "2026-09-30",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 600557,
+    "execution_gas": 12611697000
+  },
+  {
+    "date": "2026-10-01",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 646712,
+    "execution_gas": 13580952000
+  },
+  {
+    "date": "2026-10-02",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 487651,
+    "execution_gas": 10240671000
+  },
+  {
+    "date": "2026-10-03",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 421634,
+    "execution_gas": 8854314000
+  },
+  {
+    "date": "2026-10-04",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 399854,
+    "execution_gas": 8396934000
+  },
+  {
+    "date": "2026-10-05",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 445797,
+    "execution_gas": 9361737000
+  },
+  {
+    "date": "2026-10-06",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 473577,
+    "execution_gas": 9945117000
+  },
+  {
+    "date": "2026-10-07",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 511779,
+    "execution_gas": 10747359000
+  },
+  {
+    "date": "2026-10-08",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 500178,
+    "execution_gas": 10503738000
+  },
+  {
+    "date": "2026-10-09",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 475717,
+    "execution_gas": 9990057000
+  },
+  {
+    "date": "2026-10-10",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 429534,
+    "execution_gas": 9020214000
+  },
+  {
+    "date": "2026-10-11",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 440857,
+    "execution_gas": 9257997000
+  },
+  {
+    "date": "2026-10-12",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 548937,
+    "execution_gas": 11527677000
+  },
+  {
+    "date": "2026-10-13",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 577814,
+    "execution_gas": 12134094000
+  },
+  {
+    "date": "2026-10-14",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 534191,
+    "execution_gas": 11218011000
+  },
+  {
+    "date": "2026-10-15",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 484109,
+    "execution_gas": 10166289000
+  },
+  {
+    "date": "2026-10-16",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 514004,
+    "execution_gas": 10794084000
+  },
+  {
+    "date": "2026-10-17",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 423748,
+    "execution_gas": 8898708000
+  },
+  {
+    "date": "2026-10-18",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 486026,
+    "execution_gas": 10206546000
+  },
+  {
+    "date": "2026-10-19",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 501608,
+    "execution_gas": 10533768000
+  },
+  {
+    "date": "2026-10-20",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 566266,
+    "execution_gas": 11891586000
+  },
+  {
+    "date": "2026-10-21",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 564370,
+    "execution_gas": 11851770000
+  },
+  {
+    "date": "2026-10-22",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 507870,
+    "execution_gas": 10665270000
+  },
+  {
+    "date": "2026-10-23",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 535491,
+    "execution_gas": 11245311000
+  },
+  {
+    "date": "2026-10-24",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 481052,
+    "execution_gas": 10102092000
+  },
+  {
+    "date": "2026-10-25",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 384773,
+    "execution_gas": 8080233000
+  },
+  {
+    "date": "2026-10-26",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 444236,
+    "execution_gas": 9328956000
+  },
+  {
+    "date": "2026-10-27",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 546584,
+    "execution_gas": 11478264000
+  },
+  {
+    "date": "2026-10-28",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 662668,
+    "execution_gas": 13916028000
+  },
+  {
+    "date": "2026-10-29",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 444943,
+    "execution_gas": 9343803000
+  },
+  {
+    "date": "2026-10-30",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 483309,
+    "execution_gas": 10149489000
+  },
+  {
+    "date": "2026-10-31",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 388053,
+    "execution_gas": 8149113000
+  },
+  {
+    "date": "2026-11-01",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 426790,
+    "execution_gas": 8962590000
+  },
+  {
+    "date": "2026-11-02",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 493565,
+    "execution_gas": 10364865000
+  },
+  {
+    "date": "2026-11-03",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 468963,
+    "execution_gas": 9848223000
+  },
+  {
+    "date": "2026-11-04",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 581896,
+    "execution_gas": 12219816000
+  },
+  {
+    "date": "2026-11-05",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 672631,
+    "execution_gas": 14125251000
+  },
+  {
+    "date": "2026-11-06",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 699592,
+    "execution_gas": 14691432000
+  },
+  {
+    "date": "2026-11-07",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 581616,
+    "execution_gas": 12213936000
+  },
+  {
+    "date": "2026-11-08",
+    "project": "eth-transfers",
+    "bucket": "plain-eth-transfers",
+    "tx_count": 516566,
+    "execution_gas": 10847886000
   }
 ]

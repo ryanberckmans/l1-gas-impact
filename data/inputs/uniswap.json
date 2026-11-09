@@ -1,2637 +1,5 @@
 [
   {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 241371097,
-    "tx_count": 1781,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1728971390,
-    "tx_count": 9207,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 2507014,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2604180511,
-    "tx_count": 18505,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558980,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 533307049,
-    "tx_count": 1437,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 856094019,
-    "tx_count": 6588,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-03-28",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 216780392,
-    "tx_count": 1024,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 223838367,
-    "tx_count": 1656,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1548170756,
-    "tx_count": 8451,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2056873786,
-    "tx_count": 14201,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558980,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 5322092,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 519141472,
-    "tx_count": 1663,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 804743238,
-    "tx_count": 6364,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-03-29",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 181821359,
-    "tx_count": 889,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-03-30",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 241759626,
-    "tx_count": 1726,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-03-30",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1842203941,
-    "tx_count": 9714,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-03-30",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1854432689,
-    "tx_count": 12311,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-03-30",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 530431875,
-    "tx_count": 1610,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-03-30",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 457660264,
-    "tx_count": 3573,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-03-30",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 243656115,
-    "tx_count": 1147,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-03-31",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 262865996,
-    "tx_count": 1921,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-03-31",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2194041407,
-    "tx_count": 11470,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-03-31",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1481228585,
-    "tx_count": 9952,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-03-31",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 570527423,
-    "tx_count": 1975,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-03-31",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 443224444,
-    "tx_count": 3563,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-03-31",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 558258811,
-    "tx_count": 2357,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-01",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 291805005,
-    "tx_count": 2057,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-01",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2114770628,
-    "tx_count": 11510,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-01",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 2507004,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-01",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1640920447,
-    "tx_count": 10925,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-01",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 609315932,
-    "tx_count": 2065,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-01",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 720743678,
-    "tx_count": 5732,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-01",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 475315784,
-    "tx_count": 1919,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 374767877,
-    "tx_count": 2706,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2126493065,
-    "tx_count": 12016,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 5014008,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1725110928,
-    "tx_count": 11709,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 5411433,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 511564209,
-    "tx_count": 1645,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 915333145,
-    "tx_count": 6950,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-02",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 402909790,
-    "tx_count": 1519,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 321702202,
-    "tx_count": 2337,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1814209838,
-    "tx_count": 10198,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 7521022,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1401026808,
-    "tx_count": 9343,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 5324382,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 411168768,
-    "tx_count": 1217,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 881283679,
-    "tx_count": 6690,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-03",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 257663352,
-    "tx_count": 1174,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-04",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 286954212,
-    "tx_count": 2071,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-04",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1570581657,
-    "tx_count": 8928,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-04",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1456838356,
-    "tx_count": 9974,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-04",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 455023893,
-    "tx_count": 991,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-04",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 903882492,
-    "tx_count": 6955,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-04",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 179101983,
-    "tx_count": 852,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-05",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 189306398,
-    "tx_count": 1376,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-05",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1599664635,
-    "tx_count": 9094,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-05",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1372338636,
-    "tx_count": 9263,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-05",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 670093,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-05",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 445933698,
-    "tx_count": 1290,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-05",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 880877867,
-    "tx_count": 6795,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-05",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 210854603,
-    "tx_count": 954,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-06",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 241677504,
-    "tx_count": 1749,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-06",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2024190217,
-    "tx_count": 10990,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-06",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1435245201,
-    "tx_count": 9879,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-06",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 579827648,
-    "tx_count": 1637,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-06",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 925370114,
-    "tx_count": 7105,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-06",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 273751038,
-    "tx_count": 1155,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-07",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 311893179,
-    "tx_count": 2264,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-07",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2245173513,
-    "tx_count": 12702,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-07",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1250664668,
-    "tx_count": 8589,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-07",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 584375425,
-    "tx_count": 1777,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-07",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 957822556,
-    "tx_count": 7372,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-07",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 235473640,
-    "tx_count": 1119,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-08",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 323367425,
-    "tx_count": 2328,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-08",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2173196980,
-    "tx_count": 11598,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-08",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 704252830,
-    "tx_count": 4798,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-08",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558970,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-08",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 686288567,
-    "tx_count": 1916,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-08",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 564411779,
-    "tx_count": 4379,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-08",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 267703896,
-    "tx_count": 1221,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-09",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 494985593,
-    "tx_count": 3665,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-09",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2081937310,
-    "tx_count": 12145,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-09",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 925632088,
-    "tx_count": 6350,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-09",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 669731,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-09",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 482232913,
-    "tx_count": 1347,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-09",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 781085341,
-    "tx_count": 5987,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-09",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 279376060,
-    "tx_count": 1336,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-10",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 324547445,
-    "tx_count": 2354,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-10",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2363303180,
-    "tx_count": 14002,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-10",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1501050953,
-    "tx_count": 10230,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-10",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 542948752,
-    "tx_count": 1789,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-10",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 806964344,
-    "tx_count": 6146,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-10",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 308309250,
-    "tx_count": 1438,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-11",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 282383796,
-    "tx_count": 1913,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-11",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1857030353,
-    "tx_count": 10738,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-11",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1349596364,
-    "tx_count": 8829,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-11",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 555810046,
-    "tx_count": 1823,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-11",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 751602729,
-    "tx_count": 5733,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-11",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 225278089,
-    "tx_count": 1111,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-12",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 263508704,
-    "tx_count": 1886,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-12",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1871789225,
-    "tx_count": 10943,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-12",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1114040736,
-    "tx_count": 7171,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-12",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 666350,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-12",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 498367642,
-    "tx_count": 1409,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-12",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 865862516,
-    "tx_count": 6600,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-12",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 209199207,
-    "tx_count": 1012,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-13",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 235803574,
-    "tx_count": 1662,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-13",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2623806155,
-    "tx_count": 15967,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-13",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 5013994,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-13",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1176048413,
-    "tx_count": 7504,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-13",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 550587005,
-    "tx_count": 1713,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-13",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 534233420,
-    "tx_count": 4118,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-13",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 438853036,
-    "tx_count": 1966,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-14",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 379225968,
-    "tx_count": 2541,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-14",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2425503019,
-    "tx_count": 13247,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-14",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1074492432,
-    "tx_count": 6885,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-14",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 825796638,
-    "tx_count": 2476,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-14",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 417200785,
-    "tx_count": 3241,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-14",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 516095248,
-    "tx_count": 2107,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-14",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 73815,
-    "tx_count": 1,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 349547568,
-    "tx_count": 2478,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3605924158,
-    "tx_count": 15774,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 928127756,
-    "tx_count": 5892,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 11581380,
-    "tx_count": 4,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 820045014,
-    "tx_count": 1784,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 513317337,
-    "tx_count": 3924,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 355000630,
-    "tx_count": 1542,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-15",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 427715,
-    "tx_count": 3,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-16",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 356890500,
-    "tx_count": 2629,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-16",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3762938846,
-    "tx_count": 21126,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-16",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 837965767,
-    "tx_count": 5203,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-16",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 22794778,
-    "tx_count": 5,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-16",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 636853247,
-    "tx_count": 1809,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-16",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 579655537,
-    "tx_count": 4377,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-16",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 421863235,
-    "tx_count": 1480,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 385524462,
-    "tx_count": 2864,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 4439080773,
-    "tx_count": 23691,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 17549064,
-    "tx_count": 7,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1129680107,
-    "tx_count": 7508,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9117926,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 763171,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1062349304,
-    "tx_count": 3497,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 624355244,
-    "tx_count": 4736,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-17",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 565780154,
-    "tx_count": 2564,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 295008332,
-    "tx_count": 2241,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 4523776252,
-    "tx_count": 23571,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 37605090,
-    "tx_count": 15,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1164302142,
-    "tx_count": 7784,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 36471758,
-    "tx_count": 8,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 2494718,
-    "tx_count": 4,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 803811615,
-    "tx_count": 2305,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 437148481,
-    "tx_count": 3344,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-18",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 511461147,
-    "tx_count": 2299,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 411699327,
-    "tx_count": 3065,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 6040031186,
-    "tx_count": 29886,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 10028014,
-    "tx_count": 4,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1511160442,
-    "tx_count": 10442,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9117940,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1164982441,
-    "tx_count": 3421,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 572165555,
-    "tx_count": 4375,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-19",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 566447349,
-    "tx_count": 2494,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 425497291,
-    "tx_count": 3295,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 5870521089,
-    "tx_count": 30027,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 1898000048,
-    "tx_count": 12132,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 13676910,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 605231,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 955245891,
-    "tx_count": 2854,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 469770761,
-    "tx_count": 3552,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 565907337,
-    "tx_count": 2516,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-20",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 186786,
-    "tx_count": 1,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-21",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 242620177,
-    "tx_count": 1765,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-21",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 5662748634,
-    "tx_count": 28533,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-21",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2352485224,
-    "tx_count": 14438,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-21",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 507055,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-21",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1118897476,
-    "tx_count": 2849,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-21",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 386153343,
-    "tx_count": 2903,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-21",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 568962188,
-    "tx_count": 2623,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 242176311,
-    "tx_count": 1786,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 6929868943,
-    "tx_count": 36259,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 5014018,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2100605132,
-    "tx_count": 13884,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558970,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 746606930,
-    "tx_count": 2292,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 265697276,
-    "tx_count": 2013,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 796300516,
-    "tx_count": 3438,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-22",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 121170,
-    "tx_count": 2,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 305161675,
-    "tx_count": 2315,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 6390502543,
-    "tx_count": 33777,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 15341078,
-    "tx_count": 7,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3057953370,
-    "tx_count": 20042,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558980,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 5312065,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 667355656,
-    "tx_count": 1979,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 410919034,
-    "tx_count": 3107,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 878995760,
-    "tx_count": 3741,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-23",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 413050109,
-    "tx_count": 1975,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 235864586,
-    "tx_count": 1713,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 4540263404,
-    "tx_count": 24515,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 32591046,
-    "tx_count": 13,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2962421833,
-    "tx_count": 17793,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 564308758,
-    "tx_count": 1681,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 440667443,
-    "tx_count": 3303,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 923724426,
-    "tx_count": 4219,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-24",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1666514830,
-    "tx_count": 7873,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 248921639,
-    "tx_count": 1762,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3981439920,
-    "tx_count": 18629,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 2507002,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2921040248,
-    "tx_count": 17517,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9714096,
-    "tx_count": 24,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 6617662,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 644500447,
-    "tx_count": 1778,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 410626300,
-    "tx_count": 3059,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1207515975,
-    "tx_count": 5174,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-25",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2454680417,
-    "tx_count": 10406,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 214098216,
-    "tx_count": 1531,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 5125342298,
-    "tx_count": 22893,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 5014018,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3427828584,
-    "tx_count": 22294,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 538300157,
-    "tx_count": 1403,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 378671745,
-    "tx_count": 2829,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1416192310,
-    "tx_count": 5433,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-26",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3180907905,
-    "tx_count": 12152,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 271635932,
-    "tx_count": 1907,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 5265540748,
-    "tx_count": 25770,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 10028026,
-    "tx_count": 4,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3366925762,
-    "tx_count": 20881,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558980,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 521519099,
-    "tx_count": 1602,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 250189662,
-    "tx_count": 1886,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 954264461,
-    "tx_count": 4074,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-27",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2893200995,
-    "tx_count": 11703,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 262869031,
-    "tx_count": 1888,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3529134163,
-    "tx_count": 18999,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 2507004,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3352450684,
-    "tx_count": 22180,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9117950,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 474376589,
-    "tx_count": 1443,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 339408925,
-    "tx_count": 2554,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 668411171,
-    "tx_count": 2859,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-28",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2941734305,
-    "tx_count": 12334,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 320327656,
-    "tx_count": 2208,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2037666894,
-    "tx_count": 12035,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 2507004,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2603380208,
-    "tx_count": 17389,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9117960,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 605395687,
-    "tx_count": 1784,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 382726497,
-    "tx_count": 2865,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1092815838,
-    "tx_count": 4772,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-29",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3298570263,
-    "tx_count": 14156,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 363540953,
-    "tx_count": 2586,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1614390497,
-    "tx_count": 8054,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2350184666,
-    "tx_count": 15514,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558970,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 622261083,
-    "tx_count": 1894,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 196997861,
-    "tx_count": 1491,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 708361931,
-    "tx_count": 2983,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-04-30",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2592934954,
-    "tx_count": 11236,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 415247887,
-    "tx_count": 3066,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2026437802,
-    "tx_count": 10260,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 5038542,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2752906481,
-    "tx_count": 16517,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 5344520,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 700867910,
-    "tx_count": 2123,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 268720155,
-    "tx_count": 2072,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 790408282,
-    "tx_count": 3351,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-01",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3716521051,
-    "tx_count": 14355,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 901559466,
-    "tx_count": 7163,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1744284364,
-    "tx_count": 7620,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3059346319,
-    "tx_count": 17476,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9117940,
-    "tx_count": 2,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 594005626,
-    "tx_count": 1781,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 224388766,
-    "tx_count": 1689,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 838160207,
-    "tx_count": 3416,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-02",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3738771656,
-    "tx_count": 13593,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 772988288,
-    "tx_count": 6006,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2949057076,
-    "tx_count": 9931,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 60167922,
-    "tx_count": 24,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3488317679,
-    "tx_count": 20119,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 5312474,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 683425452,
-    "tx_count": 1925,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 190604411,
-    "tx_count": 1453,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1320254220,
-    "tx_count": 4505,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-03",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 4055507252,
-    "tx_count": 14829,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 664318965,
-    "tx_count": 5067,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2583348263,
-    "tx_count": 10793,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2733445054,
-    "tx_count": 16870,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9145038,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 638678,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 789750486,
-    "tx_count": 2422,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 205058469,
-    "tx_count": 1565,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1494715214,
-    "tx_count": 5931,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-04",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3607250159,
-    "tx_count": 15279,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 705017416,
-    "tx_count": 5570,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 1959862099,
-    "tx_count": 10996,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 7521022,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3159576555,
-    "tx_count": 19156,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 4558958,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 618149,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v3_migrator"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1207843698,
-    "tx_count": 2737,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 262801789,
-    "tx_count": 1985,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 816621591,
-    "tx_count": 3630,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-05",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3066867086,
-    "tx_count": 12276,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 593059653,
-    "tx_count": 4573,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2545249080,
-    "tx_count": 11423,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 5270780,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 3447662766,
-    "tx_count": 20860,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 9145038,
-    "tx_count": 3,
-    "source_id": "blockchair-uniswap-v3_factory"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1137715343,
-    "tx_count": 3166,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 381139776,
-    "tx_count": 2965,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1051279896,
-    "tx_count": 4379,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-06",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2824188835,
-    "tx_count": 12194,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 359234109,
-    "tx_count": 2640,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2630981278,
-    "tx_count": 15463,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "pool_creation",
-    "gas_used": 2507004,
-    "tx_count": 1,
-    "source_id": "blockchair-uniswap-v2_factory"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2764326704,
-    "tx_count": 16946,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 826967597,
-    "tx_count": 2281,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 308822343,
-    "tx_count": 2417,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1504983338,
-    "tx_count": 6706,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-07",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3632102415,
-    "tx_count": 15120,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
-    "date": "2026-05-08",
-    "product": "uniswap",
-    "bucket": "v2_v3_router",
-    "gas_used": 288416596,
-    "tx_count": 2018,
-    "source_id": "blockchair-uniswap-swaprouter02"
-  },
-  {
-    "date": "2026-05-08",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 2405738685,
-    "tx_count": 12834,
-    "source_id": "blockchair-uniswap-universal_v2"
-  },
-  {
-    "date": "2026-05-08",
-    "product": "uniswap",
-    "bucket": "v2_router",
-    "gas_used": 2145495488,
-    "tx_count": 13729,
-    "source_id": "blockchair-uniswap-v2_router02"
-  },
-  {
-    "date": "2026-05-08",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 636259138,
-    "tx_count": 1917,
-    "source_id": "blockchair-uniswap-v3_positions"
-  },
-  {
-    "date": "2026-05-08",
-    "product": "uniswap",
-    "bucket": "v3_router",
-    "gas_used": 207188547,
-    "tx_count": 1581,
-    "source_id": "blockchair-uniswap-v3_swaprouter"
-  },
-  {
-    "date": "2026-05-08",
-    "product": "uniswap",
-    "bucket": "liquidity",
-    "gas_used": 1686425446,
-    "tx_count": 6898,
-    "source_id": "blockchair-uniswap-v4_positions"
-  },
-  {
-    "date": "2026-05-08",
-    "product": "uniswap",
-    "bucket": "universal_router",
-    "gas_used": 3470183951,
-    "tx_count": 14793,
-    "source_id": "routescan-uniswap-universal-v211-decoded"
-  },
-  {
     "date": "2026-05-09",
     "product": "uniswap",
     "bucket": "v2_v3_router",
@@ -11846,5 +9214,2653 @@
     "bucket": "universal_router",
     "gas_used": 107866570,
     "tx_count": 472
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 895920382,
+    "tx_count": 6311
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1405553960,
+    "tx_count": 9042
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 3252811,
+    "tx_count": 3
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 504832027,
+    "tx_count": 3546
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 36471790,
+    "tx_count": 8
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 537168281,
+    "tx_count": 1747
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 239525597,
+    "tx_count": 1753
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 753113770,
+    "tx_count": 3384
+  },
+  {
+    "date": "2026-09-28",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 142965667,
+    "tx_count": 688
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1038689606,
+    "tx_count": 7230
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1051291330,
+    "tx_count": 6296
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5014028,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 392146686,
+    "tx_count": 2703
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 9117928,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 492741271,
+    "tx_count": 1711
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 278815319,
+    "tx_count": 2010
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1303716571,
+    "tx_count": 5932
+  },
+  {
+    "date": "2026-09-29",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 116525440,
+    "tx_count": 565
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1048841063,
+    "tx_count": 7344
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1239637030,
+    "tx_count": 7596
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5014028,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 978920284,
+    "tx_count": 6015
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 442120064,
+    "tx_count": 1386
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 272836616,
+    "tx_count": 2060
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1374745197,
+    "tx_count": 3946
+  },
+  {
+    "date": "2026-09-30",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 135015497,
+    "tx_count": 635
+  },
+  {
+    "date": "2026-10-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 622964329,
+    "tx_count": 4203
+  },
+  {
+    "date": "2026-10-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1360602444,
+    "tx_count": 8259
+  },
+  {
+    "date": "2026-10-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1000331318,
+    "tx_count": 6221
+  },
+  {
+    "date": "2026-10-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 426938036,
+    "tx_count": 1344
+  },
+  {
+    "date": "2026-10-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 229406258,
+    "tx_count": 1740
+  },
+  {
+    "date": "2026-10-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 801325171,
+    "tx_count": 3904
+  },
+  {
+    "date": "2026-10-01",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 115388024,
+    "tx_count": 544
+  },
+  {
+    "date": "2026-10-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 718590978,
+    "tx_count": 4960
+  },
+  {
+    "date": "2026-10-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1261046470,
+    "tx_count": 7341
+  },
+  {
+    "date": "2026-10-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1028002718,
+    "tx_count": 6802
+  },
+  {
+    "date": "2026-10-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 498823477,
+    "tx_count": 1662
+  },
+  {
+    "date": "2026-10-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 296691214,
+    "tx_count": 2228
+  },
+  {
+    "date": "2026-10-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 641009962,
+    "tx_count": 2975
+  },
+  {
+    "date": "2026-10-02",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 99371364,
+    "tx_count": 480
+  },
+  {
+    "date": "2026-10-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 544484048,
+    "tx_count": 3609
+  },
+  {
+    "date": "2026-10-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1116774101,
+    "tx_count": 6734
+  },
+  {
+    "date": "2026-10-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 978978170,
+    "tx_count": 5856
+  },
+  {
+    "date": "2026-10-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 397825012,
+    "tx_count": 1023
+  },
+  {
+    "date": "2026-10-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 268389410,
+    "tx_count": 2034
+  },
+  {
+    "date": "2026-10-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 755070168,
+    "tx_count": 3473
+  },
+  {
+    "date": "2026-10-03",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 83336012,
+    "tx_count": 419
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 776806755,
+    "tx_count": 5209
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1230821047,
+    "tx_count": 7106
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5014018,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1227267825,
+    "tx_count": 7891
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 442792558,
+    "tx_count": 1219
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 272553052,
+    "tx_count": 2050
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1089352294,
+    "tx_count": 4972
+  },
+  {
+    "date": "2026-10-04",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 65313441,
+    "tx_count": 337
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 836140678,
+    "tx_count": 5661
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1509145263,
+    "tx_count": 7969
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 21000,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1493354077,
+    "tx_count": 9705
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 484002340,
+    "tx_count": 1327
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 288954138,
+    "tx_count": 2193
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1535531932,
+    "tx_count": 7024
+  },
+  {
+    "date": "2026-10-05",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 96266933,
+    "tx_count": 510
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 735514699,
+    "tx_count": 4974
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1401926271,
+    "tx_count": 7968
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5014008,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1290681485,
+    "tx_count": 8933
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 13676910,
+    "tx_count": 3
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 426667765,
+    "tx_count": 1217
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 377250092,
+    "tx_count": 2861
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1232015087,
+    "tx_count": 5561
+  },
+  {
+    "date": "2026-10-06",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 111307028,
+    "tx_count": 529
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 695583842,
+    "tx_count": 4768
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1295893622,
+    "tx_count": 7375
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2507004,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1519425712,
+    "tx_count": 9883
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 501312817,
+    "tx_count": 1558
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 380825516,
+    "tx_count": 2877
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1480942191,
+    "tx_count": 6343
+  },
+  {
+    "date": "2026-10-07",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 141806924,
+    "tx_count": 672
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 822484399,
+    "tx_count": 5661
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1158941858,
+    "tx_count": 6597
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5014008,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1530543627,
+    "tx_count": 10336
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 472380361,
+    "tx_count": 1573
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 468690799,
+    "tx_count": 3554
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1160726405,
+    "tx_count": 5232
+  },
+  {
+    "date": "2026-10-08",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 96688674,
+    "tx_count": 464
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 828124212,
+    "tx_count": 5686
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1443794341,
+    "tx_count": 7948
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2507014,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1917882528,
+    "tx_count": 12093
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 407213360,
+    "tx_count": 1147
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 748136583,
+    "tx_count": 5819
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 913976459,
+    "tx_count": 4450
+  },
+  {
+    "date": "2026-10-09",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 93224320,
+    "tx_count": 473
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 662608959,
+    "tx_count": 4626
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1547873978,
+    "tx_count": 9396
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 12897754,
+    "tx_count": 8
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1723001364,
+    "tx_count": 10462
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 431846408,
+    "tx_count": 1213
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 631370182,
+    "tx_count": 4893
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 983417164,
+    "tx_count": 4001
+  },
+  {
+    "date": "2026-10-10",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 136340975,
+    "tx_count": 706
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 680968768,
+    "tx_count": 4704
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1419274286,
+    "tx_count": 8297
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 12834090,
+    "tx_count": 6
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1233103750,
+    "tx_count": 7115
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 493612587,
+    "tx_count": 1249
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 1051342470,
+    "tx_count": 8005
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1463636064,
+    "tx_count": 5696
+  },
+  {
+    "date": "2026-10-11",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 128178761,
+    "tx_count": 683
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 946908525,
+    "tx_count": 6440
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1953089064,
+    "tx_count": 11570
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 127857224,
+    "tx_count": 51
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1306471421,
+    "tx_count": 7470
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 4558970,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 585529418,
+    "tx_count": 1410
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 1016386906,
+    "tx_count": 7731
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1081072755,
+    "tx_count": 4654
+  },
+  {
+    "date": "2026-10-12",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 139843588,
+    "tx_count": 686
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 973550694,
+    "tx_count": 6776
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2009826219,
+    "tx_count": 11690
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2507004,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1292551274,
+    "tx_count": 7455
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 4558980,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 452428165,
+    "tx_count": 1335
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 636276624,
+    "tx_count": 4859
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1229626785,
+    "tx_count": 4947
+  },
+  {
+    "date": "2026-10-13",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 161934489,
+    "tx_count": 782
+  },
+  {
+    "date": "2026-10-14",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 936824040,
+    "tx_count": 6555
+  },
+  {
+    "date": "2026-10-14",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1690285070,
+    "tx_count": 10332
+  },
+  {
+    "date": "2026-10-14",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 958787174,
+    "tx_count": 5585
+  },
+  {
+    "date": "2026-10-14",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 378592188,
+    "tx_count": 1126
+  },
+  {
+    "date": "2026-10-14",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 628656838,
+    "tx_count": 4940
+  },
+  {
+    "date": "2026-10-14",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 914477202,
+    "tx_count": 3761
+  },
+  {
+    "date": "2026-10-14",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 120844402,
+    "tx_count": 594
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1145192806,
+    "tx_count": 7960
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1632501727,
+    "tx_count": 9962
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2507004,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1441631072,
+    "tx_count": 9337
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 572445451,
+    "tx_count": 1589
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 716733710,
+    "tx_count": 5453
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 880490008,
+    "tx_count": 3838
+  },
+  {
+    "date": "2026-10-15",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 100609255,
+    "tx_count": 529
+  },
+  {
+    "date": "2026-10-16",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1043835330,
+    "tx_count": 7273
+  },
+  {
+    "date": "2026-10-16",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1540766082,
+    "tx_count": 10059
+  },
+  {
+    "date": "2026-10-16",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 917081690,
+    "tx_count": 5498
+  },
+  {
+    "date": "2026-10-16",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 669407343,
+    "tx_count": 1472
+  },
+  {
+    "date": "2026-10-16",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 709789558,
+    "tx_count": 5367
+  },
+  {
+    "date": "2026-10-16",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1816393258,
+    "tx_count": 4092
+  },
+  {
+    "date": "2026-10-16",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 115982476,
+    "tx_count": 567
+  },
+  {
+    "date": "2026-10-17",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 870182983,
+    "tx_count": 6209
+  },
+  {
+    "date": "2026-10-17",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1476970837,
+    "tx_count": 9669
+  },
+  {
+    "date": "2026-10-17",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1101127364,
+    "tx_count": 6649
+  },
+  {
+    "date": "2026-10-17",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 473612802,
+    "tx_count": 1229
+  },
+  {
+    "date": "2026-10-17",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 731379236,
+    "tx_count": 5582
+  },
+  {
+    "date": "2026-10-17",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 934917924,
+    "tx_count": 3536
+  },
+  {
+    "date": "2026-10-17",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 78957083,
+    "tx_count": 428
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1073761553,
+    "tx_count": 7567
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1425155344,
+    "tx_count": 9163
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2904512,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1289088731,
+    "tx_count": 7614
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 382857453,
+    "tx_count": 1277
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 669631908,
+    "tx_count": 5224
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1138671986,
+    "tx_count": 3769
+  },
+  {
+    "date": "2026-10-18",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 83012113,
+    "tx_count": 413
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1276710965,
+    "tx_count": 9067
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1803757774,
+    "tx_count": 10878
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2507004,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1750438097,
+    "tx_count": 11723
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 4558958,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 531494089,
+    "tx_count": 1497
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 757545644,
+    "tx_count": 5818
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 746916845,
+    "tx_count": 3490
+  },
+  {
+    "date": "2026-10-19",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 66520222,
+    "tx_count": 357
+  },
+  {
+    "date": "2026-10-20",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1090246426,
+    "tx_count": 7669
+  },
+  {
+    "date": "2026-10-20",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1615902798,
+    "tx_count": 9951
+  },
+  {
+    "date": "2026-10-20",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1462577114,
+    "tx_count": 9740
+  },
+  {
+    "date": "2026-10-20",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 445509872,
+    "tx_count": 1183
+  },
+  {
+    "date": "2026-10-20",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 773536891,
+    "tx_count": 5930
+  },
+  {
+    "date": "2026-10-20",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 727016711,
+    "tx_count": 3215
+  },
+  {
+    "date": "2026-10-20",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 69786260,
+    "tx_count": 371
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1069950024,
+    "tx_count": 7482
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2419996574,
+    "tx_count": 12312
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2507004,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 2211287498,
+    "tx_count": 15221
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 404420913,
+    "tx_count": 1125
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 775348650,
+    "tx_count": 5974
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 803507546,
+    "tx_count": 3594
+  },
+  {
+    "date": "2026-10-21",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 83052118,
+    "tx_count": 453
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1149377981,
+    "tx_count": 8266
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2028399683,
+    "tx_count": 10807
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1471881423,
+    "tx_count": 9976
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 4558970,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 383311514,
+    "tx_count": 1147
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 663280096,
+    "tx_count": 4971
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 846581900,
+    "tx_count": 3782
+  },
+  {
+    "date": "2026-10-22",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 90745071,
+    "tx_count": 532
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1031391618,
+    "tx_count": 7304
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1568323432,
+    "tx_count": 9286
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5014008,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 2093804066,
+    "tx_count": 13501
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 356743864,
+    "tx_count": 959
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 984472093,
+    "tx_count": 7548
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1205100442,
+    "tx_count": 3626
+  },
+  {
+    "date": "2026-10-23",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 114380187,
+    "tx_count": 642
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 949933732,
+    "tx_count": 6608
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 1508360061,
+    "tx_count": 10101
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 2507014,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1422906234,
+    "tx_count": 9155
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 419351673,
+    "tx_count": 1149
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 1132359401,
+    "tx_count": 8762
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 611609636,
+    "tx_count": 2729
+  },
+  {
+    "date": "2026-10-24",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 119604367,
+    "tx_count": 707
+  },
+  {
+    "date": "2026-10-25",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 940754089,
+    "tx_count": 6649
+  },
+  {
+    "date": "2026-10-25",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2408256365,
+    "tx_count": 16547
+  },
+  {
+    "date": "2026-10-25",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 2158690052,
+    "tx_count": 14311
+  },
+  {
+    "date": "2026-10-25",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 409260079,
+    "tx_count": 1015
+  },
+  {
+    "date": "2026-10-25",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 1110163614,
+    "tx_count": 8725
+  },
+  {
+    "date": "2026-10-25",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 521121894,
+    "tx_count": 2283
+  },
+  {
+    "date": "2026-10-25",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 114702890,
+    "tx_count": 717
+  },
+  {
+    "date": "2026-10-26",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 889070619,
+    "tx_count": 6237
+  },
+  {
+    "date": "2026-10-26",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2129333909,
+    "tx_count": 14657
+  },
+  {
+    "date": "2026-10-26",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1416201839,
+    "tx_count": 8978
+  },
+  {
+    "date": "2026-10-26",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 348016820,
+    "tx_count": 1084
+  },
+  {
+    "date": "2026-10-26",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 930169579,
+    "tx_count": 7331
+  },
+  {
+    "date": "2026-10-26",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 633388282,
+    "tx_count": 2777
+  },
+  {
+    "date": "2026-10-26",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 131161887,
+    "tx_count": 750
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 777389469,
+    "tx_count": 5489
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2820615740,
+    "tx_count": 21103
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router01",
+    "bucket": "v2_router",
+    "gas_used": 320789,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1904096593,
+    "tx_count": 12124
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 360844685,
+    "tx_count": 1422
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 578917997,
+    "tx_count": 4463
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 398483671,
+    "tx_count": 1829
+  },
+  {
+    "date": "2026-10-27",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 128510605,
+    "tx_count": 740
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 799851403,
+    "tx_count": 5634
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2871824509,
+    "tx_count": 21116
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 695945,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1701512653,
+    "tx_count": 11445
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 9145014,
+    "tx_count": 3
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 357891243,
+    "tx_count": 1034
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 550252166,
+    "tx_count": 4093
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 443146962,
+    "tx_count": 2089
+  },
+  {
+    "date": "2026-10-28",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 114610762,
+    "tx_count": 665
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 941362171,
+    "tx_count": 5813
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2885327982,
+    "tx_count": 21843
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1255554691,
+    "tx_count": 8109
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 4558980,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 460310766,
+    "tx_count": 1329
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 544784837,
+    "tx_count": 4044
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 529437495,
+    "tx_count": 2173
+  },
+  {
+    "date": "2026-10-29",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 110917184,
+    "tx_count": 642
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1258856928,
+    "tx_count": 7394
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 2036094813,
+    "tx_count": 15135
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 10028036,
+    "tx_count": 4
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 770025114,
+    "tx_count": 5531
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 1448731597,
+    "tx_count": 4619
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 426784390,
+    "tx_count": 3279
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1085753227,
+    "tx_count": 4726
+  },
+  {
+    "date": "2026-10-30",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 154697125,
+    "tx_count": 847
+  },
+  {
+    "date": "2026-10-31",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 929101253,
+    "tx_count": 6330
+  },
+  {
+    "date": "2026-10-31",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 3982618602,
+    "tx_count": 31712
+  },
+  {
+    "date": "2026-10-31",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 947184249,
+    "tx_count": 5818
+  },
+  {
+    "date": "2026-10-31",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 1093006953,
+    "tx_count": 3039
+  },
+  {
+    "date": "2026-10-31",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 493103939,
+    "tx_count": 3779
+  },
+  {
+    "date": "2026-10-31",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1081545836,
+    "tx_count": 4931
+  },
+  {
+    "date": "2026-10-31",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 112048491,
+    "tx_count": 672
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 961264392,
+    "tx_count": 6812
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 5122986292,
+    "tx_count": 42162
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5014018,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1059394896,
+    "tx_count": 6597
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 421648996,
+    "tx_count": 1351
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 479095442,
+    "tx_count": 3718
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 532694742,
+    "tx_count": 2311
+  },
+  {
+    "date": "2026-11-01",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 96027079,
+    "tx_count": 585
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1021392389,
+    "tx_count": 7165
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 5358239675,
+    "tx_count": 43108
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 5404512,
+    "tx_count": 3
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 686438221,
+    "tx_count": 4329
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 9117960,
+    "tx_count": 2
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 463135850,
+    "tx_count": 1459
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 418005775,
+    "tx_count": 3243
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 423209764,
+    "tx_count": 1943
+  },
+  {
+    "date": "2026-11-02",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 84493725,
+    "tx_count": 488
+  },
+  {
+    "date": "2026-11-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 848170324,
+    "tx_count": 6020
+  },
+  {
+    "date": "2026-11-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 5539032264,
+    "tx_count": 45115
+  },
+  {
+    "date": "2026-11-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 829411577,
+    "tx_count": 4788
+  },
+  {
+    "date": "2026-11-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 460780634,
+    "tx_count": 1436
+  },
+  {
+    "date": "2026-11-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 447730461,
+    "tx_count": 3481
+  },
+  {
+    "date": "2026-11-03",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 544703493,
+    "tx_count": 2228
+  },
+  {
+    "date": "2026-11-03",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 81201692,
+    "tx_count": 450
+  },
+  {
+    "date": "2026-11-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1020503453,
+    "tx_count": 7263
+  },
+  {
+    "date": "2026-11-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 5019443029,
+    "tx_count": 41792
+  },
+  {
+    "date": "2026-11-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 768450385,
+    "tx_count": 4618
+  },
+  {
+    "date": "2026-11-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 547646194,
+    "tx_count": 1929
+  },
+  {
+    "date": "2026-11-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 344352369,
+    "tx_count": 2554
+  },
+  {
+    "date": "2026-11-04",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 741943592,
+    "tx_count": 2881
+  },
+  {
+    "date": "2026-11-04",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 77635775,
+    "tx_count": 490
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1459385971,
+    "tx_count": 10221
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 4808212141,
+    "tx_count": 39406
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_factory",
+    "bucket": "pool_creation",
+    "gas_used": 8273719,
+    "tx_count": 5
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 760087393,
+    "tx_count": 4635
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_factory",
+    "bucket": "pool_creation",
+    "gas_used": 10865521,
+    "tx_count": 4
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 482911646,
+    "tx_count": 1659
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 299958061,
+    "tx_count": 2169
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1232764547,
+    "tx_count": 2774
+  },
+  {
+    "date": "2026-11-05",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 47892805,
+    "tx_count": 302
+  },
+  {
+    "date": "2026-11-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 938518918,
+    "tx_count": 6423
+  },
+  {
+    "date": "2026-11-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 4591882686,
+    "tx_count": 36982
+  },
+  {
+    "date": "2026-11-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 840584872,
+    "tx_count": 4990
+  },
+  {
+    "date": "2026-11-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 377987734,
+    "tx_count": 1320
+  },
+  {
+    "date": "2026-11-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 296788795,
+    "tx_count": 2160
+  },
+  {
+    "date": "2026-11-06",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1092293913,
+    "tx_count": 2388
+  },
+  {
+    "date": "2026-11-06",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 55898679,
+    "tx_count": 367
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1103647460,
+    "tx_count": 7552
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 5067902174,
+    "tx_count": 42045
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 1029085601,
+    "tx_count": 6304
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_migrator",
+    "bucket": "liquidity",
+    "gas_used": 625486,
+    "tx_count": 1
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 283443587,
+    "tx_count": 896
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 341848260,
+    "tx_count": 2339
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 1281510712,
+    "tx_count": 2672
+  },
+  {
+    "date": "2026-11-07",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 30797144,
+    "tx_count": 217
+  },
+  {
+    "date": "2026-11-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-swaprouter02",
+    "bucket": "v2_v3_router",
+    "gas_used": 1092500386,
+    "tx_count": 7614
+  },
+  {
+    "date": "2026-11-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-universal_v2",
+    "bucket": "universal_router",
+    "gas_used": 5329788748,
+    "tx_count": 45028
+  },
+  {
+    "date": "2026-11-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v2_router02",
+    "bucket": "v2_router",
+    "gas_used": 764860072,
+    "tx_count": 4506
+  },
+  {
+    "date": "2026-11-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_positions",
+    "bucket": "liquidity",
+    "gas_used": 419456916,
+    "tx_count": 1280
+  },
+  {
+    "date": "2026-11-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v3_swaprouter",
+    "bucket": "v3_router",
+    "gas_used": 370543817,
+    "tx_count": 2773
+  },
+  {
+    "date": "2026-11-08",
+    "product": "uniswap",
+    "source_id": "blockchair-uniswap-v4_positions",
+    "bucket": "liquidity",
+    "gas_used": 418497177,
+    "tx_count": 1947
+  },
+  {
+    "date": "2026-11-08",
+    "product": "uniswap",
+    "source_id": "routescan-uniswap-universal-v211-decoded",
+    "bucket": "universal_router",
+    "gas_used": 46772045,
+    "tx_count": 297
   }
 ]

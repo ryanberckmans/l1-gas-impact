@@ -59,6 +59,8 @@ def classify(s,r):
     inp=r['input'];sel=inp[:10];data=bytes.fromhex(inp[10:]) if len(inp)>=10 else b''
     if s['kind']=='batch':
         assert r['from'].lower() in s['senders'],'Unverified batch sender'
+        if s.get('sender_intervals'):
+            assert any(r['from'].lower()==i['sender'] and i.get('since_block',0)<=int(r['blockNumber'])<i.get('until_block',2**64) for i in s['sender_intervals']),'Outside reviewed batcher interval'
         if s['product']=='ink':
             expected='0x500d7ea63cf2e501dadaa5feec1fc19fe2aa72ac' if int(r['blockNumber'])<25631821 else '0x6db6161fc5662450e801398bad62dd9921216b98'
             assert r['from'].lower()==expected,'Outside reviewed batcher interval'

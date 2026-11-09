@@ -1,14 +1,14 @@
 {
-  "snapshot_id": "f983c100323ee081",
+  "snapshot_id": "2945bd63e0ee6d53",
   "period": {
-    "start_inclusive": "2026-03-28T00:00:00Z",
-    "end_exclusive": "2026-09-28T00:00:00Z",
+    "start_inclusive": "2026-05-09T00:00:00Z",
+    "end_exclusive": "2026-11-09T00:00:00Z",
     "complete_days": 184
   },
   "archive": {
-    "file": "l1-gas-impact-receipts.zip",
-    "bytes": 202632585,
-    "sha256": "6bbf9fb09af7f44afc34d932c641c1bcc1cf220ab4c3461e30bba325d65277bb",
+    "file": "l1-gas-impact-receipts-2026-11-08.zip",
+    "bytes": 209326244,
+    "sha256": "4a0105ffdd892a5be0d4f5147a2d0f3cf0099965d2b16e050ac2878346716745",
     "availability": "separate_archive",
     "index": "/data/receipt-index.json",
     "note": "Preserved separately. Receipt CSVs are absent from the site and source repository."
@@ -17,20 +17,20 @@
     "lighter": {
       "files": [
         {
-          "sha256": "13d3ab71802232d905a5b2c43fc96a45e1f868bbe03380ceb17d157ef2d0ebb4",
-          "bytes": 9210289,
-          "transactions": 200000,
-          "file": "receipts-lighter-1.csv.gz"
+          "file": "receipts-lighter-1.csv.gz",
+          "sha256": "f543a44f7cd80568539e72407282ec6f0230e1eeab01b20c649ea3e179b98eb2",
+          "bytes": 9207647,
+          "transactions": 200000
         },
         {
-          "sha256": "a21de0dd915b7cd272b7cfea0c6cb130e6a72d6eb3652a2f45812bb88b4e6f74",
-          "bytes": 2954515,
-          "transactions": 63933,
-          "file": "receipts-lighter-2.csv.gz"
+          "file": "receipts-lighter-2.csv.gz",
+          "sha256": "17fb56dfd2b8d2cc82ef4185ab2d8084e71fad78a671868171faf944db16e812",
+          "bytes": 3852030,
+          "transactions": 83828
         }
       ],
-      "transactions": 263933,
-      "gas_used": 59605425035,
+      "transactions": 283828,
+      "gas_used": 65705721158,
       "input_paths": [
         "inputs/lighter.json"
       ],
@@ -40,26 +40,26 @@
     "base": {
       "files": [
         {
-          "sha256": "2c7f3083892571d729a96287c77b278a4526f1641562c11fbefbba0de49940c6",
-          "bytes": 8833996,
-          "transactions": 200000,
-          "file": "receipts-base-1.csv.gz"
+          "file": "receipts-base-1.csv.gz",
+          "sha256": "bdd62cf5002dd5ae54192eba7ae9d83bf777cb237065d51f00c3235b948cfd77",
+          "bytes": 8850280,
+          "transactions": 200000
         },
         {
-          "sha256": "67df3ef398704a0c545219bbcb6134b60f74c644808a4bed85ed9765abd6732b",
-          "bytes": 8843610,
-          "transactions": 200000,
-          "file": "receipts-base-2.csv.gz"
+          "file": "receipts-base-2.csv.gz",
+          "sha256": "47b1d16b8435cb48c8ddbf9f8b676337648c776fa69e206792ffc0387dba67b9",
+          "bytes": 8956148,
+          "transactions": 200000
         },
         {
-          "sha256": "4fae3d392143002c4e53808e485abd1ade9e25386ee94963fb4ea9f47149ca1f",
-          "bytes": 5922786,
-          "transactions": 129249,
-          "file": "receipts-base-3.csv.gz"
+          "file": "receipts-base-3.csv.gz",
+          "sha256": "99704d402a8f4d0c280bd6cd10932b49596849dce77494196fa4c3a45bdb2d08",
+          "bytes": 8752043,
+          "transactions": 199443
         }
       ],
-      "transactions": 529249,
-      "gas_used": 49899834006,
+      "transactions": 599443,
+      "gas_used": 68967123878,
       "input_paths": [
         "inputs/rollups.json",
         "inputs/coverage.json"
@@ -70,20 +70,20 @@
     "arbitrum": {
       "files": [
         {
-          "sha256": "4517a975f17d2c01e297bba3bd0460350e39f0f40ac0d03dfcae870c55fd3e7e",
-          "bytes": 8985456,
-          "transactions": 200000,
-          "file": "receipts-arbitrum-1.csv.gz"
+          "file": "receipts-arbitrum-1.csv.gz",
+          "sha256": "248dfab5e40808f1e0118a5efdcf7d1dbe00aaf84212443871ffa5afd0c19438",
+          "bytes": 9034637,
+          "transactions": 200000
         },
         {
-          "sha256": "6f82866a5c720a4d13e032cf5b57f137b60e062e675688b0062e11cad25b2461",
-          "bytes": 3686408,
-          "transactions": 79582,
-          "file": "receipts-arbitrum-2.csv.gz"
+          "file": "receipts-arbitrum-2.csv.gz",
+          "sha256": "18b57a72e2f2e9addc9b70540542648fa2bc597d6229940b2909f43a6a7da5e5",
+          "bytes": 3780320,
+          "transactions": 82655
         }
       ],
-      "transactions": 279582,
-      "gas_used": 40888582641,
+      "transactions": 282655,
+      "gas_used": 41454624274,
       "input_paths": [
         "inputs/rollups.json",
         "inputs/coverage.json"
@@ -94,26 +94,32 @@
     "robinhood": {
       "files": [
         {
-          "sha256": "9a758a945d7ed65e0350ba427b9c29c034d98fe5ce86c6c05123139c943072e1",
-          "bytes": 8793522,
-          "transactions": 200000,
-          "file": "receipts-robinhood-1.csv.gz"
+          "file": "receipts-robinhood-1.csv.gz",
+          "sha256": "43460724553dec4f8bea73d7569f658543072a4c6975df4d7ba675f8cd289178",
+          "bytes": 8793235,
+          "transactions": 200000
         },
         {
-          "sha256": "08638cd863e76732bf3d37cc6a2fed0d6006e387ceb961001778509022739224",
-          "bytes": 8796090,
-          "transactions": 200000,
-          "file": "receipts-robinhood-2.csv.gz"
+          "file": "receipts-robinhood-2.csv.gz",
+          "sha256": "d1ef9887d8170930f35c5578bdf8cab59458a91cae1ec3d6f4068d108e32c29e",
+          "bytes": 8796158,
+          "transactions": 200000
         },
         {
-          "sha256": "fc6a9c108b6124fbab1a273e94ab23051f22daa76e03325d052060498fd129ff",
-          "bytes": 5768821,
-          "transactions": 130456,
-          "file": "receipts-robinhood-3.csv.gz"
+          "file": "receipts-robinhood-3.csv.gz",
+          "sha256": "1288b23f8c6bf0be2b4d6f1c82ce2b3687e499b8ed7dd60c2cf9c4670d17b141",
+          "bytes": 8823923,
+          "transactions": 200000
+        },
+        {
+          "file": "receipts-robinhood-4.csv.gz",
+          "sha256": "fb13dc8e06ba2cc0dff95c864e5f0257e6f235401eec30be0707f80c32b9db49",
+          "bytes": 2915755,
+          "transactions": 65920
         }
       ],
-      "transactions": 530456,
-      "gas_used": 59611729988,
+      "transactions": 665920,
+      "gas_used": 76884034514,
       "input_paths": [
         "inputs/rollups.json",
         "inputs/coverage.json"
@@ -124,14 +130,14 @@
     "worldchain": {
       "files": [
         {
-          "sha256": "2ac50d6f344738017cf763a02220139a6830e245ca647946892b98887f729996",
-          "bytes": 3899560,
-          "transactions": 87697,
-          "file": "receipts-worldchain.csv.gz"
+          "file": "receipts-worldchain-1.csv.gz",
+          "sha256": "6d3fe7e60742755a36fa62def9bb0ae330df6590364cf606202b0016f57b3371",
+          "bytes": 3396252,
+          "transactions": 76332
         }
       ],
-      "transactions": 87697,
-      "gas_used": 4143645940,
+      "transactions": 76332,
+      "gas_used": 3979683145,
       "input_paths": [
         "inputs/expanded.json",
         "inputs/coverage.json"
@@ -142,14 +148,14 @@
     "unichain": {
       "files": [
         {
-          "sha256": "9835386a29e3feec139331cbd55d22ab1bcb0a033232adfa9e81ebab3b5820d4",
-          "bytes": 2484547,
-          "transactions": 55465,
-          "file": "receipts-unichain.csv.gz"
+          "file": "receipts-unichain-1.csv.gz",
+          "sha256": "d25ac35770e5d792b1db4aeede3eab41f45e6f553805697e34e7eab95cdfa230",
+          "bytes": 2461236,
+          "transactions": 54987
         }
       ],
-      "transactions": 55465,
-      "gas_used": 4076853732,
+      "transactions": 54987,
+      "gas_used": 4076608526,
       "input_paths": [
         "inputs/expanded.json",
         "inputs/coverage.json"
@@ -160,14 +166,14 @@
     "op": {
       "files": [
         {
-          "sha256": "61e1e8368bf74ed76c06e8aa28929cdcc781620566d96242b93b5d3d03e5f6ac",
-          "bytes": 4646718,
-          "transactions": 103713,
-          "file": "receipts-op.csv.gz"
+          "file": "receipts-op-1.csv.gz",
+          "sha256": "a593fb2c583561b063829c0d78045a30049d7461b076c822cf5e1325b7c60eb9",
+          "bytes": 5661359,
+          "transactions": 126646
         }
       ],
-      "transactions": 103713,
-      "gas_used": 9455057034,
+      "transactions": 126646,
+      "gas_used": 11803770015,
       "input_paths": [
         "inputs/expanded.json",
         "inputs/coverage.json"
@@ -178,14 +184,14 @@
     "ink": {
       "files": [
         {
-          "sha256": "155a602c23597096de142c319908836b50480b094947a3a276842c7d0d949ce0",
-          "bytes": 1088348,
-          "transactions": 24088,
-          "file": "receipts-ink.csv.gz"
+          "file": "receipts-ink-1.csv.gz",
+          "sha256": "44cf8b3c63c558879faedebc31afc74e68486e36d4e73cf578339173ed712f05",
+          "bytes": 1418207,
+          "transactions": 31645
         }
       ],
-      "transactions": 24088,
-      "gas_used": 1850577050,
+      "transactions": 31645,
+      "gas_used": 1788714131,
       "input_paths": [
         "inputs/expanded.json",
         "inputs/coverage.json"
@@ -196,20 +202,14 @@
     "aztecnetwork": {
       "files": [
         {
-          "sha256": "04e7e0a156ef6684b6452ee359798483fc467addc905447b0fc9702db550cb0a",
-          "bytes": 9112873,
-          "transactions": 200000,
-          "file": "receipts-aztecnetwork-1.csv.gz"
-        },
-        {
-          "sha256": "b04575c6084e73cc527d6aff75fedd5c7f2daf12425ea6c6b82788e4c6c86943",
-          "bytes": 1357252,
-          "transactions": 30287,
-          "file": "receipts-aztecnetwork-2.csv.gz"
+          "file": "receipts-aztecnetwork-1.csv.gz",
+          "sha256": "8edf6a5cc783c7c77aa15601c384447f40f3b09034cc24bcb3f0a3239ec05c54",
+          "bytes": 8830849,
+          "transactions": 193063
         }
       ],
-      "transactions": 230287,
-      "gas_used": 583258954263,
+      "transactions": 193063,
+      "gas_used": 420681562306,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -219,20 +219,20 @@
     "aave": {
       "files": [
         {
-          "sha256": "fe44535bbe6d9ee6f44d475820fd50c8de53e57eade1c4e7c9fb2761058a78af",
-          "bytes": 9429128,
-          "transactions": 200000,
-          "file": "receipts-aave-1.csv.gz"
+          "file": "receipts-aave-1.csv.gz",
+          "sha256": "1423904fbcde73944911081d48f0fe57208ce82b85310bcd327d536bb52d8df7",
+          "bytes": 9429020,
+          "transactions": 200000
         },
         {
-          "sha256": "df86dc481a89a46a9b6c7c2d5d12ef973066da25fa992fe8f191c9fcef2cb2e2",
-          "bytes": 9205162,
-          "transactions": 196073,
-          "file": "receipts-aave-2.csv.gz"
+          "file": "receipts-aave-2.csv.gz",
+          "sha256": "e718264e2a11245e4c6ad507069a74abd4c4df0c9455da3996dd4fa8a6030e79",
+          "bytes": 6883892,
+          "transactions": 145929
         }
       ],
-      "transactions": 396073,
-      "gas_used": 86410656333,
+      "transactions": 345929,
+      "gas_used": 77519192192,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -242,14 +242,14 @@
     "polygon": {
       "files": [
         {
-          "sha256": "17f9d2d215c4f7787cbbedea892470bb02c8fbbde5f7087081f223fb4cbacfa4",
-          "bytes": 2883490,
-          "transactions": 61461,
-          "file": "receipts-polygon.csv.gz"
+          "file": "receipts-polygon-1.csv.gz",
+          "sha256": "3dbaf2a3418b9d01785416aa1ada38ab5d3f95a4656350658e888d2a02e20cc2",
+          "bytes": 2766443,
+          "transactions": 58959
         }
       ],
-      "transactions": 61461,
-      "gas_used": 32996043639,
+      "transactions": 58959,
+      "gas_used": 35012702598,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -259,14 +259,14 @@
     "grvt": {
       "files": [
         {
-          "sha256": "f6af040fe2eab3f36dd1b3050e9fa7167e509ec4ffdf56e7d09c911e78a6f591",
-          "bytes": 6327890,
-          "transactions": 141929,
-          "file": "receipts-grvt.csv.gz"
+          "file": "receipts-grvt-1.csv.gz",
+          "sha256": "07d0507528b1684b9a7bad34dce0d4ac0330322cb84ca7b6b7df343d9ea33c41",
+          "bytes": 7011599,
+          "transactions": 157383
         }
       ],
-      "transactions": 141929,
-      "gas_used": 32285973334,
+      "transactions": 157383,
+      "gas_used": 35848517053,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -276,14 +276,14 @@
     "solana": {
       "files": [
         {
-          "sha256": "9d10b6bae48f1384b9755909b6ee9201d94b2be64c9db1dfefa6fe0b204f2fef",
-          "bytes": 5287703,
-          "transactions": 113032,
-          "file": "receipts-solana.csv.gz"
+          "file": "receipts-solana-1.csv.gz",
+          "sha256": "a3116d923419296dbd3e4dc7355fe29b506c3e311566381f550a096c7c10ae2b",
+          "bytes": 5342861,
+          "transactions": 114559
         }
       ],
-      "transactions": 113032,
-      "gas_used": 24045599786,
+      "transactions": 114559,
+      "gas_used": 22776082252,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -293,14 +293,14 @@
     "abstract": {
       "files": [
         {
-          "sha256": "4496fe6edac2f2bf8ebb04d3e2c03556eb0233585836a588fb21756e7484d5a6",
-          "bytes": 3617915,
-          "transactions": 80890,
-          "file": "receipts-abstract.csv.gz"
+          "file": "receipts-abstract-1.csv.gz",
+          "sha256": "dd983a10e380bd74f70764618c2cfb561029bf972dd4310419991f4d485ad4f8",
+          "bytes": 2262465,
+          "transactions": 50693
         }
       ],
-      "transactions": 80890,
-      "gas_used": 20683560567,
+      "transactions": 50693,
+      "gas_used": 13139225505,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -310,26 +310,20 @@
     "sky": {
       "files": [
         {
-          "sha256": "35b45ad8a814732be6195abed3616752ca1b74175f7b4862c6f23dd9f6e9a9dd",
-          "bytes": 8890061,
-          "transactions": 200000,
-          "file": "receipts-sky-1.csv.gz"
+          "file": "receipts-sky-1.csv.gz",
+          "sha256": "2ddf7c564884c9ecaa75930a8c42474b5ab3f180a07ff7372b36119ae520cd55",
+          "bytes": 8890987,
+          "transactions": 200000
         },
         {
-          "sha256": "76e3a1063784b959aeacb0b8e00da7ff17759b854354a9433da1798fcc7a1e61",
-          "bytes": 8791579,
-          "transactions": 200000,
-          "file": "receipts-sky-2.csv.gz"
-        },
-        {
-          "sha256": "5b429eac8d5ce076d6cda9263551ec82cab53eedecd8ed7518c4f32442e6632b",
-          "bytes": 438571,
-          "transactions": 9741,
-          "file": "receipts-sky-3.csv.gz"
+          "file": "receipts-sky-2.csv.gz",
+          "sha256": "6a083cb9c150970a1bbc5a5229bcab7ff262dd9f1f9d6b848818ee5cd098324c",
+          "bytes": 6025077,
+          "transactions": 134250
         }
       ],
-      "transactions": 409741,
-      "gas_used": 16957319507,
+      "transactions": 334250,
+      "gas_used": 14383285409,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -339,20 +333,20 @@
     "ethena": {
       "files": [
         {
-          "sha256": "57c6fe28d0c661715890e80df1a1a81492125835e4fac9d1dabada5229467037",
-          "bytes": 8867242,
-          "transactions": 200000,
-          "file": "receipts-ethena-1.csv.gz"
+          "file": "receipts-ethena-1.csv.gz",
+          "sha256": "244bf897f5d262b6f8baa9204f7cc747e312f9332f85886863cd2ba494d3f627",
+          "bytes": 8856915,
+          "transactions": 200000
         },
         {
-          "sha256": "28468777ef427ebd73e1a3b9c60121de63acb9ffa6632764a221b83c89237f6d",
-          "bytes": 6556506,
-          "transactions": 146476,
-          "file": "receipts-ethena-2.csv.gz"
+          "file": "receipts-ethena-2.csv.gz",
+          "sha256": "831f7ac2c4b6e6237656d18e32ea3b7f702d715060cb1c51f84cd34ea3feaaa7",
+          "bytes": 8428350,
+          "transactions": 188895
         }
       ],
-      "transactions": 346476,
-      "gas_used": 16326283043,
+      "transactions": 388895,
+      "gas_used": 17849011969,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -362,14 +356,14 @@
     "lido": {
       "files": [
         {
-          "sha256": "837043fe0e44371e00e77d1904ff6a751df2a111625f19e67080abdfd92acdce",
-          "bytes": 4803264,
-          "transactions": 106293,
-          "file": "receipts-lido.csv.gz"
+          "file": "receipts-lido-1.csv.gz",
+          "sha256": "9842db2df375dde98e2a51f61a9f35adddfcb09db631c55ac956ba7e2428bde3",
+          "bytes": 4586728,
+          "transactions": 101438
         }
       ],
-      "transactions": 106293,
-      "gas_used": 10683292570,
+      "transactions": 101438,
+      "gas_used": 10144735446,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -379,14 +373,14 @@
     "megaeth": {
       "files": [
         {
-          "sha256": "bd934722881b8a773be2a952a0683a155d39522fd34a4f5682bfbc8e834cd02b",
-          "bytes": 3675387,
-          "transactions": 79337,
-          "file": "receipts-megaeth.csv.gz"
+          "file": "receipts-megaeth-1.csv.gz",
+          "sha256": "01c3e0531f2afd90101cb20baf7d9b7beaeb7a4bcbaddcc26e9c326ca3dd77c1",
+          "bytes": 3644655,
+          "transactions": 78853
         }
       ],
-      "transactions": 79337,
-      "gas_used": 10075214842,
+      "transactions": 78853,
+      "gas_used": 7438118774,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -396,14 +390,14 @@
     "adi": {
       "files": [
         {
-          "sha256": "f38ba83f4b9b085643388de6e426486587b8024ef221529885563dd9041a076b",
-          "bytes": 1811012,
-          "transactions": 40516,
-          "file": "receipts-adi.csv.gz"
+          "file": "receipts-adi-1.csv.gz",
+          "sha256": "3ff686c2c5b8edc9edca2c20973ba454a6923274012381306470a4d6fc57c6f4",
+          "bytes": 1916536,
+          "transactions": 42861
         }
       ],
-      "transactions": 40516,
-      "gas_used": 9771071705,
+      "transactions": 42861,
+      "gas_used": 10353650028,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -413,14 +407,14 @@
     "celo": {
       "files": [
         {
-          "sha256": "f4e62f18e2987d3fccca9af666d213b0251bf2c2800eb75a30d3a27572e5bb4a",
-          "bytes": 2668139,
-          "transactions": 57422,
-          "file": "receipts-celo.csv.gz"
+          "file": "receipts-celo-1.csv.gz",
+          "sha256": "4b15194b59f7ed3696824d809c7ea7afa8043fc85e005a722b0dd4449e1c3698",
+          "bytes": 2944957,
+          "transactions": 63454
         }
       ],
-      "transactions": 57422,
-      "gas_used": 8704994246,
+      "transactions": 63454,
+      "gas_used": 9176584576,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -430,14 +424,14 @@
     "bsc": {
       "files": [
         {
-          "sha256": "fbc9ec00513594741789ff83375a0027515105c79b7634e53a352334c1f1e468",
-          "bytes": 2346144,
-          "transactions": 50132,
-          "file": "receipts-bsc.csv.gz"
+          "file": "receipts-bsc-1.csv.gz",
+          "sha256": "2c979d5b69b2ce5932c08cfd22ba4234de3456738b9b629ce5b83e0ee4d4b2b4",
+          "bytes": 2174667,
+          "transactions": 46378
         }
       ],
-      "transactions": 50132,
-      "gas_used": 7906227183,
+      "transactions": 46378,
+      "gas_used": 7115672754,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -447,14 +441,14 @@
     "nova": {
       "files": [
         {
-          "sha256": "526cf6d0c8ed14b8df0521248a4750810a3c8be4d096b9a0cbccf0d0129f068d",
-          "bytes": 2192361,
-          "transactions": 48975,
-          "file": "receipts-nova.csv.gz"
+          "file": "receipts-nova-1.csv.gz",
+          "sha256": "af0a4ad74e3899c116f87a208888106b4309c651344980ddf953247e9df9b724",
+          "bytes": 1755121,
+          "transactions": 39137
         }
       ],
-      "transactions": 48975,
-      "gas_used": 7398100552,
+      "transactions": 39137,
+      "gas_used": 5914296517,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -464,14 +458,14 @@
     "zksync2": {
       "files": [
         {
-          "sha256": "5226bd45b878531a20828094997d68ac35de6537641420794db44f21673842e8",
-          "bytes": 1302062,
-          "transactions": 28077,
-          "file": "receipts-zksync2.csv.gz"
+          "file": "receipts-zksync2-1.csv.gz",
+          "sha256": "4c7ebc82eff88c02604471145c82c55849d382c8f2bdb9fe1c80b017b6b15080",
+          "bytes": 1299187,
+          "transactions": 28013
         }
       ],
-      "transactions": 28077,
-      "gas_used": 7123172705,
+      "transactions": 28013,
+      "gas_used": 7285914682,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -481,14 +475,14 @@
     "taiko": {
       "files": [
         {
-          "sha256": "d59821ec6e8c023d804cc14ceba27e559db5fd51627f91882d7891d8f73ceaa3",
-          "bytes": 2107555,
-          "transactions": 47240,
-          "file": "receipts-taiko.csv.gz"
+          "file": "receipts-taiko-1.csv.gz",
+          "sha256": "99e44e639b2af7506170ac3a0de4bbe929a85f9de1d47c2e61c6b72d664a8a57",
+          "bytes": 2152392,
+          "transactions": 48307
         }
       ],
-      "transactions": 47240,
-      "gas_used": 7018540196,
+      "transactions": 48307,
+      "gas_used": 6850658918,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -498,14 +492,14 @@
     "starknet": {
       "files": [
         {
-          "sha256": "b91550bddaaf632d4a45ee332d8d115736c163d83e63803cd09e01498e1c5e38",
-          "bytes": 690625,
-          "transactions": 14513,
-          "file": "receipts-starknet.csv.gz"
+          "file": "receipts-starknet-1.csv.gz",
+          "sha256": "110b9e548a5c18f41ca0f085d2fb935d0bc195a505b4a390e30c461947e9f82c",
+          "bytes": 693318,
+          "transactions": 14562
         }
       ],
-      "transactions": 14513,
-      "gas_used": 4021628254,
+      "transactions": 14562,
+      "gas_used": 4430239878,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -515,14 +509,14 @@
     "mantle": {
       "files": [
         {
-          "sha256": "bf57677a32e4476d1c0fe6b19b82c9533a7c9a25eb55d6aaa0b2519a5096222f",
-          "bytes": 2072266,
-          "transactions": 46412,
-          "file": "receipts-mantle.csv.gz"
+          "file": "receipts-mantle-1.csv.gz",
+          "sha256": "c407266b9b8b16a134265fe2b1940c3d74faa0162282328247e58c899a1c614b",
+          "bytes": 2072278,
+          "transactions": 46416
         }
       ],
-      "transactions": 46412,
-      "gas_used": 3867323027,
+      "transactions": 46416,
+      "gas_used": 3827474762,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -532,14 +526,14 @@
     "morpho": {
       "files": [
         {
-          "sha256": "8dc0a7b9f62fddf53bac7d47886291c033faf5d86d1ce11c2745450fe854d25b",
-          "bytes": 1325118,
-          "transactions": 28181,
-          "file": "receipts-morpho.csv.gz"
+          "file": "receipts-morpho-1.csv.gz",
+          "sha256": "2dd9b6ace219da6e1042f9b10249afaf39cd014d43f9bcca8643cf2a8871054d",
+          "bytes": 1503789,
+          "transactions": 32107
         }
       ],
-      "transactions": 28181,
-      "gas_used": 3155192319,
+      "transactions": 32107,
+      "gas_used": 3513731428,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -549,14 +543,14 @@
     "hyperliquid": {
       "files": [
         {
-          "sha256": "a571e9e611f0642492711faf9018115165b6ad0b567e22e4fc80a5f08ae559da",
-          "bytes": 898648,
-          "transactions": 19159,
-          "file": "receipts-hyperliquid.csv.gz"
+          "file": "receipts-hyperliquid-1.csv.gz",
+          "sha256": "b39b633dd5962137f730a8148d51c5cfe2822e74e61bada635e3c27fed568616",
+          "bytes": 1695711,
+          "transactions": 36801
         }
       ],
-      "transactions": 19159,
-      "gas_used": 2893163930,
+      "transactions": 36801,
+      "gas_used": 5480418718,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -566,14 +560,14 @@
     "compound": {
       "files": [
         {
-          "sha256": "a5247cbaf54e15e59eb4a0aacfe5b606ebda3fd909db461726a4317dee7c1955",
-          "bytes": 1073878,
-          "transactions": 22772,
-          "file": "receipts-compound.csv.gz"
+          "file": "receipts-compound-1.csv.gz",
+          "sha256": "d9077a8099f9019329512687ea1f75ae1b0887ee5a6ba1f384dc7692fa2078d1",
+          "bytes": 1082192,
+          "transactions": 22938
         }
       ],
-      "transactions": 22772,
-      "gas_used": 2822291831,
+      "transactions": 22938,
+      "gas_used": 2875539621,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -583,14 +577,14 @@
     "edge": {
       "files": [
         {
-          "sha256": "24417da2c2365591e34e4f49c88bcfe80759e3f9ed3721c4e6bca90c880a1241",
-          "bytes": 727682,
-          "transactions": 16030,
-          "file": "receipts-edge.csv.gz"
+          "file": "receipts-edge-1.csv.gz",
+          "sha256": "7754cd142a814d75c577246b0e421919680d8bf17fc7279010fbe678f60322e4",
+          "bytes": 160690,
+          "transactions": 3435
         }
       ],
-      "transactions": 16030,
-      "gas_used": 2731253450,
+      "transactions": 3435,
+      "gas_used": 566827259,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -600,14 +594,14 @@
     "metis": {
       "files": [
         {
-          "sha256": "c21386c38382d6f94eae685483c921ce3ca461407200987745d784fdfb7dfee1",
-          "bytes": 698102,
-          "transactions": 14825,
-          "file": "receipts-metis.csv.gz"
+          "file": "receipts-metis-1.csv.gz",
+          "sha256": "63db06ba52f5ad9497b179c1e50c4e73a245fb5f6e4c1f0a881a356bb63e3b3b",
+          "bytes": 700892,
+          "transactions": 14877
         }
       ],
-      "transactions": 14825,
-      "gas_used": 2347693811,
+      "transactions": 14877,
+      "gas_used": 2307590153,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -617,14 +611,14 @@
     "avalanche": {
       "files": [
         {
-          "sha256": "8183cc3c51c6238e9ab9708b6ef8d6ed5a222272e21675c5a45a9814c020e554",
-          "bytes": 622196,
-          "transactions": 13197,
-          "file": "receipts-avalanche.csv.gz"
+          "file": "receipts-avalanche-1.csv.gz",
+          "sha256": "01bc194ddc2bdb1adbf192fbeb46e84e0270eadc3147f2fcbd1b151047dc1adf",
+          "bytes": 611082,
+          "transactions": 12938
         }
       ],
-      "transactions": 13197,
-      "gas_used": 2048020751,
+      "transactions": 12938,
+      "gas_used": 2000713702,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -634,14 +628,14 @@
     "soneium": {
       "files": [
         {
-          "sha256": "f6e750353e3ec9f0bd6221cc691e79fdd9c2890f67b9e13537118d225211fe48",
-          "bytes": 1482723,
-          "transactions": 33294,
-          "file": "receipts-soneium.csv.gz"
+          "file": "receipts-soneium-1.csv.gz",
+          "sha256": "e73f7018eff2c2364a9ce03bf8d741ea37bad96b2fa0699a57b73a156c501250",
+          "bytes": 1282415,
+          "transactions": 28739
         }
       ],
-      "transactions": 33294,
-      "gas_used": 2044089393,
+      "transactions": 28739,
+      "gas_used": 1841539317,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -651,14 +645,14 @@
     "monad": {
       "files": [
         {
-          "sha256": "b689723d04f8460930b2d93096bf77bc00d72ce878809dca5a2c00217f2f919e",
-          "bytes": 624622,
-          "transactions": 13403,
-          "file": "receipts-monad.csv.gz"
+          "file": "receipts-monad-1.csv.gz",
+          "sha256": "5d1e3c6adc82a47036dcc575c5e74ae56634c344a2ec274942c95a7038b00de8",
+          "bytes": 783207,
+          "transactions": 16879
         }
       ],
-      "transactions": 13403,
-      "gas_used": 1970154392,
+      "transactions": 16879,
+      "gas_used": 2528733033,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -668,14 +662,14 @@
     "noble": {
       "files": [
         {
-          "sha256": "76648ec3e91647d05a945056261b5b66a8f8a6c99ad7d16675cedc9da1b51c6d",
-          "bytes": 529259,
-          "transactions": 11455,
-          "file": "receipts-noble.csv.gz"
+          "file": "receipts-noble-1.csv.gz",
+          "sha256": "67842fe2b69c71de3edba5b53754b75ed4f98a891023fba36a7b228116ee14c6",
+          "bytes": 476432,
+          "transactions": 10303
         }
       ],
-      "transactions": 11455,
-      "gas_used": 1728450146,
+      "transactions": 10303,
+      "gas_used": 1555585690,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -685,14 +679,14 @@
     "scroll": {
       "files": [
         {
-          "sha256": "d9b15d14e8b467e18ffbf46dd266a226bb88474b289f90dba1d8eb29ae084e6f",
-          "bytes": 292183,
-          "transactions": 6264,
-          "file": "receipts-scroll.csv.gz"
+          "file": "receipts-scroll-1.csv.gz",
+          "sha256": "7231d3634a16650a5775c8b996fd281da74f13eb920e9ed9500bf07ccfe9800c",
+          "bytes": 271846,
+          "transactions": 5815
         }
       ],
-      "transactions": 6264,
-      "gas_used": 1608857644,
+      "transactions": 5815,
+      "gas_used": 1498195125,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -702,14 +696,14 @@
     "linea": {
       "files": [
         {
-          "sha256": "44a4c4f8290c1fcfb7f653453a712294ed883f654559852477484ed92916a3a9",
-          "bytes": 319915,
-          "transactions": 6712,
-          "file": "receipts-linea.csv.gz"
+          "file": "receipts-linea-1.csv.gz",
+          "sha256": "f9efbeaba454d53ae7e2aa8075152d993219a296abb64268ae9a102b6452cfac",
+          "bytes": 324589,
+          "transactions": 6822
         }
       ],
-      "transactions": 6712,
-      "gas_used": 1406616334,
+      "transactions": 6822,
+      "gas_used": 1371114646,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -719,14 +713,14 @@
     "blast": {
       "files": [
         {
-          "sha256": "dac37c0937d126dac8a089ad201d7c9e387414f2fcdd90d48816e7a4484812c5",
-          "bytes": 659226,
-          "transactions": 14413,
-          "file": "receipts-blast.csv.gz"
+          "file": "receipts-blast-1.csv.gz",
+          "sha256": "86149b35d759bdf7f4a9d7f98b6baddc2f56410f112e098c7973eabf8a2bd8a9",
+          "bytes": 1032345,
+          "transactions": 22386
         }
       ],
-      "transactions": 14413,
-      "gas_used": 1276475898,
+      "transactions": 22386,
+      "gas_used": 4034790208,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -736,14 +730,14 @@
     "morph": {
       "files": [
         {
-          "sha256": "bc9581354459afe9ad5486359c07e84d08198e9a613d72d254d4fb176bb79677",
-          "bytes": 478076,
-          "transactions": 10489,
-          "file": "receipts-morph.csv.gz"
+          "file": "receipts-morph-1.csv.gz",
+          "sha256": "cdb1f3974b14825f5eeefb83d6c68f502853128153ea2349acb68a4e3661703b",
+          "bytes": 797797,
+          "transactions": 17649
         }
       ],
-      "transactions": 10489,
-      "gas_used": 1136216638,
+      "transactions": 17649,
+      "gas_used": 2551110233,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -753,14 +747,14 @@
     "etherfi": {
       "files": [
         {
-          "sha256": "4be66fa76eea496f6e63683cee21718e412c1ac41abeb125b64d722168574b3a",
-          "bytes": 476251,
-          "transactions": 10211,
-          "file": "receipts-etherfi.csv.gz"
+          "file": "receipts-etherfi-1.csv.gz",
+          "sha256": "f5e64fa268964139dc1b40dad35b1538340de39fb8e61f9b84f87cae57d96240",
+          "bytes": 458320,
+          "transactions": 9841
         }
       ],
-      "transactions": 10211,
-      "gas_used": 1026874822,
+      "transactions": 9841,
+      "gas_used": 1002237563,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -770,14 +764,14 @@
     "sophon": {
       "files": [
         {
-          "sha256": "8fb41c6e2abcbfcc94e923f6d18c077ad926fca5434c766bb2d122f064c55b3a",
-          "bytes": 206667,
-          "transactions": 4378,
-          "file": "receipts-sophon.csv.gz"
+          "file": "receipts-sophon-1.csv.gz",
+          "sha256": "e023fa46b367ee7abe85fc2c0fd8b7dd13d152f7fa6d7683ce95ede330b13e95",
+          "bytes": 204822,
+          "transactions": 4340
         }
       ],
-      "transactions": 4378,
-      "gas_used": 1013802374,
+      "transactions": 4340,
+      "gas_used": 1008317098,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -787,14 +781,14 @@
     "arc": {
       "files": [
         {
-          "sha256": "3ac5d9eba02c10d711b83b6d94284a00ecd90b6c941d732ebe243905d0e069b3",
-          "bytes": 317624,
-          "transactions": 7075,
-          "file": "receipts-arc.csv.gz"
+          "file": "receipts-arc-1.csv.gz",
+          "sha256": "46152c44856ba19c07c1ce64eac35908d8974a8cd29294e76ef60310453e7323",
+          "bytes": 581256,
+          "transactions": 12781
         }
       ],
-      "transactions": 7075,
-      "gas_used": 955807611,
+      "transactions": 12781,
+      "gas_used": 1772355127,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -804,14 +798,14 @@
     "katana": {
       "files": [
         {
-          "sha256": "4cd3c54c862a3890999780d45079217aa24c104641972a6187652c44bf9fc15c",
-          "bytes": 1664685,
-          "transactions": 37688,
-          "file": "receipts-katana.csv.gz"
+          "file": "receipts-katana-1.csv.gz",
+          "sha256": "0e65454cc1e7123bfc89837d8b296bdf5e0e74e2419d3cd6022018ed9a5d82ed",
+          "bytes": 1664682,
+          "transactions": 37693
         }
       ],
-      "transactions": 37688,
-      "gas_used": 798834415,
+      "transactions": 37693,
+      "gas_used": 798939415,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -821,14 +815,14 @@
     "sonic": {
       "files": [
         {
-          "sha256": "ae9f75ff8563af8e2c82204f338cb234d2621523b0f1ffa61a36996dfd25e179",
-          "bytes": 243640,
-          "transactions": 5159,
-          "file": "receipts-sonic.csv.gz"
+          "file": "receipts-sonic-1.csv.gz",
+          "sha256": "7e174b8eaa40a9db32328214b61a2a5cbbd979497e4a15851227a04c91275f7c",
+          "bytes": 250203,
+          "transactions": 5302
         }
       ],
-      "transactions": 5159,
-      "gas_used": 789202404,
+      "transactions": 5302,
+      "gas_used": 813421399,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -838,14 +832,14 @@
     "sui": {
       "files": [
         {
-          "sha256": "dd94a521412d72fa9aaa8be02d6d1fecd209930e1ad5fba9bc96022cbeb4b47d",
-          "bytes": 187326,
-          "transactions": 3936,
-          "file": "receipts-sui.csv.gz"
+          "file": "receipts-sui-1.csv.gz",
+          "sha256": "294ed52b5b91f8cc63d14f1b4bd9a5ee3a1df6cdee5042e4c7b51af17c3f88ab",
+          "bytes": 192971,
+          "transactions": 4045
         }
       ],
-      "transactions": 3936,
-      "gas_used": 601243948,
+      "transactions": 4045,
+      "gas_used": 616733049,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -855,14 +849,14 @@
     "aptos": {
       "files": [
         {
-          "sha256": "a6afb8f3e3da9472de8e1f3d415a608c79909be9cd05feb3e12aa7ac5c2c9b76",
-          "bytes": 208469,
-          "transactions": 4519,
-          "file": "receipts-aptos.csv.gz"
+          "file": "receipts-aptos-1.csv.gz",
+          "sha256": "fff2d3c653c45a9cdbe36167e0d43a5375070a10fc08aacad4922ba8a5684db3",
+          "bytes": 212963,
+          "transactions": 4628
         }
       ],
-      "transactions": 4519,
-      "gas_used": 575423075,
+      "transactions": 4628,
+      "gas_used": 583540380,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -872,14 +866,14 @@
     "pharos": {
       "files": [
         {
-          "sha256": "523ca41507042770d2587d89c717c86db5437e69c9284061a9e0d3565be76e3c",
-          "bytes": 165613,
-          "transactions": 3531,
-          "file": "receipts-pharos.csv.gz"
+          "file": "receipts-pharos-1.csv.gz",
+          "sha256": "221b6eefd81d61207a742620c34d77b65fab109c56897adadde78cc1764fedbf",
+          "bytes": 208658,
+          "transactions": 4450
         }
       ],
-      "transactions": 3531,
-      "gas_used": 544507050,
+      "transactions": 4450,
+      "gas_used": 702929601,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -889,14 +883,14 @@
     "mode": {
       "files": [
         {
-          "sha256": "f2a94ca65216ddde9b0025cdd5aa1ddea868a2cd269280df8bf32a489e142bed",
-          "bytes": 51819,
-          "transactions": 1077,
-          "file": "receipts-mode.csv.gz"
+          "file": "receipts-mode-1.csv.gz",
+          "sha256": "c9a2864ced61192917c17d2748b7781bc003a63e208465fe43cba97f0d9e4623",
+          "bytes": 84163,
+          "transactions": 1760
         }
       ],
-      "transactions": 1077,
-      "gas_used": 475674731,
+      "transactions": 1760,
+      "gas_used": 738787859,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -906,14 +900,14 @@
     "bob": {
       "files": [
         {
-          "sha256": "44de6caec38dd112f619b82d50bd0780d727ffd933835a617ad6b02c1d92dadd",
-          "bytes": 259378,
-          "transactions": 5628,
-          "file": "receipts-bob.csv.gz"
+          "file": "receipts-bob-1.csv.gz",
+          "sha256": "34e32ad309c5d5cb9bb9e0946f039e99e3dee1ed24a6322b1bd16d26905b5f88",
+          "bytes": 285357,
+          "transactions": 6177
         }
       ],
-      "transactions": 5628,
-      "gas_used": 461760267,
+      "transactions": 6177,
+      "gas_used": 711218970,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -923,14 +917,14 @@
     "lens": {
       "files": [
         {
-          "sha256": "1dc764760f24bd37d56a70edc5fb7d1db26e647875abfe5eb11dd22517f8d0f2",
-          "bytes": 84790,
-          "transactions": 1726,
-          "file": "receipts-lens.csv.gz"
+          "file": "receipts-lens-1.csv.gz",
+          "sha256": "ea3fea493595d0d7ac133d36b7a3176d2594d1d67fa1af195da5be4c1e6a5cd6",
+          "bytes": 86339,
+          "transactions": 1766
         }
       ],
-      "transactions": 1726,
-      "gas_used": 420642864,
+      "transactions": 1766,
+      "gas_used": 427772687,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -940,14 +934,14 @@
     "curve": {
       "files": [
         {
-          "sha256": "cfc0bc48860a384d02390783a41311be9e2c1be02c53d4d9551191863eee767a",
-          "bytes": 136973,
-          "transactions": 2845,
-          "file": "receipts-curve.csv.gz"
+          "file": "receipts-curve-1.csv.gz",
+          "sha256": "c5d19f9e7d4548ef3362329748c213af89de47833c9101fa0f2c9eadada57da7",
+          "bytes": 150119,
+          "transactions": 3106
         }
       ],
-      "transactions": 2845,
-      "gas_used": 418105887,
+      "transactions": 3106,
+      "gas_used": 456159868,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -957,14 +951,14 @@
     "zora": {
       "files": [
         {
-          "sha256": "bb4e967944d5e0f1769021c923303d837873db954e3d453bd1f1a47f4746dcee",
-          "bytes": 45071,
-          "transactions": 942,
-          "file": "receipts-zora.csv.gz"
+          "file": "receipts-zora-1.csv.gz",
+          "sha256": "a91bf159716b99cea080d56b40d2763530aee519612fa1f087e3b533894a6787",
+          "bytes": 102023,
+          "transactions": 2137
         }
       ],
-      "transactions": 942,
-      "gas_used": 406936836,
+      "transactions": 2137,
+      "gas_used": 871846671,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -974,14 +968,14 @@
     "near": {
       "files": [
         {
-          "sha256": "bd882eb028b4d39d46e94afccb6c259f3cd06414066efd86b1000a9344abb0bf",
-          "bytes": 47714,
-          "transactions": 1013,
-          "file": "receipts-near.csv.gz"
+          "file": "receipts-near-1.csv.gz",
+          "sha256": "2b7bc6a8648edeb78c3dcd752a00d46803569387f665ed48f08dc96a097ea56d",
+          "bytes": 78684,
+          "transactions": 1677
         }
       ],
-      "transactions": 1013,
-      "gas_used": 247168949,
+      "transactions": 1677,
+      "gas_used": 419272097,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -991,14 +985,14 @@
     "injective": {
       "files": [
         {
-          "sha256": "a0a8876ec0974a75bcc07e7b7f7b865e2b40170f3f6bc109c5b050e67974cfbe",
-          "bytes": 65131,
-          "transactions": 1365,
-          "file": "receipts-injective.csv.gz"
+          "file": "receipts-injective-1.csv.gz",
+          "sha256": "ec941088b74cea63bf2cbfd8753366d40892d29324fa6e97bea49aa3dbb9ef66",
+          "bytes": 93544,
+          "transactions": 1958
         }
       ],
-      "transactions": 1365,
-      "gas_used": 194231494,
+      "transactions": 1958,
+      "gas_used": 282471405,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1008,14 +1002,14 @@
     "zkcandy": {
       "files": [
         {
-          "sha256": "fcd500e9934f56c2d863d28c98265f484376b524fa2544f5469fd14e58ef781b",
-          "bytes": 27323,
-          "transactions": 560,
-          "file": "receipts-zkcandy.csv.gz"
+          "file": "receipts-zkcandy-1.csv.gz",
+          "sha256": "c82ba25fb178fac29df4c91056c02094d469346ba22389d5d10ee616fa3c744f",
+          "bytes": 17792,
+          "transactions": 362
         }
       ],
-      "transactions": 560,
-      "gas_used": 145740457,
+      "transactions": 362,
+      "gas_used": 94213931,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1025,14 +1019,14 @@
     "stellar": {
       "files": [
         {
-          "sha256": "090405e32a4d36edd1f3745d3eab73fd6c521f01f836d16c4c1ff152a6f0d7f1",
-          "bytes": 55061,
-          "transactions": 1170,
-          "file": "receipts-stellar.csv.gz"
+          "file": "receipts-stellar-1.csv.gz",
+          "sha256": "7a616e861407b7e5b03a9d9d291d2a77afb1dff7f7496f8cc1eb3e5ae16a1803",
+          "bytes": 107792,
+          "transactions": 2304
         }
       ],
-      "transactions": 1170,
-      "gas_used": 140416656,
+      "transactions": 2304,
+      "gas_used": 274683214,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1042,14 +1036,14 @@
     "moonbeam": {
       "files": [
         {
-          "sha256": "3a91709081b58d43f1c411c0ecce58b301893fd807eb9f9c4f62235aa710fcec",
-          "bytes": 33633,
-          "transactions": 683,
-          "file": "receipts-moonbeam.csv.gz"
+          "file": "receipts-moonbeam-1.csv.gz",
+          "sha256": "c9aaaaa959b8f463282949beab77380adb543030dbeef6c1b6f695eea4a65656",
+          "bytes": 21718,
+          "transactions": 438
         }
       ],
-      "transactions": 683,
-      "gas_used": 136610250,
+      "transactions": 438,
+      "gas_used": 90521115,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1059,14 +1053,14 @@
     "sei": {
       "files": [
         {
-          "sha256": "017dd7dcc18d87e925e58700c21d4ac4bf7dc58e6ad0d3f34b58de417e61fa9e",
-          "bytes": 41915,
-          "transactions": 862,
-          "file": "receipts-sei.csv.gz"
+          "file": "receipts-sei-1.csv.gz",
+          "sha256": "d65eaefff22c3ced51d78309c90da16a7997bfbd1bd0ace3aef4b89189356ac9",
+          "bytes": 35093,
+          "transactions": 717
         }
       ],
-      "transactions": 862,
-      "gas_used": 135524779,
+      "transactions": 717,
+      "gas_used": 111805246,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1076,14 +1070,14 @@
     "cronos": {
       "files": [
         {
-          "sha256": "2e14dbd971e9e67b640bf24a25c48c02abea5e74520614f3e32891a2b082b05f",
-          "bytes": 35146,
-          "transactions": 730,
-          "file": "receipts-cronos.csv.gz"
+          "file": "receipts-cronos-1.csv.gz",
+          "sha256": "7a01fc622dabbdee7c1a02633d4557c1035862dd234c3ebf6d2109900ed02c5b",
+          "bytes": 49590,
+          "transactions": 1030
         }
       ],
-      "transactions": 730,
-      "gas_used": 116557562,
+      "transactions": 1030,
+      "gas_used": 164814887,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1093,14 +1087,14 @@
     "algorand": {
       "files": [
         {
-          "sha256": "ed4a72829979e8cdced3a4ba6e860bc8f62b0f898a6af8f053e1b26688dbcdb1",
-          "bytes": 17873,
-          "transactions": 364,
-          "file": "receipts-algorand.csv.gz"
+          "file": "receipts-algorand-1.csv.gz",
+          "sha256": "d0f30784e2bc79804721482050c2dbbc5a53cf2ad958bea9a8d9eb28fe94b0ff",
+          "bytes": 16379,
+          "transactions": 333
         }
       ],
-      "transactions": 364,
-      "gas_used": 92284099,
+      "transactions": 333,
+      "gas_used": 85212020,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1110,14 +1104,14 @@
     "kaia": {
       "files": [
         {
-          "sha256": "14b942703b47abd097d201ce91469a0582153179494a4b6572557d145f45179c",
-          "bytes": 18051,
-          "transactions": 370,
-          "file": "receipts-kaia.csv.gz"
+          "file": "receipts-kaia-1.csv.gz",
+          "sha256": "993f3f0435753e526b6b4d65a276f06967dd90e552d71454924f333dd68d6c15",
+          "bytes": 14266,
+          "transactions": 290
         }
       ],
-      "transactions": 370,
-      "gas_used": 70512090,
+      "transactions": 290,
+      "gas_used": 49957846,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1127,14 +1121,14 @@
     "plume": {
       "files": [
         {
-          "sha256": "8d29c40ad55da4360be167bbc0f033243f089b2fe19644cbd4fca6ea86f6fbab",
-          "bytes": 20011,
-          "transactions": 403,
-          "file": "receipts-plume.csv.gz"
+          "file": "receipts-plume-1.csv.gz",
+          "sha256": "f32bc5f516726a91e269a9a49f6b33a8f6a57378813183aace5673ba992f75e6",
+          "bytes": 16857,
+          "transactions": 336
         }
       ],
-      "transactions": 403,
-      "gas_used": 66080370,
+      "transactions": 336,
+      "gas_used": 54168224,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1144,14 +1138,14 @@
     "xlayer": {
       "files": [
         {
-          "sha256": "8045350f3a77b919e955ec757b6d04af97e4eecc74c124fbbce5598f61147845",
-          "bytes": 20558,
-          "transactions": 419,
-          "file": "receipts-xlayer.csv.gz"
+          "file": "receipts-xlayer-1.csv.gz",
+          "sha256": "b9cd1682bf1368a67111f4c75eae2d40b887801a58f8be7ad6860d87975ecdaf",
+          "bytes": 51296,
+          "transactions": 1080
         }
       ],
-      "transactions": 419,
-      "gas_used": 60798344,
+      "transactions": 1080,
+      "gas_used": 146085742,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1161,14 +1155,14 @@
     "tempo": {
       "files": [
         {
-          "sha256": "503e5d1359b33f056f4969c2cac4587be041128fbe252772cd73e93cc0013eca",
-          "bytes": 28030,
-          "transactions": 594,
-          "file": "receipts-tempo.csv.gz"
+          "file": "receipts-tempo-1.csv.gz",
+          "sha256": "d85c76f5e07a5c12c1c772df91a1afff975ba68dd3f0d588637d913a9ebc430b",
+          "bytes": 10167,
+          "transactions": 205
         }
       ],
-      "transactions": 594,
-      "gas_used": 43904513,
+      "transactions": 205,
+      "gas_used": 15339296,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1178,14 +1172,14 @@
     "xdc": {
       "files": [
         {
-          "sha256": "aa24b8364313dc8bc87e01dd34b46531e961d60323d1956debf82dffd24f509d",
-          "bytes": 10606,
-          "transactions": 211,
-          "file": "receipts-xdc.csv.gz"
+          "file": "receipts-xdc-1.csv.gz",
+          "sha256": "ab7331173bc0d7f189ce1e28904b1155746802ffc91f20efab615dc76f69d245",
+          "bytes": 6319,
+          "transactions": 123
         }
       ],
-      "transactions": 211,
-      "gas_used": 30404307,
+      "transactions": 123,
+      "gas_used": 19037770,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1195,14 +1189,14 @@
     "tron": {
       "files": [
         {
-          "sha256": "3d0c8ba9e0231656f8dbfafcebce70df604c71f3e809cb05cd9d7c2ba30fe754",
-          "bytes": 14832,
-          "transactions": 306,
-          "file": "receipts-tron.csv.gz"
+          "file": "receipts-tron-1.csv.gz",
+          "sha256": "4db64fd6c75d01318362f76b9bc6254b2a20a3dba4d7c531cedc8d1754132a66",
+          "bytes": 16461,
+          "transactions": 339
         }
       ],
-      "transactions": 306,
-      "gas_used": 22413496,
+      "transactions": 339,
+      "gas_used": 24812768,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1212,14 +1206,14 @@
     "plasma": {
       "files": [
         {
-          "sha256": "5f17caf2fa5e7228c6d9bb6fb7e5db867b75fce9d2556aa9377c402eb9824b53",
-          "bytes": 5972,
-          "transactions": 114,
-          "file": "receipts-plasma.csv.gz"
+          "file": "receipts-plasma-1.csv.gz",
+          "sha256": "697adf4839cc31a402ac59b42248fb1feeb7e91cbf09e5bf54b3cc3dc9b6953d",
+          "bytes": 8688,
+          "transactions": 167
         }
       ],
-      "transactions": 114,
-      "gas_used": 9754386,
+      "transactions": 167,
+      "gas_used": 17840866,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1229,14 +1223,14 @@
     "berachain": {
       "files": [
         {
-          "sha256": "8b67a7e47de56aab102cb252c13388e27e352b3ecdc18519bbb9bc27c6b99aa1",
-          "bytes": 1630,
-          "transactions": 28,
-          "file": "receipts-berachain.csv.gz"
+          "file": "receipts-berachain-1.csv.gz",
+          "sha256": "a2b6ebe4cc1f9fe8fa9a10dcb7d91cbaa23d7beafed9bc315a42eb13965f65f5",
+          "bytes": 1275,
+          "transactions": 21
         }
       ],
-      "transactions": 28,
-      "gas_used": 6215720,
+      "transactions": 21,
+      "gas_used": 4233786,
       "input_paths": [
         "inputs/coverage.json"
       ],
@@ -1246,14 +1240,14 @@
     "codex": {
       "files": [
         {
-          "sha256": "a479213daf8c6af8cdffe7b4d6df2a30f2ec39eeb3969e5a15e19c0e021d258b",
-          "bytes": 494,
-          "transactions": 6,
-          "file": "receipts-codex.csv.gz"
+          "file": "receipts-codex-1.csv.gz",
+          "sha256": "1be070ec83a188a068497daf3f1393c70255fe1c2231bf68f58d9606b51e572a",
+          "bytes": 848064,
+          "transactions": 19064
         }
       ],
-      "transactions": 6,
-      "gas_used": 956554,
+      "transactions": 19064,
+      "gas_used": 477765626,
       "input_paths": [
         "inputs/coverage.json"
       ],
